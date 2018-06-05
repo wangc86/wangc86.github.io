@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Chao Wang 王超 @ WashU</title>
+    <link>https://wangc86.github.io/home/</link>
+    <description>Recent content in Homes on Chao Wang 王超 @ WashU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 05 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wangc86.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://wangc86.github.io/home/about/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/home/about/</guid>
+      <description>Biography I am a Ph.D. candidate in computer science at Washington University in St. Louis, USA. I received training in both research and teaching for performant and dependable distributed software systems. I am currently working with Dr. Chris Gill and Dr. Chenyang Lu in Cyber-Physical Systems Laboratory (CPSL). In 2012-2013, I worked with Dr. Jon Turner in Applied Research Laboratory (ARL). Before coming to Washington University in 2012, I worked with Dr.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://wangc86.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Publications</title>
+      <link>https://wangc86.github.io/home/publications/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://wangc86.github.io/home/talks/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://wangc86.github.io/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research Projects</title>
+      <link>https://wangc86.github.io/home/projects/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Professional Services</title>
+      <link>https://wangc86.github.io/home/services/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/home/services/</guid>
+      <description>Guest Lecturer for Graduate/Undergraduate Course
+ &amp;ldquo;Cyber-Physical Event Processing&amp;rdquo;, CSE 521, Wireless Sensor Networks, 2018 &amp;ldquo;Cyber-Physical Event Processing&amp;rdquo;, CSE 520, Real-Time Systems, 2017 &amp;ldquo;Principles of Reliable Data Transport&amp;rdquo;, CSE 473, Introduction to Computer Networks, 2013  Teaching Assistant for Graduate/Undergraduate Course
+ CSE 520, Real-Time Systems, 2015-2016 CSE 473, Introduction to Computer Networks, 2013  Reviewer for Research Journal and Conference
+ Real-Time Systems, The International Journal of Time-Critical Computing Systems, 2017-2018 IEEE Real-Time Systems Symposium (RTSS&amp;rsquo;17), IoT track, 2017  Organizer for Research Conference</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://wangc86.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://wangc86.github.io/home/contact/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

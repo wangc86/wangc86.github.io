@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Chao Wang 王超 @ WashU</title>
+    <link>https://wangc86.github.io/project/</link>
+    <description>Recent content in Projects on Chao Wang 王超 @ WashU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 05 Jun 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://wangc86.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fault-Tolerant Real-Time Messaging Middleware (FRAME) (2017-current)</title>
+      <link>https://wangc86.github.io/project/ftrt/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/project/ftrt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyber-Physical Event Processing Middleware (CPEP) (2015-2018)</title>
+      <link>https://wangc86.github.io/project/cpep/</link>
+      <pubDate>Sat, 02 Jun 2018 17:32:04 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/project/cpep/</guid>
+      <description>Cyber-physical systems (CPS) involve tight integration of cyber (computation) and physical domains, and both the effectiveness and correctness of a CPS application may rely on successful enforcement of constraints such as bounded latency and temporal validity subject to physical conditions. For many such systems (e.g., edge computing in the Industrial Internet of Things), it is desirable to enforce such constraints within a common middleware service (e.g., during event processing). In this project, we introduce CPEP, a new real-time middleware for cyber-physical event processing, with</description>
+    </item>
+    
+    <item>
+      <title>Safety Software Systems Design for Self-Driving Cars (2014-2015)</title>
+      <link>https://wangc86.github.io/project/safety/</link>
+      <pubDate>Sat, 02 Jun 2018 17:31:34 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/project/safety/</guid>
+      <description>In this project, we collaborated with both the Real Time Systems Group at the University of Pennsylvania and General Motors. In particular, we studied safe software systems interaction for self-driving cars. Adaptive Cruise Control (ACC), for example, is a self-driving feature that maintains a safe distance to the leading car by managing the vehicle speed. Unintended interactions between self-driving features may occur, however, in situations such as driving on a curvy road.</description>
+    </item>
+    
+    <item>
+      <title>Networked Virtual Worlds (2012-2013)</title>
+      <link>https://wangc86.github.io/project/nvm/</link>
+      <pubDate>Sat, 02 Jun 2018 17:30:43 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/project/nvm/</guid>
+      <description>In 2012-2013, I worked with Dr. Jon Turner on a design and implementation of scalable networked virtual worlds, on top of the Forest Overlay Network. Our application aims to allow people to join a 3D virtual environment and effectively interact with others. I was working on enabling thousands of avatars to communicate within a local area (e.g., where they can see each other). This includes the design of a scalable networking architecture as well as the study of efficient multicast communcation mechanisms.</description>
+    </item>
+    
+    <item>
+      <title>Scheduling Wireless Sensor Networks (2009-2010)</title>
+      <link>https://wangc86.github.io/project/dcls/</link>
+      <pubDate>Sat, 02 Jun 2018 17:30:13 -0500</pubDate>
+      
+      <guid>https://wangc86.github.io/project/dcls/</guid>
+      <description>In order to guarantee collision-free transmissions in TDMA-based wireless sensor networks, a substantial amount of work in literature has been done by modeling the problem into the minimum graph coloring. However, such approach is not effective towards low-latency transmissions due to a phenomenon we called hidden square: Consider coloring n-by-n squares. It is possible to color each square with multiple colors while still satisifying the constraint that no adjacent square can have same color.</description>
+    </item>
+    
+  </channel>
+</rss>
