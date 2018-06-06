@@ -54,7 +54,7 @@
       <pubDate>Sat, 02 Jun 2018 17:30:13 -0500</pubDate>
       
       <guid>https://wangc86.github.io/project/dcls/</guid>
-      <description>In order to guarantee collision-free transmissions in TDMA-based wireless sensor networks, a substantial amount of work in literature has been done by modeling the problem into the minimum graph coloring. However, such approach is not effective towards low-latency transmissions due to a phenomenon we called hidden square: Consider coloring n-by-n squares. It is possible to color each square with multiple colors while still satisifying the constraint that no adjacent square can have same color.</description>
+      <description>In scheduling TDMA-based wireless sensor networks, people often model the problem as certain type of graph coloring. However, such an approach could under-utilize available bandwidth for transmission, because of a phenomenon we called hidden square: Consider coloring n-by-n squares. It may be possible to color each square with additional colors while still maintaining that no adjacent square will have same color. Applied to wireless scheduling, the above observation suggests that there may be some hidden time slot assignments opportunities, and with the additional slot assigned to wireless nodes one may reduce the delay for nodes to wait for next transmission.</description>
     </item>
     
   </channel>
