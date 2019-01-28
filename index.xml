@@ -7,22 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 05 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Fault-Tolerant Real-Time Messaging Middleware (2017-current)</title>
+      <title>Fault-Tolerant Real-Time Messaging for Edge Computing (2017-2019)</title>
       <link>https://wangc86.github.io/project/ftrt/</link>
-      <pubDate>Wed, 17 Oct 2018 00:00:00 -0500</pubDate>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 -0600</pubDate>
       
       <guid>https://wangc86.github.io/project/ftrt/</guid>
-      <description></description>
+      <description>&lt;p&gt;Descrption&lt;/p&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/IIoT.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/IIoT.png&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>Cyber-Physical Event Processing Middleware (CPEP) (2015-2018)</title>
       <link>https://wangc86.github.io/project/cpep/</link>
-      <pubDate>Sat, 02 Jun 2018 17:32:04 -0500</pubDate>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 -0600</pubDate>
       
       <guid>https://wangc86.github.io/project/cpep/</guid>
       <description>&lt;p&gt;Cyber-physical systems (CPS) involve tight integration of cyber (computation) and physical domains, and both the effectiveness and correctness of a CPS application may rely on successful enforcement of constraints such as bounded latency and temporal validity subject to physical conditions. For many such systems (e.g., edge computing in the Industrial Internet of Things), it is desirable to enforce such constraints within a common middleware service (e.g., during event processing). In this project, we introduce &lt;em&gt;CPEP&lt;/em&gt;, a new real-time middleware for cyber-physical event processing, with&lt;/p&gt;

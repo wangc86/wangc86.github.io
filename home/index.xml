@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Tue, 05 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wangc86.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,10 @@
     <item>
       <title></title>
       <link>https://wangc86.github.io/home/about/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/home/about/</guid>
-      <description>Biography I am a Ph.D. candidate in computer science at Washington University in St. Louis, USA. I received training in both research and teaching for performant and dependable distributed software systems. I am currently working with Dr. Chris Gill and Dr. Chenyang Lu in Cyber-Physical Systems Laboratory (CPSL). In 2012-2013, I worked with Dr. Jon Turner in Applied Research Laboratory (ARL). Before coming to Washington University in 2012, I worked with Dr.</description>
+      <description>Biography I am a computer science Ph.D. candidate at Washington University in St. Louis, USA. I received training in the area of timely and dependable networked software systems. I am currently working with Dr. Chris Gill and Dr. Chenyang Lu in Cyber-Physical Systems Laboratory (CPSL). In 2012-2013, I worked with Dr. Jon Turner in Applied Research Laboratory (ARL). Before coming to Washington University, I worked with Dr. Kuo-Feng Ssu in Dependable Computing Laboratory (DCL), at National Cheng Kung University in Taiwan.</description>
     </item>
     
     <item>
@@ -69,13 +69,13 @@
     <item>
       <title>Professional Services</title>
       <link>https://wangc86.github.io/home/services/</link>
-      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/home/services/</guid>
       <description>Guest Lecturer for Graduate/Undergraduate Course
- &amp;ldquo;Cyber-Physical Event Processing&amp;rdquo;, CSE 521, Wireless Sensor Networks, 2018 &amp;ldquo;Cyber-Physical Event Processing&amp;rdquo;, CSE 520, Real-Time Systems, 2017 &amp;ldquo;Principles of Reliable Data Transport&amp;rdquo;, CSE 473, Introduction to Computer Networks, 2013  Teaching Assistant for Graduate/Undergraduate Course
- CSE 520, Real-Time Systems, 2015-2016 CSE 473, Introduction to Computer Networks, 2013  Reviewer for Research Journal and Conference
- Real-Time Systems, The International Journal of Time-Critical Computing Systems, 2017-2018 IEEE Real-Time Systems Symposium (RTSS&amp;rsquo;17), IoT track, 2017  Organizer for Research Conference</description>
+ CSE 521, Wireless Sensor Networks, 2018 CSE 520, Real-Time Systems, 2017 CSE 473, Introduction to Computer Networks, 2013  Teaching Assistant for Graduate/Undergraduate Course
+ CSE 520, Real-Time Systems, 2015-2016 CSE 473, Introduction to Computer Networks, 2013  Reviewer for International Research Journal and Conference
+ Real-Time Systems: The International Journal of Time-Critical Computing Systems, 2017-2018 Journal of Systems Architecture: Embedded Software Design, 2018 IEEE Real-Time Systems Symposium (RTSS), IoT track, 2017  Organizer for International Research Conference</description>
     </item>
     
     <item>
