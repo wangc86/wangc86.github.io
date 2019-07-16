@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Chao Wang 王超 @ WashU</title>
+    <title>Projects on Chao Wang @ NTNU CSIE</title>
     <link>https://wangc86.github.io/project/</link>
-    <description>Recent content in Projects on Chao Wang 王超 @ WashU</description>
+    <description>Recent content in Projects on Chao Wang @ NTNU CSIE</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 -0600</lastBuildDate>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://wangc86.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Fault-Tolerant Real-Time Messaging for Edge Computing (2017-2019)</title>
       <link>https://wangc86.github.io/project/ftrt/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 -0600</pubDate>
+      <pubDate>Mon, 28 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/project/ftrt/</guid>
       <description>Descrption
@@ -25,7 +25,7 @@
     <item>
       <title>Cyber-Physical Event Processing Middleware (CPEP) (2015-2018)</title>
       <link>https://wangc86.github.io/project/cpep/</link>
-      <pubDate>Sun, 27 Jan 2019 00:00:00 -0600</pubDate>
+      <pubDate>Sun, 27 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/project/cpep/</guid>
       <description>Cyber-physical systems (CPS) involve tight integration of cyber (computation) and physical domains, and both the effectiveness and correctness of a CPS application may rely on successful enforcement of constraints such as bounded latency and temporal validity subject to physical conditions. For many such systems (e.g., edge computing in the Industrial Internet of Things), it is desirable to enforce such constraints within a common middleware service (e.g., during event processing). In this project, we introduce CPEP, a new real-time middleware for cyber-physical event processing, with</description>
