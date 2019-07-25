@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Homes on Chao Wang @ NTNU CSIE</title>
+    <title>Homes on </title>
     <link>https://wangc86.github.io/home/</link>
-    <description>Recent content in Homes on Chao Wang @ NTNU CSIE</description>
+    <description>Recent content in Homes on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -18,9 +18,9 @@
       <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/home/about/</guid>
-      <description>News  [Research advising] Prospective students, please email me at chaowang@wustl.edu &amp;emsp; 有意修習專題、碩士、博士班的同學們，歡迎與我聯繫!
- [Course] In Fall 2019, I will teach &amp;ldquo;CSC0056: Data Communication 資料通訊&amp;rdquo;
- [Research paper] FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing (ICDCS 2019)
+      <description>News  [Research advising] Prospective students, please email me at chaowang@wustl.edu &amp;emsp; 欲修習專題、碩、博班的同學們，歡迎與我聯繫!
+ [Course] I will teach &amp;ldquo;CSC0056: Data Communication 資料通訊&amp;rdquo; in Fall 2019.
+ [Research paper] FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing (ICDCS 2019).
   Short Bio Starting in August 2019, I serve as an assistant professor at the Department of Computer Science and Information Engineering, National Taiwan Normal University. I am interested in timely, dependable, and efficient networked software systems research.</description>
     </item>
     
