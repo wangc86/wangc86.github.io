@@ -149,16 +149,6 @@
     
     <url>
     
-      <loc>https://wangc86.github.io/</loc>
-      <lastmod>2019-07-18T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://wangc86.github.io/publication_types/0/</loc>
       <lastmod>2010-06-01T00:00:00+08:00</lastmod>
       <priority>0</priority>
@@ -190,6 +180,16 @@
     <url>
     
       <loc>https://wangc86.github.io/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wangc86.github.io/</loc>
+      <lastmod>2019-07-18T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
