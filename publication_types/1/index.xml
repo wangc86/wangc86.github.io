@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Chao Wang - National Taiwan Normal University - Computer Science and Information Engineering</title>
+    <link>https://wangc86.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Chao Wang - National Taiwan Normal University - Computer Science and Information Engineering</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019</copyright>
+    <lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://wangc86.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing</title>
+      <link>https://wangc86.github.io/publication/frame-19/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/frame-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-Time Middleware for Cyber-Physical Event Processing</title>
+      <link>https://wangc86.github.io/publication/cpep-iwqos-17/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/cpep-iwqos-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Distributed Collision-Free Low-Latency Link Scheduling Scheme in Wireless Sensor Networks</title>
+      <link>https://wangc86.github.io/publication/dcls-10/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/dcls-10/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
