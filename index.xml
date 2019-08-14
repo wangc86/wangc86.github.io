@@ -22,8 +22,7 @@
 &lt;strong&gt;Instructor:&lt;/strong&gt; Chao Wang 王超&lt;br /&gt;
 &lt;strong&gt;Course Web Site:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io/csc0056&#34; target=&#34;_blank&#34;&gt;https://wangc86.github.io/csc0056&lt;/a&gt;&lt;br /&gt;
 &lt;strong&gt;Course Meetings:&lt;/strong&gt; Mondays 9:10 - 12:10&lt;br /&gt;
-&lt;strong&gt;First Exam Date:&lt;/strong&gt; Nov 4, 2019&lt;br /&gt;
-&lt;strong&gt;Final Exam Date:&lt;/strong&gt; Jan 6, 2020&lt;/p&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; Wednesdays and Fridays, 10am-noon, at room 511&lt;/p&gt;
 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
@@ -200,14 +199,14 @@ None. Students are, however, recommended to be familiar with materials taught in
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;p&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt; The readings assignment each week is designed for you to gain some background of the topic &lt;em&gt;before&lt;/em&gt; class. Read them and note where you find interesting and/or challenging. Bring your findings to class for further discussion. I will also cover some additional materials in class.&lt;/p&gt;
+&lt;p&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt; The readings assignment each week is designed for you to gain some background of the topic &lt;em&gt;before&lt;/em&gt; class. Read them and note where you found interesting and/or challenging. Bring your findings to class for further discussion. I will also cover additional materials in class.&lt;/p&gt;
 
 &lt;h2 id=&#34;textbooks-and-other-resources&#34;&gt;Textbooks and Other Resources&lt;/h2&gt;
 
 &lt;h3 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h3&gt;
 
-&lt;p&gt;[1] Bertsekas, Dimitri and Gallager, Robert. &lt;em&gt;Data networks (2nd edition)&lt;/em&gt;. Prentice Hall, 1992. ISBN 0132009161. &lt;strong&gt;(Required)&lt;/strong&gt;&lt;br /&gt;
-[2] Harchol-Balter, Mor. &lt;em&gt;Performance modeling and design of computer systems: queueing theory in action.&lt;/em&gt; Cambridge University Press, 2013. ISBN 9781107027503.&lt;/p&gt;
+&lt;p&gt;[1] Bertsekas, Dimitri and Gallager, Robert. &lt;em&gt;Data networks (2nd edition)&lt;/em&gt;. Prentice Hall, 1992. ISBN 0132009161. &lt;strong&gt;(Required)&lt;/strong&gt; (&lt;a href=&#34;http://web.mit.edu/dimitrib/www/datanets.html&#34; target=&#34;_blank&#34;&gt;online access&lt;/a&gt;) (&lt;a href=&#34;http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?newQuery=true&amp;amp;searchtype=t&amp;amp;search=Data+Networks&#34; target=&#34;_blank&#34;&gt;NTNU library&lt;/a&gt;)&lt;br /&gt;
+[2] Harchol-Balter, Mor. &lt;em&gt;Performance modeling and design of computer systems: queueing theory in action.&lt;/em&gt; Cambridge University Press, 2013. ISBN 9781107027503. (&lt;a href=&#34;http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s page&lt;/a&gt;)&lt;/p&gt;
 
 &lt;h3 id=&#34;other-resources&#34;&gt;Other Resources&lt;/h3&gt;
 
@@ -331,7 +330,13 @@ Then I will be blameless,&lt;br /&gt;
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/project/ftrt/</guid>
-      <description>
+      <description>&lt;p&gt;Edge computing systems should provide reliable and timely message delivery to applications. But both (1) latency discrepancies within edge clouds and (2) heterogeneous loss-tolerance and latency requirements have posed challenges for edge computing systems serve properly in that regard. Efficiency is also critical, especially when common fault-tolerant mechanisms tend to introduce additional latency, and when cloud traffic may impede local, time-sensitive message delivery.&lt;/p&gt;
+
+&lt;p&gt;In this project, we developed a fault-tolerant real-time messaging architecture, named FRAME. FRAME addresses the above challenges and can efficiently meet different levels of message loss-tolerance requirements, mitigate latency penalties caused by fault recovery, and meet end-to-end soft deadlines during normal, fault-free operation.&lt;/p&gt;
+
+&lt;p&gt;Learn more from &lt;a href=&#34;../../pdf/icdcs19-frame.pdf&#34;&gt;our paper&lt;/a&gt; published at ICDCS 2019.&lt;/p&gt;
+
+
 
 &lt;div class=&#34;gallery&#34;&gt;
   
