@@ -4,8 +4,9 @@
     
     <url>
     
-      <loc>https://wangc86.github.io/csc0056/</loc>
-      <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+      <loc>https://wangc86.github.io/</loc>
+      <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -13,9 +14,17 @@
     
     <url>
     
-      <loc>https://wangc86.github.io/</loc>
+      <loc>https://wangc86.github.io/bio/</loc>
+      <lastmod>2019-08-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://wangc86.github.io/csc0056/</loc>
       <lastmod>2019-08-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

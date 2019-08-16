@@ -6,8 +6,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 03 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Short Bio</title>
+      <link>https://wangc86.github.io/bio/</link>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/bio/</guid>
+      <description>&lt;p&gt;Chao Wang received the B.S. degree in electrical engineering in 2009 and the M.S. degree in computer and communication engineering in 2010, both from National Cheng Kung University, Taiwan. He received the Ph.D. degree in computer science in 2019 from Washington University in St. Louis, USA. He is currently an assistant professor in the Department of Computer Science and Information Engineering, National Taiwan Normal University. His research interest is in the area of timely, dependable, and efficient networked cyber-physical systems. He was a second lieutenant in R.O.C. Air Force in 2011 and a deacon in Taiwanese Presbyterian Church of Greater St. Louis in 2018. He is a member of IEEE, ACM, and IICM.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>CSC0056 Data Communication 資料通訊 (Fall 2019)</title>
@@ -556,15 +566,6 @@ Then I will be blameless,&lt;br /&gt;
       <pubDate>Tue, 01 Jun 2010 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/publication/ms-thesis-10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Distributed Collision-Free Low-Latency Link Scheduling Scheme in Wireless Sensor Networks</title>
-      <link>https://wangc86.github.io/publication/dcls-10/</link>
-      <pubDate>Thu, 01 Apr 2010 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/publication/dcls-10/</guid>
       <description></description>
     </item>
     
