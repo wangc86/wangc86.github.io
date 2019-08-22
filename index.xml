@@ -340,7 +340,7 @@ Then I will be blameless,&lt;br /&gt;
       <pubDate>Mon, 28 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/project/ftrt/</guid>
-      <description>&lt;p&gt;Edge computing systems should provide reliable and timely message delivery to applications. But both (1) latency discrepancies within edge clouds and (2) heterogeneous loss-tolerance and latency requirements have posed challenges for edge computing systems serve properly in that regard. Efficiency is also critical, especially when common fault-tolerant mechanisms tend to introduce additional latency, and when cloud traffic may impede local, time-sensitive message delivery.&lt;/p&gt;
+      <description>&lt;p&gt;Edge computing systems should provide reliable and timely message delivery to applications. But both (1) latency discrepancies within edge clouds and (2) heterogeneous loss-tolerance and latency requirements have posed challenges for edge computing systems to serve properly in that regard. Efficiency is also critical, especially when common fault-tolerant mechanisms tend to introduce additional latency, and when cloud traffic may impede local, time-sensitive message delivery.&lt;/p&gt;
 
 &lt;p&gt;In this project, we developed a fault-tolerant real-time messaging architecture, named FRAME. FRAME addresses the above challenges and can efficiently meet different levels of message loss-tolerance requirements, mitigate latency penalties caused by fault recovery, and meet end-to-end soft deadlines during normal, fault-free operation.&lt;/p&gt;
 
