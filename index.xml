@@ -31,8 +31,10 @@
 &lt;strong&gt;Course Name:&lt;/strong&gt; CSC0056 Data Communication 資料通訊&lt;br /&gt;
 &lt;strong&gt;Instructor:&lt;/strong&gt; Chao Wang 王超&lt;br /&gt;
 &lt;strong&gt;Course Web Site:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io/csc0056&#34; target=&#34;_blank&#34;&gt;https://wangc86.github.io/csc0056&lt;/a&gt;&lt;br /&gt;
-&lt;strong&gt;Course Meetings:&lt;/strong&gt; Mondays 9:10 - 12:10&lt;br /&gt;
-&lt;strong&gt;Office Hours:&lt;/strong&gt; Wednesdays and Fridays, 10am-noon, at room 511&lt;/p&gt;
+&lt;strong&gt;Course Meetings:&lt;/strong&gt; Mondays 9:10 - 12:10 in room C007, Gongguan Campus&lt;br /&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; Wednesdays and Fridays, 10am-noon, in my office (room 511, Applied Science Building, Gongguan Campus), or &lt;a href=&#34;mailto:cw@ntnu.edu.tw&#34; target=&#34;_blank&#34;&gt;by appointment&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;First Exam:&lt;/strong&gt; Nov 4, 9:10 - 12:10, in class&lt;br /&gt;
+&lt;strong&gt;Final Exam:&lt;/strong&gt; Jan 6, 9:10 - 12:10, in class&lt;/p&gt;
 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
@@ -40,6 +42,8 @@
 &lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Course Syllabus&lt;/a&gt; &lt;a name=&#34;syllabus&#34;&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#schedule&#34;&gt;Course Schedule&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#resource&#34;&gt;Textbooks and Other Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accessibility&#34;&gt;Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accessibility&#34;&gt;Academic Integrity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;course-syllabus&#34;&gt;Course Syllabus&lt;/h2&gt;
@@ -213,14 +217,28 @@ None. Students are, however, recommended to be familiar with materials taught in
 
 &lt;h2 id=&#34;textbooks-and-other-resources&#34;&gt;Textbooks and Other Resources&lt;/h2&gt;
 
-&lt;h3 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Textbooks:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;[1] Bertsekas, Dimitri and Gallager, Robert. &lt;em&gt;Data networks (2nd edition)&lt;/em&gt;. Prentice Hall, 1992. ISBN 0132009161. &lt;strong&gt;(Required)&lt;/strong&gt; (&lt;a href=&#34;http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?newQuery=true&amp;amp;searchtype=t&amp;amp;search=Data+Networks&#34; target=&#34;_blank&#34;&gt;NTNU library&lt;/a&gt;)&lt;br /&gt;
-[2] Harchol-Balter, Mor. &lt;em&gt;Performance modeling and design of computer systems: queueing theory in action.&lt;/em&gt; Cambridge University Press, 2013. ISBN 9781107027503. (&lt;a href=&#34;http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s book intro&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;[1] Bertsekas, Dimitri and Gallager, Robert. &lt;em&gt;Data networks (2nd edition)&lt;/em&gt;. Prentice Hall, 1992. ISBN 0132009161. &lt;strong&gt;(Required)&lt;/strong&gt; (&lt;a href=&#34;http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?newQuery=true&amp;amp;searchtype=t&amp;amp;search=Data+Networks&#34; target=&#34;_blank&#34;&gt;NTNU library&lt;/a&gt;) (&lt;a href=&#34;http://web.mit.edu/dimitrib/www/datanets.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s page&lt;/a&gt;)&lt;/p&gt;
 
-&lt;h3 id=&#34;other-resources&#34;&gt;Other Resources&lt;/h3&gt;
+&lt;p&gt;[2] Harchol-Balter, Mor. &lt;em&gt;Performance modeling and design of computer systems: queueing theory in action.&lt;/em&gt; Cambridge University Press, 2013. ISBN 9781107027503. (&lt;a href=&#34;http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s book intro&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;accessibility&#34;&gt;&lt;/a&gt;
+&lt;strong&gt;Other Resources:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
+
+&lt;p&gt;&lt;a name=&#34;integrity&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Students with disabilities are encouraged to bring considerations to the attention of the instructor, potentially including accommodations for exams.&lt;/p&gt;
+
+&lt;h2 id=&#34;academic-integrity&#34;&gt;Academic Integrity&lt;/h2&gt;
+
+&lt;p&gt;Homeworks must be completed individually and independently. Exams must be completed individually and independently without reference to materials or devices, except as specifically allowed by the instructor.&lt;/p&gt;
+
+&lt;p&gt;Academic integrity is a key component of your education, which is for your benefit. Anyone found to be cheating or helping someone else cheat will receive zero score for that homework/exam. Please reflect on the university&amp;rsquo;s &lt;a href=&#34;http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp&#34; target=&#34;_blank&#34;&gt;motto&lt;/a&gt;: Sincerity  誠, Integrity 正, Diligence 勤, Simplicity 樸.&lt;/p&gt;
 </description>
     </item>
     
