@@ -96,7 +96,7 @@ None. Students are, however, recommended to be familiar with materials taught in
 &lt;td&gt;2&lt;/td&gt;
 &lt;td&gt;Sep 16&lt;/td&gt;
 &lt;td&gt;Layered Network Architecture&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 1.3, 2.1-2.3&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -223,10 +223,17 @@ None. Students are, however, recommended to be familiar with materials taught in
 
 &lt;p&gt;[2] Harchol-Balter, Mor. &lt;em&gt;Performance modeling and design of computer systems: queueing theory in action.&lt;/em&gt; Cambridge University Press, 2013. ISBN 9781107027503. (&lt;a href=&#34;http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s book intro&lt;/a&gt;)&lt;/p&gt;
 
+&lt;p&gt;[3] Kurose, Jim and Ross, Keith. &lt;em&gt;Computer Networking: A Top-Down Approach (5th edition or newer)&lt;/em&gt;. Pearson, 2010. ISBN 0136079679&lt;/p&gt;
+
+&lt;p&gt;[4] Andrew S. Tanenbaum. &lt;em&gt;Computer Networks (4th edition or newer)&lt;/em&gt;. Peason, 2003. ISBN 0130384887&lt;/p&gt;
+
 &lt;p&gt;&lt;a name=&#34;accessibility&#34;&gt;&lt;/a&gt;
 &lt;strong&gt;Other Resources:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;TBD&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/AUTOSAR#Software_architecture&#34; target=&#34;_blank&#34;&gt;AUTOSAR (in particular, its layered software architecture)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
 
