@@ -103,7 +103,7 @@ None. Students are, however, recommended to be familiar with materials taught in
 &lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;Sep 23&lt;/td&gt;
 &lt;td&gt;Point-to-Point Protocols&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 2.3-2.4.2, 2.8.1-2.8.2, 2.9.1-2.9.4&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -231,8 +231,9 @@ None. Students are, however, recommended to be familiar with materials taught in
 &lt;strong&gt;Other Resources:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/AUTOSAR#Software_architecture&#34; target=&#34;_blank&#34;&gt;AUTOSAR (in particular, its layered software architecture)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/AUTOSAR#Software_architecture&#34; target=&#34;_blank&#34;&gt;AUTOSAR (in particular, its layered software architecture).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Further reading on &lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/hamming-distance&#34; target=&#34;_blank&#34;&gt;error detection/correction&lt;/a&gt; (access it via our campus network to get a proper access authorization).&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
