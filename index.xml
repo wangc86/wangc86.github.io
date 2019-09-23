@@ -103,35 +103,35 @@ None. Students are, however, recommended to be familiar with materials taught in
 &lt;tr&gt;
 &lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;Sep 23&lt;/td&gt;
-&lt;td&gt;Point-to-Point Protocols&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture03.pdf&#34; target=&#34;_blank&#34;&gt;Point-to-Point Protocols&lt;/a&gt;; &lt;a href=&#34;lec3note.pdf&#34; target=&#34;_blank&#34;&gt;note&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;[1] Sections 2.3-2.4.2, 2.8.1-2.8.2, 2.9.1-2.9.4&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;Sep 30&lt;/td&gt;
+&lt;td&gt;Point-to-Point Protocols (2)&lt;/td&gt;
+&lt;td&gt;same as above&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Oct 7&lt;/td&gt;
 &lt;td&gt;Queueing Model and M/M/1 Queues&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;Oct 7&lt;/td&gt;
+&lt;td&gt;Oct 14&lt;/td&gt;
 &lt;td&gt;M/M/m, M/M/$\infty$, and M/M/m/m&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;Oct 14&lt;/td&gt;
-&lt;td&gt;Markov Systems and M/G/1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
 &lt;td&gt;Oct 21&lt;/td&gt;
-&lt;td&gt;Time Reversibility and Networks of Queues&lt;/td&gt;
+&lt;td&gt;Markov Systems and M/G/1&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
