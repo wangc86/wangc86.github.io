@@ -187,8 +187,8 @@ None. Students are, however, recommended to be familiar with materials taught in
 &lt;tr&gt;
 &lt;td&gt;15&lt;/td&gt;
 &lt;td&gt;Dec 16&lt;/td&gt;
-&lt;td&gt;Real-Time Data Communication&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture15.pdf&#34; target=&#34;_blank&#34;&gt;Real-Time Data Communication&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;see page 4 in the lecture slides&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -239,6 +239,9 @@ A wealth of helpful and relevant articles/tools may be found on-line. Here I pic
 &lt;li&gt;&lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Further reading on &lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/hamming-distance&#34; target=&#34;_blank&#34;&gt;error detection/correction&lt;/a&gt; (access it via our campus network to get a proper access authorization).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://setosa.io/blog/2014/07/26/markov-chains/&#34; target=&#34;_blank&#34;&gt;A good visual demonstration of Markov chains&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture v1.9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chao Wang, Christopher Gill, and Chenyang Lu. &lt;em&gt;Real-Time Middleware for Cyber-Physical Event Processing.&lt;/em&gt; ACM Transactions on Cyber-Physical Systems 3, 3, Article 29 (August 2019) (&lt;a href=&#34;https://wangc86.github.io/pdf/tcps-cpep.pdf&#34; target=&#34;_blank&#34;&gt;manuscript&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Chao Wang, Christopher Gill, Chenyang Lu. &lt;em&gt;FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing.&lt;/em&gt; IEEE International Conference on Distributed Computing Systems (ICDCS), 2019. (&lt;a href=&#34;https://wangc86.github.io/pdf/icdcs19-frame.pdf&#34; target=&#34;_blank&#34;&gt;manuscript&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
