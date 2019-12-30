@@ -6,8 +6,244 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CSC9006 即時系統 Real-Time Systems (Spring 2020)</title>
+      <link>https://wangc86.github.io/csc9006/</link>
+      <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/csc9006/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;../../img/ntnu_logo.png&#34; alt=&#34;NTNU logo&#34; /&gt;
+&lt;strong&gt;Course Name:&lt;/strong&gt; CSC9006 即時系統 Real-Time Systems
+&lt;strong&gt;Instructor:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io&#34; target=&#34;_blank&#34;&gt;王超 Chao Wang&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Course Web Site:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io/csc9006&#34; target=&#34;_blank&#34;&gt;https://wangc86.github.io/csc9006&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Course Meetings:&lt;/strong&gt; Thursdays 9:10 - 12:10 in room S403, 公館校區 Gongguan Campus&lt;br /&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; Tuesdays and Wednesdays, 9:10 - 11:10, in room 511, 公館校區應用科學大樓 Applied Science Building, Gongguan Campus), or &lt;a href=&#34;mailto:cw@ntnu.edu.tw&#34; target=&#34;_blank&#34;&gt;by appointment&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Course Syllabus&lt;/a&gt; &lt;a name=&#34;syllabus&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#schedule&#34;&gt;Course Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resource&#34;&gt;Textbooks and Other Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accessibility&#34;&gt;Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accessibility&#34;&gt;Academic Integrity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hw&#34;&gt;Homework Assignment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;course-syllabus&#34;&gt;Course Syllabus&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br /&gt;
+Data communication is an essential part of modern computer networks and Internet-of-Things (IoT) systems. The objectives of this course are for each student to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;learn classic data communication algorithms and protocols;&lt;/li&gt;
+&lt;li&gt;gain insight into analyzing data communication systems; and&lt;/li&gt;
+&lt;li&gt;engage in recent advances in data communication systems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first half of this course (i.e., before the first exam) will focus on how to analyze a data communication network. The second half will cover some classic algorithms and protocols in data communications, followed by recent advances in this field.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;br /&gt;
+The intended audience of this course includes graduate students and senior undergraduate students. Students are expected to be familiar with basic computer science and computer engineering knowledge. Course experiences in Operating Systems Concepts and Software Engineering will help.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grading:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Homework 40%&lt;/li&gt;
+&lt;li&gt;Project 50%&lt;/li&gt;
+&lt;li&gt;Participation 5%&lt;/li&gt;
+&lt;li&gt;Attendance 5%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;course-schedule-tentative&#34;&gt;Course Schedule (tentative)&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;#&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;#resource&#34;&gt;Readings&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Sep 9&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture01.pdf&#34; target=&#34;_blank&#34;&gt;Course Introduction&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 1.1-1.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Sep 16&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture02.pdf&#34; target=&#34;_blank&#34;&gt;Layered Network Architecture&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec2note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 1.3, 2.1-2.3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Sep 23&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture03.pdf&#34; target=&#34;_blank&#34;&gt;Point-to-Point Protocols&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec3note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 2.3-2.4.2, 2.8.1-2.8.2, 2.9.1-2.9.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Sep 30&lt;/td&gt;
+&lt;td&gt;(cancelled due to typhoon)&lt;/td&gt;
+&lt;td&gt;same as above&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Oct 7&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture05.pdf&#34; target=&#34;_blank&#34;&gt;Point-to-Point Protocols (2)&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec5note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec5note2.pdf&#34; target=&#34;_blank&#34;&gt;lecture note 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;same as above, plus 2.4.3 and 2.8.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Oct 14&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lec6note.pdf&#34; target=&#34;_blank&#34;&gt;Queueing Model and Little&amp;rsquo;s Theorem&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 3.1-3.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Oct 21&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lec7note.pdf&#34; target=&#34;_blank&#34;&gt;Markov Chain and Queueing Systems&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 3.3-3.3.1 and Appendix A&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Oct 28&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lec8note.pdf&#34; target=&#34;_blank&#34;&gt;More on Queueing Systems&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;note_PoissonDistribution.pdf&#34; target=&#34;_blank&#34;&gt;Review of Poisson Distribution&lt;/a&gt;;&lt;br&gt;First Exam Review&lt;/td&gt;
+&lt;td&gt;[1] Sections 3.3.1-3.4.1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Nov 4&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Midterm_2019.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;First Exam&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Nov 11&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture10.pdf&#34; target=&#34;_blank&#34;&gt;Multiaccess Communication&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 4.1-4.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Nov 18&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture11_annotated2.pdf&#34; target=&#34;_blank&#34;&gt;Aloha protocols&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 4.2, 4.4-4.4.1, 4.5 before 4.5.1, and 4.6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Nov 25&lt;/td&gt;
+&lt;td&gt;Shortest Path Routing&lt;/td&gt;
+&lt;td&gt;[1] Sections 5.2-5.2.3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Dec 2&lt;/td&gt;
+&lt;td&gt;Network Flow Algorithms;&lt;br&gt;&lt;a href=&#34;lec13note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Section 5.4 before 5.4.1; Sections 5.5-5.6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Dec 9&lt;/td&gt;
+&lt;td&gt;Flow Control&lt;/td&gt;
+&lt;td&gt;[1] Sections 6.1-6.2.1, 6.3, and 6.5.1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Dec 16&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture15.pdf&#34; target=&#34;_blank&#34;&gt;Real-Time Data Communication&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;see page 4 in the lecture slides&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;Dec 23&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture16.pdf&#34; target=&#34;_blank&#34;&gt;Time Synchronization and Timely Data Replication&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;see page 4 in the lecture slides&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Dec 30&lt;/td&gt;
+&lt;td&gt;Error Correction Code, CAN, and Course Review&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;Jan 6&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Final Exam&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt; The readings assignment each week is designed for you to gain some background of the topic &lt;em&gt;before&lt;/em&gt; class. Read them and note where you found interesting and/or challenging. Bring your findings to class for further discussion. I will also cover additional materials in class.&lt;/p&gt;
+
+&lt;h2 id=&#34;textbooks-and-other-resources&#34;&gt;Textbooks and Other Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Textbooks:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[1] Bertsekas, Dimitri and Gallager, Robert. &lt;em&gt;Data networks (2nd edition)&lt;/em&gt;. Prentice Hall, 1992. ISBN 0132009161. &lt;strong&gt;(Required)&lt;/strong&gt; (&lt;a href=&#34;http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?newQuery=true&amp;amp;searchtype=t&amp;amp;search=Data+Networks&#34; target=&#34;_blank&#34;&gt;NTNU library&lt;/a&gt;) (&lt;a href=&#34;http://web.mit.edu/dimitrib/www/datanets.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s page&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;[2] Harchol-Balter, Mor. &lt;em&gt;Performance modeling and design of computer systems: queueing theory in action.&lt;/em&gt; Cambridge University Press, 2013. ISBN 9781107027503. (&lt;a href=&#34;http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s book intro&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;[3] Kurose, Jim and Ross, Keith. &lt;em&gt;Computer Networking: A Top-Down Approach (5th edition or newer)&lt;/em&gt;. Pearson, 2010. ISBN 0136079679&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;accessibility&#34;&gt;&lt;/a&gt;
+&lt;strong&gt;Other Resources:&lt;/strong&gt;&lt;br /&gt;
+A wealth of helpful and relevant articles/tools may be found on-line. Here I picked some for the materials taught in this course:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/AUTOSAR#Software_architecture&#34; target=&#34;_blank&#34;&gt;AUTOSAR (in particular, its layered software architecture).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
+
+&lt;p&gt;&lt;a name=&#34;integrity&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Students with disabilities are encouraged to bring considerations to the attention of the instructor, potentially including accommodations for exams.&lt;/p&gt;
+
+&lt;h2 id=&#34;academic-integrity&#34;&gt;Academic Integrity&lt;/h2&gt;
+
+&lt;p&gt;Homeworks must be completed individually and independently. Exams must be completed individually and independently without reference to materials or devices, except as specifically allowed by the instructor.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;hw&#34;&gt;&lt;/a&gt;
+Academic integrity is a key component of your education, which is for your benefit. Anyone found to be cheating or helping someone else cheat will receive zero score for that homework/exam. Please reflect on the university&amp;rsquo;s &lt;a href=&#34;http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp&#34; target=&#34;_blank&#34;&gt;motto&lt;/a&gt;: Sincerity 誠, Integrity 正, Diligence 勤, Simplicity 樸.&lt;/p&gt;
+
+&lt;h2 id=&#34;homework-assignment&#34;&gt;Homework Assignment&lt;/h2&gt;
+
+&lt;p&gt;Students should submit all their homework assignments via &lt;a href=&#34;https://moodle.ntnu.edu.tw/&#34; target=&#34;_blank&#34;&gt;Moodle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Homework01.pdf&#34; target=&#34;_blank&#34;&gt;Homework1&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Short Bio</title>
@@ -25,6 +261,270 @@
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/csc0056/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;../../img/ntnu_logo.png&#34; alt=&#34;NTNU logo&#34; /&gt;
+&lt;strong&gt;Course Name:&lt;/strong&gt; CSC0056 Data Communication 資料通訊&lt;br /&gt;
+&lt;strong&gt;Instructor:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io&#34; target=&#34;_blank&#34;&gt;Chao Wang 王超&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Course Web Site:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io/csc0056&#34; target=&#34;_blank&#34;&gt;https://wangc86.github.io/csc0056&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;Course Meetings:&lt;/strong&gt; Mondays 9:10 - 12:10 in room C007, Gongguan Campus&lt;br /&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; Wednesdays and Fridays, 10am-noon, in my office (room 511, Applied Science Building, Gongguan Campus), or &lt;a href=&#34;mailto:cw@ntnu.edu.tw&#34; target=&#34;_blank&#34;&gt;by appointment&lt;/a&gt;&lt;br /&gt;
+&lt;strong&gt;First Exam:&lt;/strong&gt; Nov 4, 9:10 - 12:10, in class&lt;br /&gt;
+&lt;strong&gt;Final Exam:&lt;/strong&gt; Jan 6, 9:10 - 12:10, in class&lt;/p&gt;
+
+&lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#syllabus&#34;&gt;Course Syllabus&lt;/a&gt; &lt;a name=&#34;syllabus&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#schedule&#34;&gt;Course Schedule&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#resource&#34;&gt;Textbooks and Other Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accessibility&#34;&gt;Accessibility&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#accessibility&#34;&gt;Academic Integrity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#hw&#34;&gt;Homework Assignment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;course-syllabus&#34;&gt;Course Syllabus&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br /&gt;
+Data communication is an essential part of modern computer networks and Internet-of-Things (IoT) systems. The objectives of this course are for each student to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;learn classic data communication algorithms and protocols;&lt;/li&gt;
+&lt;li&gt;gain insight into analyzing data communication systems; and&lt;/li&gt;
+&lt;li&gt;engage in recent advances in data communication systems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first half of this course (i.e., before the first exam) will focus on how to analyze a data communication network. The second half will cover some classic algorithms and protocols in data communications, followed by recent advances in this field.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;br /&gt;
+None. Students are, however, recommended to be familiar with materials taught in &lt;em&gt;CSU0019 Computer Networks&lt;/em&gt; or an equivalent course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Grading:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Homework 30%&lt;/li&gt;
+&lt;li&gt;First Exam 25% &lt;a name=&#34;schedule&#34;&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Final Exam 35%&lt;/li&gt;
+&lt;li&gt;Participation 5%&lt;/li&gt;
+&lt;li&gt;Attendance 5%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;course-schedule-tentative&#34;&gt;Course Schedule (tentative)&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;#&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;#resource&#34;&gt;Readings&lt;/a&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Sep 9&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture01.pdf&#34; target=&#34;_blank&#34;&gt;Course Introduction&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 1.1-1.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Sep 16&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture02.pdf&#34; target=&#34;_blank&#34;&gt;Layered Network Architecture&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec2note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 1.3, 2.1-2.3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Sep 23&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture03.pdf&#34; target=&#34;_blank&#34;&gt;Point-to-Point Protocols&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec3note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 2.3-2.4.2, 2.8.1-2.8.2, 2.9.1-2.9.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Sep 30&lt;/td&gt;
+&lt;td&gt;(cancelled due to typhoon)&lt;/td&gt;
+&lt;td&gt;same as above&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Oct 7&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture05.pdf&#34; target=&#34;_blank&#34;&gt;Point-to-Point Protocols (2)&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec5note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;lec5note2.pdf&#34; target=&#34;_blank&#34;&gt;lecture note 2&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;same as above, plus 2.4.3 and 2.8.4&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Oct 14&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lec6note.pdf&#34; target=&#34;_blank&#34;&gt;Queueing Model and Little&amp;rsquo;s Theorem&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 3.1-3.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Oct 21&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lec7note.pdf&#34; target=&#34;_blank&#34;&gt;Markov Chain and Queueing Systems&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 3.3-3.3.1 and Appendix A&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Oct 28&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lec8note.pdf&#34; target=&#34;_blank&#34;&gt;More on Queueing Systems&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;note_PoissonDistribution.pdf&#34; target=&#34;_blank&#34;&gt;Review of Poisson Distribution&lt;/a&gt;;&lt;br&gt;First Exam Review&lt;/td&gt;
+&lt;td&gt;[1] Sections 3.3.1-3.4.1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Nov 4&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;Midterm_2019.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;First Exam&lt;/strong&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;Nov 11&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture10.pdf&#34; target=&#34;_blank&#34;&gt;Multiaccess Communication&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 4.1-4.2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Nov 18&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture11_annotated2.pdf&#34; target=&#34;_blank&#34;&gt;Aloha protocols&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Sections 4.2, 4.4-4.4.1, 4.5 before 4.5.1, and 4.6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;Nov 25&lt;/td&gt;
+&lt;td&gt;Shortest Path Routing&lt;/td&gt;
+&lt;td&gt;[1] Sections 5.2-5.2.3&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;Dec 2&lt;/td&gt;
+&lt;td&gt;Network Flow Algorithms;&lt;br&gt;&lt;a href=&#34;lec13note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;[1] Section 5.4 before 5.4.1; Sections 5.5-5.6&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Dec 9&lt;/td&gt;
+&lt;td&gt;Flow Control&lt;/td&gt;
+&lt;td&gt;[1] Sections 6.1-6.2.1, 6.3, and 6.5.1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Dec 16&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture15.pdf&#34; target=&#34;_blank&#34;&gt;Real-Time Data Communication&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;see page 4 in the lecture slides&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;Dec 23&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture16.pdf&#34; target=&#34;_blank&#34;&gt;Time Synchronization and Timely Data Replication&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;see page 4 in the lecture slides&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;17&lt;/td&gt;
+&lt;td&gt;Dec 30&lt;/td&gt;
+&lt;td&gt;Error Correction Code, CAN, and Course Review;&lt;br&gt;&lt;a href=&#34;lec17note.pdf&#34; target=&#34;_blank&#34;&gt;lecture note&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;#lec17ref&#34;&gt;(i)&lt;/a&gt; and &lt;a href=&#34;#lec17ref&#34;&gt;(j)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;18&lt;/td&gt;
+&lt;td&gt;Jan 6&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;Final Exam&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt; The readings assignment each week is designed for you to gain some background of the topic &lt;em&gt;before&lt;/em&gt; class. Read them and note where you found interesting and/or challenging. Bring your findings to class for further discussion. I will also cover additional materials in class.&lt;/p&gt;
+
+&lt;h2 id=&#34;textbooks-and-other-resources&#34;&gt;Textbooks and Other Resources&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Textbooks:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;[1] Bertsekas, Dimitri and Gallager, Robert. &lt;em&gt;Data networks (2nd edition)&lt;/em&gt;. Prentice Hall, 1992. ISBN 0132009161. &lt;strong&gt;(Required)&lt;/strong&gt; (&lt;a href=&#34;http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?newQuery=true&amp;amp;searchtype=t&amp;amp;search=Data+Networks&#34; target=&#34;_blank&#34;&gt;NTNU library&lt;/a&gt;) (&lt;a href=&#34;http://web.mit.edu/dimitrib/www/datanets.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s page&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;[2] Harchol-Balter, Mor. &lt;em&gt;Performance modeling and design of computer systems: queueing theory in action.&lt;/em&gt; Cambridge University Press, 2013. ISBN 9781107027503. (&lt;a href=&#34;http://www.cs.cmu.edu/~harchol/PerformanceModeling/book.html&#34; target=&#34;_blank&#34;&gt;author&amp;rsquo;s book intro&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;[3] Kurose, Jim and Ross, Keith. &lt;em&gt;Computer Networking: A Top-Down Approach (5th edition or newer)&lt;/em&gt;. Pearson, 2010. ISBN 0136079679&lt;/p&gt;
+
+&lt;p&gt;[4] Andrew S. Tanenbaum. &lt;em&gt;Computer Networks (4th edition or newer)&lt;/em&gt;. Peason, 2003. ISBN 0130384887&lt;/p&gt;
+
+&lt;p&gt;[5] William Feller. &lt;em&gt;An Introduction to Probability Theory and Its Applications, Volume I (3rd edition)&lt;/em&gt;. Wiley, 1968. ISBN 0471257087&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Other Resources:&lt;/strong&gt;&lt;br /&gt;
+A wealth of helpful and relevant articles/tools may be found on-line. Here I picked some for the materials taught in this course:&lt;/p&gt;
+
+&lt;p&gt;(a) &lt;a href=&#34;https://en.wikipedia.org/wiki/AUTOSAR#Software_architecture&#34; target=&#34;_blank&#34;&gt;AUTOSAR (in particular, its layered software architecture).&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(b) &lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(c) Further reading on &lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/hamming-distance&#34; target=&#34;_blank&#34;&gt;error detection/correction&lt;/a&gt; (access it via our campus network to get a proper access authorization).&lt;/p&gt;
+
+&lt;p&gt;(d) &lt;a href=&#34;http://setosa.io/blog/2014/07/26/markov-chains/&#34; target=&#34;_blank&#34;&gt;A good visual demonstration of Markov chains&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(e) &lt;a href=&#34;https://www.iiconsortium.org/IIRA.htm&#34; target=&#34;_blank&#34;&gt;Industrial Internet Reference Architecture v1.9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(f) Chao Wang, Christopher Gill, and Chenyang Lu. &lt;em&gt;Real-Time Middleware for Cyber-Physical Event Processing.&lt;/em&gt; ACM Transactions on Cyber-Physical Systems 3, 3, Article 29 (August 2019) (&lt;a href=&#34;https://wangc86.github.io/pdf/tcps-cpep.pdf&#34; target=&#34;_blank&#34;&gt;manuscript&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;lec17ref&#34;&gt;&lt;/a&gt;
+&lt;a name=&#34;accessibility&#34;&gt;&lt;/a&gt;
+(g) Chao Wang, Christopher Gill, Chenyang Lu. &lt;em&gt;FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing.&lt;/em&gt; IEEE International Conference on Distributed Computing Systems (ICDCS), 2019. (&lt;a href=&#34;https://wangc86.github.io/pdf/icdcs19-frame.pdf&#34; target=&#34;_blank&#34;&gt;manuscript&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;(h) Time synchronization: &lt;a href=&#34;https://en.wikipedia.org/wiki/Accuracy_and_precision&#34; target=&#34;_blank&#34;&gt;Difference between &lt;em&gt;accuracy&lt;/em&gt; and &lt;em&gt;precision&lt;/em&gt; in measurement&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;(i) Joseph A. Gallian. &lt;em&gt;Contemporary Abstract Algebra (7th edition)&lt;/em&gt;. Brooks/Cole, 2010. ISBN 9780495831532&lt;/p&gt;
+
+&lt;p&gt;(j) &lt;a href=&#34;http://esd.cs.ucr.edu/webres/can20.pdf&#34; target=&#34;_blank&#34;&gt;CAN Specification, Version 2.0&lt;/a&gt;. You can learn a lot from this very good documentation.&lt;/p&gt;
+
+&lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
+
+&lt;p&gt;&lt;a name=&#34;integrity&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Students with disabilities are encouraged to bring considerations to the attention of the instructor, potentially including accommodations for exams.&lt;/p&gt;
+
+&lt;h2 id=&#34;academic-integrity&#34;&gt;Academic Integrity&lt;/h2&gt;
+
+&lt;p&gt;Homeworks must be completed individually and independently. Exams must be completed individually and independently without reference to materials or devices, except as specifically allowed by the instructor.&lt;/p&gt;
+
+&lt;p&gt;&lt;a name=&#34;hw&#34;&gt;&lt;/a&gt;
+Academic integrity is a key component of your education, which is for your benefit. Anyone found to be cheating or helping someone else cheat will receive zero score for that homework/exam. Please reflect on the university&amp;rsquo;s &lt;a href=&#34;http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp&#34; target=&#34;_blank&#34;&gt;motto&lt;/a&gt;: Sincerity 誠, Integrity 正, Diligence 勤, Simplicity 樸.&lt;/p&gt;
+
+&lt;h2 id=&#34;homework-assignment&#34;&gt;Homework Assignment&lt;/h2&gt;
+
+&lt;p&gt;Students should submit all their homework assignments via &lt;a href=&#34;https://moodle.ntnu.edu.tw/&#34; target=&#34;_blank&#34;&gt;Moodle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;Homework01.pdf&#34; target=&#34;_blank&#34;&gt;Homework1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Homework02.pdf&#34; target=&#34;_blank&#34;&gt;Homework2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Homework03.pdf&#34; target=&#34;_blank&#34;&gt;Homework3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Homework04.pdf&#34; target=&#34;_blank&#34;&gt;Homework4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Homework05.pdf&#34; target=&#34;_blank&#34;&gt;Homework5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Homework06.pdf&#34; target=&#34;_blank&#34;&gt;Homework6&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CSC0056 Data Communication 資料通訊 (Fall 2019)</title>
+      <link>https://wangc86.github.io/csu0007/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/csu0007/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;../../img/ntnu_logo.png&#34; alt=&#34;NTNU logo&#34; /&gt;
@@ -597,24 +1097,6 @@ Then I will be blameless,&lt;br /&gt;
       <pubDate>Thu, 01 Jun 2017 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/publication/cpep-iwqos-17/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Dead-End Free Topology Maintenance Protocol for Geographic Forwarding in Wireless Sensor Networks</title>
-      <link>https://wangc86.github.io/publication/dftm-11/</link>
-      <pubDate>Tue, 01 Nov 2011 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/publication/dftm-11/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Low-Latency Link Scheduling in Wireless Sensor Networks</title>
-      <link>https://wangc86.github.io/publication/ms-thesis-10/</link>
-      <pubDate>Tue, 01 Jun 2010 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/publication/ms-thesis-10/</guid>
       <description></description>
     </item>
     
