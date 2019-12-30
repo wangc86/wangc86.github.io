@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chao Wang - National Taiwan Normal University - Computer Science and Information Engineering on Chao Wang - National Taiwan Normal University - Computer Science and Information Engineering</title>
+    <title>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering on Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
     <link>https://wangc86.github.io/</link>
-    <description>Recent content in Chao Wang - National Taiwan Normal University - Computer Science and Information Engineering on Chao Wang - National Taiwan Normal University - Computer Science and Information Engineering</description>
+    <description>Recent content in Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering on Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
@@ -246,12 +246,39 @@ Academic integrity is a key component of your education, which is for your benef
     </item>
     
     <item>
-      <title>Short Bio</title>
+      <title>NCL Team Members</title>
       <link>https://wangc86.github.io/bio/</link>
       <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/bio/</guid>
-      <description>&lt;p&gt;Chao Wang received the B.S. degree in electrical engineering in 2009 and the M.S. degree in computer and communication engineering in 2010, both from National Cheng Kung University, Taiwan. He received the Ph.D. degree in computer science in 2019 from Washington University in St. Louis, USA. He is currently an assistant professor in the Department of Computer Science and Information Engineering, National Taiwan Normal University. His research interest is in the area of timely, dependable, and efficient networked cyber-physical systems. He was a second lieutenant in R.O.C. Air Force in 2011 and a deacon in Taiwanese Presbyterian Church of Greater St. Louis in 2018. He is a member of IEEE, ACM, and IICM.&lt;/p&gt;
+      <description>
+
+&lt;h3 id=&#34;faculty&#34;&gt;Faculty:&lt;/h3&gt;
+
+&lt;p&gt;王超  Chao Wang&lt;br /&gt;
+&lt;img src=&#34;../../img/members/2019Dec.jpg&#34; alt=&#34;Chao&#39;s photo&#34;/&gt;
+Chao Wang is an assistant professor in the Department of Computer Science and Information Engineering, National Taiwan Normal University. His research interest is in the area of real-time, dependable, and efficient networked cyber-physical systems.&lt;/p&gt;
+
+&lt;p&gt;Chao Wang received the B.S. degree in electrical engineering in 2009 from National Cheng Kung University, Taiwan. He received the M.S. degree in computer and communication engineering in 2010 from National Cheng Kung University, Taiwan, under the direction of Professor Kuo-Feng Ssu. He received the Ph.D. degree in computer science in 2019 from Washington University in St. Louis, USA, under the direction of Professor Christopher Gill and Professor Chenyang Lu. He served as a second lieutenant in R.O.C. Air Force in 2011, and as a deacon he served in Taiwanese Presbyterian Church of Greater St. Louis, USA, in 2018. He is a member of IEEE, ACM, and IICM.&lt;/p&gt;
+
+&lt;h3 id=&#34;m-s-students&#34;&gt;M.S. Students:&lt;/h3&gt;
+
+&lt;p&gt;陳治瑋
+&lt;img src=&#34;../../img/members/david_fit.jpg&#34; alt=&#34;David&#39;s photo&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;余承恩
+&lt;img src=&#34;../../img/members/en_fit.jpg&#34; alt=&#34;En&#39;s photo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;梅志碩
+&lt;img src=&#34;../../img/members/mei_fit.jpg&#34; alt=&#34;Mei&#39;s photo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;鍾尚值
+&lt;img src=&#34;../../img/members/shang_fit.jpg&#34; alt=&#34;Shang&#39;s photo&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;b-s-students&#34;&gt;B.S. Students:&lt;/h3&gt;
+
+&lt;p&gt;呂學昊
+&lt;img src=&#34;../../img/members/lu_fit.jpg&#34; alt=&#34;Lu&#39;s photo&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
