@@ -228,6 +228,8 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;strong&gt;授課教師:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io&#34; target=&#34;_blank&#34;&gt;王超 Chao Wang&lt;/a&gt;&lt;br /&gt;
 &lt;strong&gt;課程網頁:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io/csu0007&#34; target=&#34;_blank&#34;&gt;https://wangc86.github.io/csu0007&lt;/a&gt;&lt;br /&gt;
 &lt;strong&gt;上課時間:&lt;/strong&gt; 每週一 9:10-12:10 in room C007, 公館校區&lt;br /&gt;
+&lt;strong&gt;期中考試:&lt;/strong&gt; 四月20日, in class&lt;br /&gt;
+&lt;strong&gt;期末考試:&lt;/strong&gt; 六月15日, in class&lt;br /&gt;
 &lt;strong&gt;Office Hours:&lt;/strong&gt; 每週二週三 9:10 - 11:10, in room 511, 公館校區應用科學大樓, or &lt;a href=&#34;mailto:cw@ntnu.edu.tw&#34; target=&#34;_blank&#34;&gt;by appointment&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
@@ -256,7 +258,7 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 * Participation 5%&lt;br /&gt;
 * Attendance 5%&lt;/p&gt;
 
-&lt;h2 id=&#34;course-schedule-tbd&#34;&gt;Course Schedule (TBD)&lt;/h2&gt;
+&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
@@ -264,126 +266,144 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;th&gt;#&lt;/th&gt;
 &lt;th&gt;Date&lt;/th&gt;
 &lt;th&gt;Topic&lt;/th&gt;
-&lt;th&gt;Readings&lt;/th&gt;
+&lt;th&gt;Reading&lt;/th&gt;
+&lt;th&gt;Homework&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Feb 17&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mar 2&lt;/td&gt;
+&lt;td&gt;The Circuit Abstraction&lt;/td&gt;
+&lt;td&gt;Chapter 1&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Feb 24&lt;/td&gt;
+&lt;td&gt;Mar 9&lt;/td&gt;
+&lt;td&gt;Resistive Networks (1)&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Homework 1&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;Mar 2&lt;/td&gt;
+&lt;td&gt;Mar 16&lt;/td&gt;
+&lt;td&gt;Resistive Networks (2)&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;Mar 9&lt;/td&gt;
+&lt;td&gt;Mar 23&lt;/td&gt;
+&lt;td&gt;Network Theorems&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Homework 2&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;Mar 16&lt;/td&gt;
+&lt;td&gt;Mar 30&lt;/td&gt;
+&lt;td&gt;Nonlinear Elements&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;Mar 23&lt;/td&gt;
+&lt;td&gt;Apr 13&lt;/td&gt;
+&lt;td&gt;First Review and Selected Topics&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Review Questions&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;Mar 30&lt;/td&gt;
+&lt;td&gt;Apr 20&lt;/td&gt;
+&lt;td&gt;First Exam&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;Apr 13&lt;/td&gt;
+&lt;td&gt;Apr 27&lt;/td&gt;
+&lt;td&gt;The Digital Abstraction&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;Apr 20&lt;/td&gt;
+&lt;td&gt;May 4&lt;/td&gt;
+&lt;td&gt;The MOSFET Switch&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Homework 3&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;Apr 27&lt;/td&gt;
+&lt;td&gt;May 11&lt;/td&gt;
+&lt;td&gt;The MOSFET Amplifier&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;May 4&lt;/td&gt;
+&lt;td&gt;May 18&lt;/td&gt;
+&lt;td&gt;The Small-Signal Model (1)&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Homework 4&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;May 11&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;May 18&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
 &lt;td&gt;May 25&lt;/td&gt;
+&lt;td&gt;The Small-Signal Model (2)&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;13&lt;/td&gt;
 &lt;td&gt;Jun 1&lt;/td&gt;
+&lt;td&gt;Energy Storage Elements&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Homework 5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;Jun 8&lt;/td&gt;
+&lt;td&gt;Course Review&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Review Questions&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;Jun 15&lt;/td&gt;
+&lt;td&gt;Final Exam&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;Jun 8&lt;/td&gt;
+&lt;td&gt;Jun 22&lt;/td&gt;
+&lt;td&gt;The Operational Amplifier Abstraction&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;17&lt;/td&gt;
-&lt;td&gt;Jun 15&lt;/td&gt;
+&lt;td&gt;Jun 29&lt;/td&gt;
+&lt;td&gt;Diodes&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -408,8 +428,8 @@ Please reflect on the university&amp;rsquo;s &lt;a href=&#34;http://archives.lib
 
 &lt;h2 id=&#34;homework-assignment&#34;&gt;Homework Assignment&lt;/h2&gt;
 
-&lt;p&gt;作業請一律至 &lt;a href=&#34;https://moodle.ntnu.edu.tw/&#34; target=&#34;_blank&#34;&gt;Moodle&lt;/a&gt; 繳交.&lt;br /&gt;
-Students should submit all their homework assignments via &lt;a href=&#34;https://moodle.ntnu.edu.tw/&#34; target=&#34;_blank&#34;&gt;Moodle&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;共五次作業，參閱 &lt;a href=&#34;#schedule&#34;&gt;Course Schedule&lt;/a&gt; 。作業請一律至 &lt;a href=&#34;https://moodle.ntnu.edu.tw/&#34; target=&#34;_blank&#34;&gt;Moodle&lt;/a&gt; 繳交.&lt;br /&gt;
+Five homework assignments in total. See the &lt;a href=&#34;#schedule&#34;&gt;course schedule&lt;/a&gt;. Students should submit all their homework assignments via &lt;a href=&#34;https://moodle.ntnu.edu.tw/&#34; target=&#34;_blank&#34;&gt;Moodle&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
