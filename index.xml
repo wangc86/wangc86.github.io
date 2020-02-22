@@ -6,8 +6,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Research Projects</title>
+      <link>https://wangc86.github.io/project/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://wangc86.github.io/project/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;(2020-2022) Energy-Efficient Internet-of-Things Edge Computing Architecture for Smart Cities&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(2020) Effective IoT Software Architecture Utilizing Heterogeneous Processing Resources&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(2017-2019) Fault-Tolerant Real-Time Messaging for Edge Computing&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(2015-2018) Cyber-Physical Event Processing Middleware&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(2014-2015) Safety Software Systems Design for Self-Driving Cars&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(2012-2013) Networked Virtual Worlds&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;(2009-2010) Scheduling Wireless Sensor Networks&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>CSC9006 Real-Time Systems 即時系統 (Spring 2020)</title>
@@ -38,7 +62,16 @@
 &lt;h2 id=&#34;course-syllabus&#34;&gt;Course Syllabus&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;br /&gt;
-本課程介紹即時系統領域的重要原理、系統架構、以及當前的相關研究成果和應用，透過文獻研讀及專題實作，希望能引起學生對此領域的興趣，並在未來投入相關研究應用。&lt;/p&gt;
+本課程介紹即時系統領域的重要原理、系統架構、以及當前的相關研究成果和應用。本學期課程包含以下六項主題，並著重文獻研讀 (&lt;span style=&#34;color:red&#34;&gt;Critique&lt;/span&gt;)、實作演練 (&lt;span style=&#34;color:blue&#34;&gt;Lab&lt;/span&gt;) 及團體專題 (&lt;span style=&#34;color:brown&#34;&gt;Project&lt;/span&gt;):&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Real-Time Scheduling: Theory and Practice&lt;/li&gt;
+&lt;li&gt;Real-Time Operating Systems&lt;/li&gt;
+&lt;li&gt;Real-Time Systems Engineering&lt;/li&gt;
+&lt;li&gt;Distributed Real-Time Middleware&lt;/li&gt;
+&lt;li&gt;Real-Time Edge Computing&lt;/li&gt;
+&lt;li&gt;Power and Energy Awareness in Real-Time Cyber-Physical Systems&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;br /&gt;
 此課程為大學部及碩士班合班授課，預期修課學生已具備大二以上之電腦科學與工程相關知識。具備作業系統及軟體工程概念尤佳。&lt;/p&gt;
@@ -49,152 +82,150 @@
 * Participation 5%&lt;br /&gt;
 * Attendance 5%&lt;/p&gt;
 
-&lt;h2 id=&#34;course-schedule-tbd&#34;&gt;Course Schedule (TBD)&lt;/h2&gt;
+&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
 
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th&gt;#&lt;/th&gt;
 &lt;th&gt;Date&lt;/th&gt;
 &lt;th&gt;Topic&lt;/th&gt;
-&lt;th&gt;Readings&lt;/th&gt;
+&lt;th&gt;Homework Assignment&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;Feb 20&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;Feb 27&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
 &lt;td&gt;Mar 5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Course Overview&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 0&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
 &lt;td&gt;Mar 12&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Scheduling (1)&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 1&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
 &lt;td&gt;Mar 19&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Scheduling (2);&lt;br&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Proposal Presentation&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
 &lt;td&gt;Mar 26&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Operating Systems&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 1&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Apr 2&lt;/td&gt;
+&lt;td&gt;補假&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
 &lt;td&gt;Apr 9&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Event Service&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 2&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
 &lt;td&gt;Apr 16&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 1&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
 &lt;td&gt;Apr 23&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Systems Engineering;&lt;br&gt;&lt;a href=&#34;https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html&#34; target=&#34;_blank&#34;&gt;(CPS-IoT Week)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 2 &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;10&lt;/td&gt;
 &lt;td&gt;Apr 30&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Patterns for Building Real-Time Software&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
 &lt;td&gt;May 7&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Distributed Real-Time Middleware&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 3&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
 &lt;td&gt;May 14&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 2&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
 &lt;td&gt;May 21&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Systems Validation&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 3 &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
 &lt;td&gt;May 28&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Edge Computing&lt;/td&gt;
 &lt;td&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
 &lt;td&gt;Jun 4&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time CPS: Power and Energy Awareness&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 4&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
 &lt;td&gt;Jun 11&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The Time-Triggered Architecture&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;17&lt;/td&gt;
 &lt;td&gt;Jun 18&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Final Demo&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Jun 25&lt;/td&gt;
+&lt;td&gt;端午節放假&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Jul 2&lt;/td&gt;
+&lt;td&gt;In-Class Workshop&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h2 id=&#34;textbooks-and-other-resources&#34;&gt;Textbooks and Other Resources&lt;/h2&gt;
+&lt;h2 id=&#34;textbooks-and-references&#34;&gt;Textbooks and References&lt;/h2&gt;
 
-&lt;p&gt;&lt;strong&gt;Textbooks:&lt;/strong&gt;&lt;br /&gt;
-[1] Gomaa, Hassan. &lt;em&gt;Real-Time Software Design for Embedded Systems&lt;/em&gt;. Cambridge University Press, 2016. ISBN 978-1107041097 &lt;strong&gt;(Required)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Textbooks:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;[2] Kopetz, Hermann. &lt;em&gt;Real-Time Systems: Design Principles for Distributed Embedded Applications&lt;/em&gt;. Springer; 2nd ed. 2011 edition. ISBN 978-1441982360&lt;/p&gt;
-
-&lt;p&gt;[3] McConnell, Steve. &lt;em&gt;Code Complete: A Practical Handbook of Software Construction&lt;/em&gt;. Microsoft Press; 2nd edition (June 19, 2004). ISBN 978-0735619678&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Kopetz, Hermann. &lt;em&gt;Real-Time Systems: Design Principles for Distributed Embedded Applications&lt;/em&gt;. Springer; 2nd ed. 2011 edition. ISBN 978-1441982360 (&lt;em&gt;A comprehensive treatment of the subject&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;Gomaa, Hassan. &lt;em&gt;Real-Time Software Design for Embedded Systems&lt;/em&gt;. Cambridge University Press, 2016. ISBN 978-1107041097 (&lt;em&gt;Focus on systems engineering aspects&lt;/em&gt;)&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;p&gt;&lt;a name=&#34;accessibility&#34;&gt;&lt;/a&gt;
-&lt;strong&gt;Other Resources:&lt;/strong&gt;&lt;br /&gt;
-網路上有很多相關資源，將陸續在此列舉一些參考資料:&lt;/p&gt;
+&lt;strong&gt;References:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://rt.wiki.kernel.org/index.php/Frequently_Asked_Questions&#34; target=&#34;_blank&#34;&gt;Real-Time Linux Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.grpc.io/&#34; target=&#34;_blank&#34;&gt;gRPC - A High Performance, Open-Source Universal RPC Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dre.vanderbilt.edu/~schmidt/TAO.html&#34; target=&#34;_blank&#34;&gt;The TAO Real-Time Middleware&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;McConnell, Steve. &lt;em&gt;Code Complete: A Practical Handbook of Software Construction&lt;/em&gt;. Microsoft Press; 2nd edition (June 19, 2004). ISBN 978-0735619678&lt;/li&gt;
+&lt;li&gt;T. Harrison, D. Levine, and D.C. Schmidt, &lt;em&gt;The Design and Performance of a Real-time CORBA Event Service&lt;/em&gt;, ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications, October 1997. (&lt;span style=&#34;color:red&#34;&gt;Critique 1&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;C. Wang, C. Gill and C. Lu, &lt;em&gt;Real-Time Middleware for Cyber-Physical Event Processing&lt;/em&gt;, ACM Transactions on Cyber-Physical Systems, Special Issue on Real-Time Aspects in Cyber-Physical Systems, 3(3), Article 29, August 2019.&lt;/li&gt;
+&lt;li&gt;Y. Zhang, C. Lu, C. Gill, P. Lardieri and G. Thaker, &lt;em&gt;Middleware Support for Aperiodic Tasks in Distributed Real-Time Systems&lt;/em&gt;, IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS&amp;rsquo;07), April 2007. (&lt;span style=&#34;color:red&#34;&gt;Critique 2&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;C. Lu, A. Saifullah, B. Li, M. Sha, H. Gonzalez, D. Gunatilaka, C. Wu, L. Nie and Y. Chen, &lt;em&gt;Real-Time Wireless Sensor-Actuator Networks for Industrial Cyber-Physical Systems&lt;/em&gt;, Special Issue on Industrial Cyber-Physical Systems, Proceedings of the IEEE, 104(5): 1013-1024, May 2016. (&lt;span style=&#34;color:red&#34;&gt;Critique 3&lt;/span&gt;)&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
 
@@ -810,51 +841,11 @@ Academic integrity is a key component of your education, which is for your benef
       
       <guid>https://wangc86.github.io/more/</guid>
       <description>&lt;p&gt;&amp;ldquo;The heavens declare the glory of God;&lt;br /&gt;
-&amp;emsp;    the skies proclaim the work of his hands.&lt;br /&gt;
-Day after day they pour forth speech;&lt;br /&gt;
-&amp;emsp;    night after night they reveal knowledge.&lt;br /&gt;
-They have no speech, they use no words;&lt;br /&gt;
-&amp;emsp;    no sound is heard from them.&lt;br /&gt;
-Yet their voice goes out into all the earth,&lt;br /&gt;
-&amp;emsp;    their words to the ends of the world.&lt;br /&gt;
-In the heavens God has pitched a tent for the sun.&lt;br /&gt;
-&amp;emsp;    It is like a bridegroom coming out of his chamber,&lt;br /&gt;
-&amp;emsp;    like a champion rejoicing to run his course.&lt;br /&gt;
-It rises at one end of the heavens&lt;br /&gt;
-&amp;emsp;    and makes its circuit to the other;&lt;br /&gt;
-&amp;emsp;    nothing is deprived of its warmth.&lt;/p&gt;
-
-&lt;p&gt;The law of the Lord is perfect,&lt;br /&gt;
-&amp;emsp;    refreshing the soul.&lt;br /&gt;
-The statutes of the Lord are trustworthy,&lt;br /&gt;
-&amp;emsp;    making wise the simple.&lt;br /&gt;
-The precepts of the Lord are right,&lt;br /&gt;
-&amp;emsp;    giving joy to the heart.&lt;br /&gt;
-The commands of the Lord are radiant,&lt;br /&gt;
-&amp;emsp;    giving light to the eyes.&lt;br /&gt;
-The fear of the Lord is pure,&lt;br /&gt;
-&amp;emsp;    enduring forever.&lt;br /&gt;
-The decrees of the Lord are firm,&lt;br /&gt;
-&amp;emsp;    and all of them are righteous.&lt;/p&gt;
-
-&lt;p&gt;They are more precious than gold,&lt;br /&gt;
-&amp;emsp;    than much pure gold;&lt;br /&gt;
-they are sweeter than honey,&lt;br /&gt;
-&amp;emsp;    than honey from the honeycomb.&lt;br /&gt;
-By them your servant is warned;&lt;br /&gt;
-&amp;emsp;    in keeping them there is great reward.&lt;br /&gt;
-But who can discern their own errors?&lt;br /&gt;
-&amp;emsp;    Forgive my hidden faults.&lt;br /&gt;
-Keep your servant also from willful sins;&lt;br /&gt;
-&amp;emsp;    may they not rule over me.&lt;br /&gt;
-Then I will be blameless,&lt;br /&gt;
-&amp;emsp;    innocent of great transgression.&lt;/p&gt;
-
-&lt;p&gt;May these words of my mouth and this meditation of my heart&lt;br /&gt;
-&amp;emsp;    be pleasing in your sight,&lt;br /&gt;
-&amp;emsp;    Lord, my Rock and my Redeemer.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;&amp;emsp;&amp;emsp;&amp;emsp;&lt;em&gt;- Psalm 19&lt;/em&gt;&lt;/p&gt;
+and the firmament sheweth his handywork.&lt;br /&gt;
+Day unto day uttereth speech,&lt;br /&gt;
+and night unto night sheweth knowledge.&lt;br /&gt;
+There is no speech nor language,&lt;br /&gt;
+where their voice is not heard.&amp;rdquo; &lt;em&gt;- Psalm 19:1-3&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -865,196 +856,6 @@ Then I will be blameless,&lt;br /&gt;
       
       <guid>https://wangc86.github.io/publication/frame-19/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Fault-Tolerant Real-Time Messaging for Edge Computing (2017-2019)</title>
-      <link>https://wangc86.github.io/project/ftrt/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/project/ftrt/</guid>
-      <description>&lt;p&gt;Edge computing systems should provide reliable and timely message delivery to applications. But both (1) latency discrepancies within edge clouds and (2) heterogeneous loss-tolerance and latency requirements have posed challenges for edge computing systems to serve properly in that regard. Efficiency is also critical, especially when common fault-tolerant mechanisms tend to introduce additional latency, and when cloud traffic may impede local, time-sensitive message delivery.&lt;/p&gt;
-
-&lt;p&gt;In this project, we developed a fault-tolerant real-time messaging architecture, named FRAME. FRAME addresses the above challenges and can efficiently meet different levels of message loss-tolerance requirements, mitigate latency penalties caused by fault recovery, and meet end-to-end soft deadlines during normal, fault-free operation.&lt;/p&gt;
-
-&lt;p&gt;Learn more from &lt;a href=&#34;../../pdf/icdcs19-frame.pdf&#34;&gt;our paper&lt;/a&gt; published at ICDCS 2019.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/IIoT.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/IIoT.png&#34;&gt;
-  &lt;/a&gt;
-  
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Cyber-Physical Event Processing Middleware (CPEP) (2015-2018)</title>
-      <link>https://wangc86.github.io/project/cpep/</link>
-      <pubDate>Sun, 27 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/project/cpep/</guid>
-      <description>&lt;p&gt;Cyber-physical systems (CPS) involve tight integration of cyber (computation) and physical domains, and both the effectiveness and correctness of a CPS application may rely on successful enforcement of constraints such as bounded latency and temporal validity subject to physical conditions. For many such systems (e.g., edge computing in the Industrial Internet of Things), it is desirable to enforce such constraints within a common middleware service (e.g., during event processing). In this project, we introduce &lt;em&gt;CPEP&lt;/em&gt;, a new real-time middleware for cyber-physical event processing, with&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;extensible support for complex event processing operations&lt;/li&gt;
-&lt;li&gt;execution prioritization and sharing&lt;/li&gt;
-&lt;li&gt;enforcement of time consistency with load shedding&lt;/li&gt;
-&lt;li&gt;efficient memory management and concurrent data processing&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We present the design, implementation, and empirical evaluation of CPEP and show that it can&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;support complex operations needed by many applications&lt;/li&gt;
-&lt;li&gt;schedule data processing according to consumers&amp;rsquo; priority levels&lt;/li&gt;
-&lt;li&gt;enforce temporal validity&lt;/li&gt;
-&lt;li&gt;reduce processing delay and improve throughput of time-consistent events.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We have implemented CPEP within the &lt;a href=&#34;http://www.dre.vanderbilt.edu/~schmidt/TAO.html&#34; target=&#34;_blank&#34;&gt;TAO real-time event service&lt;/a&gt;.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/cpep.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/cpep.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/eventProcessors.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/eventProcessors.png&#34;&gt;
-  &lt;/a&gt;
-  
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Safety Software Systems Design for Self-Driving Cars (2014-2015)</title>
-      <link>https://wangc86.github.io/project/safety/</link>
-      <pubDate>Sat, 02 Jun 2018 17:31:34 -0500</pubDate>
-      
-      <guid>https://wangc86.github.io/project/safety/</guid>
-      <description>&lt;p&gt;In this project, we collaborated with both the &lt;a href=&#34;https://rtg.cis.upenn.edu&#34; target=&#34;_blank&#34;&gt;Real Time Systems Group&lt;/a&gt; at the University of Pennsylvania and &lt;a href=&#34;https://www.gm.com/&#34; target=&#34;_blank&#34;&gt;General Motors&lt;/a&gt;. In particular, we studied safe software systems interaction for self-driving cars. Adaptive Cruise Control (ACC), for example, is a self-driving feature that maintains a safe distance to the leading car by managing the vehicle speed. Unintended interactions between self-driving features may occur, however, in situations such as driving on a curvy road. Changing vehicle speed may cause oversteering/understeering in the presence of another self-driving feature, called Lane-Keeping Control (LKC), which tries to steer the vehicle to make it stay in the current lane.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, there are ways to identify such interactions (e.g., ACC vs. LKC) at the design time of the self-driving features. But since at run-time some identified interactions rarely happen (which is a good thing though), it may be an overkill if we build a system that aggressively guards those conditions (for example, by restricting the allowed vehicle speed every time both ACC and LKC are functioning). A way to improve the situation is to check those rare conditions at run-time and respond with verified consolidating strategies.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Networked Virtual Worlds (2012-2013)</title>
-      <link>https://wangc86.github.io/project/nvm/</link>
-      <pubDate>Sat, 02 Jun 2018 17:30:43 -0500</pubDate>
-      
-      <guid>https://wangc86.github.io/project/nvm/</guid>
-      <description>&lt;p&gt;In 2012-2013, I worked with &lt;a href=&#34;https://www.arl.wustl.edu/~jst/&#34; target=&#34;_blank&#34;&gt;Dr. Jon Turner&lt;/a&gt; on a design and implementation of scalable networked virtual worlds, on top of the &lt;a href=&#34;https://sites.google.com/site/forestoverlaynet/&#34; target=&#34;_blank&#34;&gt;Forest Overlay Network&lt;/a&gt;. Our application aims to allow people to join a 3D virtual environment and effectively interact with others. I was working on enabling thousands of avatars to communicate within a local area (e.g., where they can see each other). This includes the design of a scalable networking architecture as well as the study of efficient multicast communcation mechanisms.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/vworld1.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/vworld1.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/vworld3.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/vworld3.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/vworld4.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/vworld4.png&#34;&gt;
-  &lt;/a&gt;
-  
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Scheduling Wireless Sensor Networks (2009-2010)</title>
-      <link>https://wangc86.github.io/project/dcls/</link>
-      <pubDate>Sat, 02 Jun 2018 17:30:13 -0500</pubDate>
-      
-      <guid>https://wangc86.github.io/project/dcls/</guid>
-      <description>&lt;p&gt;In scheduling TDMA-based wireless sensor networks, people often model the problem as certain type of &lt;a href=&#34;https://en.wikipedia.org/wiki/Graph_coloring&#34; target=&#34;_blank&#34;&gt;graph coloring&lt;/a&gt;. However, such an approach could under-utilize available bandwidth for transmission, because of a phenomenon we called &lt;em&gt;hidden square&lt;/em&gt;: Consider coloring n-by-n squares. It may be possible to color each square with additional colors while still maintaining that no adjacent square will have same color. Applied to wireless scheduling, the above observation suggests that there may be some &lt;em&gt;hidden&lt;/em&gt; time slot assignments opportunities, and with the additional slot assigned to wireless nodes one may reduce the delay for nodes to wait for next transmission.&lt;/p&gt;
-
-&lt;p&gt;This project has borne three fruits. (1) We studied the hidden square phenomenon and accordingly introduced &lt;em&gt;DCLS&lt;/em&gt;, a distributed collision-free low-latency link scheduling for wireless sensor networks. The delay performance of DCLS is asymptotically smaller than that of conventional graph coloring. (2) We further analyzed the conventional unit disk graph model, and derived the upper bound of the maximum vertex degree on vertex insertion. Potential applications include efficient local rescheduling by slot stealing, useful for wireless networks subject to dynamic changes in node connectivity (e.g., due to node mobility, failure, or re-deployment). (3) The idea of local rescheduling then was further explored by &lt;a href=&#34;https://dcl.ee.ncku.edu.tw/wordpress/?p=35&#34; target=&#34;_blank&#34;&gt;Dr. Chun-Hao Yang&lt;/a&gt; and &lt;a href=&#34;https://dcl.ee.ncku.edu.tw/wordpress/?p=71&#34; target=&#34;_blank&#34;&gt;Dr. Kuo-Feng Ssu&lt;/a&gt;, who introduced algorithms for wireless local rescheduling, along with experimental evaluation.&lt;/p&gt;
-
-&lt;p&gt;The first part of the contribution has been published in 2010, and the second and third parts have been published in 2018.&lt;/p&gt;
-
-
-
-&lt;div class=&#34;gallery&#34;&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/hidden-square.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/hidden-square.png&#34;&gt;
-  &lt;/a&gt;
-  
-  
-  
-  
-    
-      
-    
-  
-  &lt;a data-fancybox=&#34;gallery-1&#34;  href=&#34;https://wangc86.github.io/img/dcls-ijahuc.png&#34;&gt;
-    &lt;img alt=&#34;&#34; src=&#34;https://wangc86.github.io/img/dcls-ijahuc.png&#34;&gt;
-  &lt;/a&gt;
-  
-&lt;/div&gt;
-</description>
     </item>
     
     <item>
@@ -1072,6 +873,42 @@ Then I will be blameless,&lt;br /&gt;
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/publication/dcls-18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Real-Time Middleware for Cyber-Physical Event Processing</title>
+      <link>https://wangc86.github.io/publication/cpep-iwqos-17/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/cpep-iwqos-17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Dead-End Free Topology Maintenance Protocol for Geographic Forwarding in Wireless Sensor Networks</title>
+      <link>https://wangc86.github.io/publication/dftm-11/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/dftm-11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Low-Latency Link Scheduling in Wireless Sensor Networks</title>
+      <link>https://wangc86.github.io/publication/ms-thesis-10/</link>
+      <pubDate>Tue, 01 Jun 2010 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/ms-thesis-10/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Distributed Collision-Free Low-Latency Link Scheduling Scheme in Wireless Sensor Networks</title>
+      <link>https://wangc86.github.io/publication/dcls-10/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/dcls-10/</guid>
       <description></description>
     </item>
     
