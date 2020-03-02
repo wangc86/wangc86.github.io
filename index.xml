@@ -298,7 +298,7 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;th&gt;#&lt;/th&gt;
 &lt;th&gt;Date&lt;/th&gt;
 &lt;th&gt;Topic&lt;/th&gt;
-&lt;th&gt;Reading&lt;/th&gt;
+&lt;th&gt;&lt;a href=&#34;#resource&#34;&gt;Reading&lt;/a&gt;&lt;/th&gt;
 &lt;th&gt;Homework&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -307,8 +307,8 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;tr&gt;
 &lt;td&gt;1&lt;/td&gt;
 &lt;td&gt;Mar 2&lt;/td&gt;
-&lt;td&gt;The Circuit Abstraction&lt;/td&gt;
-&lt;td&gt;Chapter 1&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;lecture01.pdf&#34; target=&#34;_blank&#34;&gt;The Circuit Abstraction;&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;note1.pdf&#34; target=&#34;_blank&#34;&gt;note1&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Sec. 1.1-1.6; 1.8&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
