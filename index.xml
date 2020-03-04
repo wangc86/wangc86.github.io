@@ -74,7 +74,7 @@
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;br /&gt;
-此課程為大學部及碩士班合班授課，預期修課學生已具備大二以上之電腦科學與工程相關知識。具備作業系統及軟體工程概念尤佳。&lt;/p&gt;
+此課程為碩士班及大學部合班授課，預期修課學生已具備大三(含)以上之電腦科學與工程相關知識。課程將使用 C++ 及 Linux 作業系統。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Grading:&lt;/strong&gt;&lt;br /&gt;
 * Homework 40%&lt;br /&gt;
@@ -132,13 +132,13 @@
 
 &lt;tr&gt;
 &lt;td&gt;Apr 16&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 1&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Systems Engineering&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
-&lt;td&gt;Apr 23&lt;/td&gt;
-&lt;td&gt;Real-Time Systems Engineering;&lt;br&gt;&lt;a href=&#34;https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html&#34; target=&#34;_blank&#34;&gt;(CPS-IoT Week)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Apr 21 (TBD)&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 1&lt;/span&gt;;&lt;br&gt;&lt;a href=&#34;https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html&#34; target=&#34;_blank&#34;&gt;(CPS-IoT Week)&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 2 &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -156,13 +156,13 @@
 
 &lt;tr&gt;
 &lt;td&gt;May 14&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 2&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Systems Validation&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;May 21&lt;/td&gt;
-&lt;td&gt;Real-Time Systems Validation&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 2&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 3 &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
