@@ -127,7 +127,7 @@
 &lt;tr&gt;
 &lt;td&gt;Apr 9&lt;/td&gt;
 &lt;td&gt;Real-Time Event Service&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 2&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -138,20 +138,20 @@
 
 &lt;tr&gt;
 &lt;td&gt;Apr 23&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 1&lt;/span&gt;; &lt;a href=&#34;https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html&#34; target=&#34;_blank&#34;&gt;(CPS-IoT Week)&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 2 &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Patterns for Building Real-Time Software;&lt;br&gt;&lt;a href=&#34;https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html&#34; target=&#34;_blank&#34;&gt;(CPS-IoT Week)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 2&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Apr 30&lt;/td&gt;
-&lt;td&gt;Patterns for Building Real-Time Software&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 1&lt;/span&gt;;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;May 7&lt;/td&gt;
 &lt;td&gt;Distributed Real-Time Middleware&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 3&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 2 &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -163,7 +163,7 @@
 &lt;tr&gt;
 &lt;td&gt;May 21&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 2&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 3 &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 3 &lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -175,7 +175,7 @@
 &lt;tr&gt;
 &lt;td&gt;Jun 4&lt;/td&gt;
 &lt;td&gt;Real-Time CPS: Power and Energy Awareness&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 4&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 3&lt;/span&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
