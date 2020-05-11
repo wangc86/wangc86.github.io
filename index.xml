@@ -261,9 +261,9 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;strong&gt;課程助教:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io/bio/&#34; target=&#34;_blank&#34;&gt;余承恩&lt;/a&gt;&lt;br /&gt;
 &lt;strong&gt;課程網頁:&lt;/strong&gt; &lt;a href=&#34;https://wangc86.github.io/csu0007&#34; target=&#34;_blank&#34;&gt;https://wangc86.github.io/csu0007&lt;/a&gt;&lt;br /&gt;
 &lt;strong&gt;上課時間:&lt;/strong&gt; 每週一 9:10-12:10 in room C007, 公館校區&lt;br /&gt;
-&lt;strong&gt;期中考試:&lt;/strong&gt; 四月20日, in class&lt;br /&gt;
+&lt;strong&gt;期中考試:&lt;/strong&gt; &lt;s&gt;四月20日&lt;/s&gt;四月27日, in class&lt;br /&gt;
 &lt;strong&gt;期末考試:&lt;/strong&gt; 六月15日, in class&lt;br /&gt;
-&lt;strong&gt;Office Hours:&lt;/strong&gt; 每週二週三 9:10 - 11:10, in room 511, 公館校區應用科學大樓, or &lt;a href=&#34;mailto:cw@ntnu.edu.tw&#34; target=&#34;_blank&#34;&gt;by appointment&lt;/a&gt;&lt;/p&gt;
+&lt;strong&gt;Office Hours:&lt;/strong&gt; 每週二週三 9:10 - 11:10, 每週四 16:00-17:00, in room 511, 公館校區應用科學大樓, or &lt;a href=&#34;mailto:cw@ntnu.edu.tw&#34; target=&#34;_blank&#34;&gt;by appointment&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;contents&#34;&gt;Contents&lt;/h2&gt;
 
@@ -380,7 +380,7 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;tr&gt;
 &lt;td&gt;10&lt;/td&gt;
 &lt;td&gt;May 4&lt;/td&gt;
-&lt;td&gt;The MOSFET Switch&lt;/td&gt;
+&lt;td&gt;The MOSFET Switch (1)&lt;/td&gt;
 &lt;td&gt;Sec. 6.1-6.4; 5.5&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;homework03.pdf&#34; target=&#34;_blank&#34;&gt;Homework 3&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -388,15 +388,15 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;tr&gt;
 &lt;td&gt;11&lt;/td&gt;
 &lt;td&gt;May 11&lt;/td&gt;
-&lt;td&gt;The MOSFET Amplifier&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;The MOSFET Switch (2)&lt;/td&gt;
+&lt;td&gt;Sec. 6.5-6.8&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;12&lt;/td&gt;
 &lt;td&gt;May 18&lt;/td&gt;
-&lt;td&gt;The Small-Signal Model (1)&lt;/td&gt;
+&lt;td&gt;The MOSFET Amplifier&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Homework 4&lt;/td&gt;
 &lt;/tr&gt;
@@ -404,7 +404,7 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;tr&gt;
 &lt;td&gt;13&lt;/td&gt;
 &lt;td&gt;May 25&lt;/td&gt;
-&lt;td&gt;The Small-Signal Model (2)&lt;/td&gt;
+&lt;td&gt;The Small-Signal Model (1)&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -412,7 +412,7 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;tr&gt;
 &lt;td&gt;14&lt;/td&gt;
 &lt;td&gt;Jun 1&lt;/td&gt;
-&lt;td&gt;Energy Storage Elements&lt;/td&gt;
+&lt;td&gt;The Small-Signal Model (2)&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Homework 5&lt;/td&gt;
 &lt;/tr&gt;
@@ -420,9 +420,9 @@ Students should submit all their homework assignments via &lt;a href=&#34;https:
 &lt;tr&gt;
 &lt;td&gt;15&lt;/td&gt;
 &lt;td&gt;Jun 8&lt;/td&gt;
-&lt;td&gt;Course Review&lt;/td&gt;
+&lt;td&gt;Energy Storage Elements&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Review Questions&lt;/td&gt;
+&lt;td&gt;Bonus Homework&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
