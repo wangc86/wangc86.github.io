@@ -90,6 +90,7 @@
 &lt;th&gt;Date&lt;/th&gt;
 &lt;th&gt;Topic&lt;/th&gt;
 &lt;th&gt;Homework Assignment&lt;/th&gt;
+&lt;th&gt;Related Material&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 
@@ -98,17 +99,20 @@
 &lt;td&gt;Mar 5&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;overview.pdf&#34; target=&#34;_blank&#34;&gt;Course Overview&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;lab0.pdf&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 0&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Mar 12&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;scheduling1.pdf&#34; target=&#34;_blank&#34;&gt;Real-Time Scheduling (1)&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://github.com/wangc86/csc9006&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 1&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Mar 19&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;scheduling2.pdf&#34; target=&#34;_blank&#34;&gt;Real-Time Scheduling (2)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -116,11 +120,13 @@
 &lt;td&gt;Mar 26&lt;/td&gt;
 &lt;td&gt;Real-Time Operating Systems;&lt;br&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Proposal Presentation&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 1&lt;/span&gt;&lt;br&gt;&lt;a href=&#34;critique_guideline.pdf&#34; target=&#34;_blank&#34;&gt;(guideline)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Apr 2&lt;/td&gt;
 &lt;td&gt;補假&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -128,59 +134,69 @@
 &lt;td&gt;Apr 9&lt;/td&gt;
 &lt;td&gt;Real-Time Event Service&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Apr 16&lt;/td&gt;
 &lt;td&gt;Real-Time Systems Engineering&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Apr 23&lt;/td&gt;
-&lt;td&gt;Patterns for Building Real-Time Software;&lt;br&gt;&lt;a href=&#34;https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html&#34; target=&#34;_blank&#34;&gt;(CPS-IoT Week)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Real-Time Multi-threaded Programming;&lt;br&gt;&lt;a href=&#34;https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html&#34; target=&#34;_blank&#34;&gt;(CPS-IoT Week)&lt;/a&gt;&lt;/td&gt;
 &lt;td&gt;&lt;a href=&#34;https://github.com/wangc86/csc9006&#34; target=&#34;_blank&#34;&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 2&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://resources.oreilly.com/examples/9781565921153/&#34; target=&#34;_blank&#34;&gt;example code&lt;/a&gt;;&lt;br&gt;&lt;a href=&#34;https://randu.org/tutorials/threads/&#34; target=&#34;_blank&#34;&gt;pthreads tutorial&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Apr 30&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 1&lt;/span&gt;;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;May 7&lt;/td&gt;
-&lt;td&gt;Distributed Real-Time Middleware&lt;/td&gt;
+&lt;td&gt;Serving Periodic/Aperiodic Real-Time Tasks&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 2 &lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Textbook 3, Sections 5.1-5.4; 5.6&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;May 14&lt;/td&gt;
-&lt;td&gt;Real-Time Systems Validation&lt;/td&gt;
+&lt;td&gt;Patterns for Building RealTime Software&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Textbook 2, Chapter 11&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;May 21&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Demo 2&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;May 28&lt;/td&gt;
-&lt;td&gt;Real-Time Edge Computing&lt;/td&gt;
+&lt;td&gt;Fault-Tolerant Real-Time Messaging&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Lab 3&lt;/span&gt;&lt;a name=&#34;resource&#34;&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Reference 9&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Jun 4&lt;/td&gt;
 &lt;td&gt;Real-Time CPS: Power and Energy Awareness&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:red&#34;&gt;Critique 3&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Jun 11&lt;/td&gt;
 &lt;td&gt;The Time-Triggered Architecture&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
@@ -188,17 +204,20 @@
 &lt;td&gt;Jun 18&lt;/td&gt;
 &lt;td&gt;&lt;span style=&#34;color:brown&#34;&gt;Project Final Demo&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Jun 25&lt;/td&gt;
 &lt;td&gt;端午節放假&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
 &lt;td&gt;Jul 2&lt;/td&gt;
 &lt;td&gt;In-Class Workshop&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -226,6 +245,7 @@
 &lt;li&gt;C. Wang, C. Gill and C. Lu, &lt;em&gt;Real-Time Middleware for Cyber-Physical Event Processing&lt;/em&gt;, ACM Transactions on Cyber-Physical Systems, Special Issue on Real-Time Aspects in Cyber-Physical Systems, 3(3), Article 29, August 2019.&lt;/li&gt;
 &lt;li&gt;Y. Zhang, C. Lu, C. Gill, P. Lardieri and G. Thaker, &lt;em&gt;Middleware Support for Aperiodic Tasks in Distributed Real-Time Systems&lt;/em&gt;, IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS&amp;rsquo;07), April 2007. (&lt;span style=&#34;color:red&#34;&gt;Critique 2&lt;/span&gt;)&lt;/li&gt;
 &lt;li&gt;C. Lu, A. Saifullah, B. Li, M. Sha, H. Gonzalez, D. Gunatilaka, C. Wu, L. Nie and Y. Chen, &lt;em&gt;Real-Time Wireless Sensor-Actuator Networks for Industrial Cyber-Physical Systems&lt;/em&gt;, Special Issue on Industrial Cyber-Physical Systems, Proceedings of the IEEE, 104(5): 1013-1024, May 2016. (&lt;span style=&#34;color:red&#34;&gt;Critique 3&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;C. Wang, C. Gill, and C. Lu, &lt;em&gt;FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing&lt;/em&gt;, IEEE 39th International Conference on Distributed Computing Systems (ICDCS), 2019, pp. 976-985&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&#34;accessibility&#34;&gt;Accessibility&lt;/h2&gt;
