@@ -6,8 +6,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0800</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Adaptive Data Replication in Real-Time Reliable Edge Computing for Internet of Things</title>
+      <link>https://wangc86.github.io/publication/arrec-20/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://wangc86.github.io/publication/arrec-20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Research Projects</title>
@@ -953,15 +962,6 @@ the heart of the contrite ones.&amp;rdquo; &lt;em&gt;- Isaiah 57:15&lt;/em&gt;&l
       <pubDate>Tue, 01 Jun 2010 00:00:00 +0800</pubDate>
       
       <guid>https://wangc86.github.io/publication/ms-thesis-10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Distributed Collision-Free Low-Latency Link Scheduling Scheme in Wireless Sensor Networks</title>
-      <link>https://wangc86.github.io/publication/dcls-10/</link>
-      <pubDate>Thu, 01 Apr 2010 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/publication/dcls-10/</guid>
       <description></description>
     </item>
     
