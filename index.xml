@@ -25,7 +25,9 @@
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/project/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;../publication/&#34;&gt;Link to a list of publications.&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;&lt;p&gt;(2020-2022) Energy-Efficient Internet-of-Things Edge Computing Architecture for Smart Cities&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;(2020) Effective IoT Software Architecture Utilizing Heterogeneous Processing Resources&lt;/p&gt;&lt;/li&gt;
@@ -510,17 +512,40 @@ Five homework assignments in total. See the &lt;a href=&#34;#schedule&#34;&gt;co
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/courses/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../img/ntnu_logo.png&#34; alt=&#34;NTNU logo&#34; /&gt;&lt;/p&gt;
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;../../img/ntnu_logo.png&#34; alt=&#34;NTNU logo&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;基礎電子學-basic-electronics-csu0007&#34;&gt;基礎電子學  Basic Electronics &lt;em&gt;(CSU0007)&lt;/em&gt;&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;CSU0007 基礎電子學 Basic Electronics
-(&lt;a href=&#34;../csu0007&#34;&gt;spring 2020&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;fall 2020&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../csu0007&#34;&gt;spring 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;&lt;p&gt;CSC0056 資料通訊 Data Communication
-(&lt;a href=&#34;../csc0056&#34;&gt;fall 2019&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;h3 id=&#34;基礎電子學實驗-basic-electronics-laboratory-csu0008&#34;&gt;基礎電子學實驗  Basic Electronics Laboratory &lt;em&gt;(CSU0008)&lt;/em&gt;&lt;/h3&gt;
 
-&lt;li&gt;&lt;p&gt;CSC9006 即時系統 Real-Time Systems
-(&lt;a href=&#34;../csc9006&#34;&gt;spring 2020&lt;/a&gt;)&lt;/p&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;fall 2020&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;資料通訊-data-communication-csc0056&#34;&gt;資料通訊  Data Communication &lt;em&gt;(CSC0056)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fall 2020&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../csc0056&#34;&gt;fall 2019&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;即時系統-real-time-systems-csc9006&#34;&gt;即時系統  Real-Time Systems &lt;em&gt;(CSC9006)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../csc9006&#34;&gt;spring 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;資訊系統專論-一-special-topic-information-systems-1-csc0065&#34;&gt;資訊系統專論 (一)  Special Topic: Information Systems (1) &lt;em&gt;(CSC0065)&lt;/em&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;fall 2020&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -880,32 +905,7 @@ Academic integrity is a key component of your education, which is for your benef
       <pubDate>Thu, 18 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://wangc86.github.io/more/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../img/slam2016_wide.jpg&#34; alt=&#34;In front of Saint Louis Art Museum, 2016&#34;/&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;The heavens declare the glory of God;&lt;br /&gt;
-and the firmament sheweth his handywork.&lt;br /&gt;
-Day unto day uttereth speech,&lt;br /&gt;
-and night unto night sheweth knowledge.&lt;br /&gt;
-There is no speech nor language,&lt;br /&gt;
-where their voice is not heard.&amp;rdquo; &lt;em&gt;- Psalm 19:1-3&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;For thus saith the high and lofty One&lt;br /&gt;
-that inhabiteth eternity, whose name&lt;br /&gt;
-is Holy; I dwell in the high and holy&lt;br /&gt;
-place, with him also that is of a&lt;br /&gt;
-contrite and humble spirit, to revive&lt;br /&gt;
-the spirit of the humble, and to revive&lt;br /&gt;
-the heart of the contrite ones.&amp;rdquo; &lt;em&gt;- Isaiah 57:15&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;rdquo;&amp;hellip;他屢次搭救他們，&lt;br /&gt;
-他們卻設謀背逆，&lt;br /&gt;
-因自己的罪孽降為卑下。&lt;br /&gt;
-然而，他聽見他們哀告的時候，&lt;br /&gt;
-就眷顧他們的急難，&lt;br /&gt;
-為他們紀念他的約，&lt;br /&gt;
-照他豐盛的慈愛後悔。&amp;rdquo; &lt;em&gt;- 詩篇 106:43-45&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;ldquo;因我們神憐憫的心腸，&lt;br /&gt;
+      <description>&lt;p&gt;&amp;ldquo;因我們神憐憫的心腸，&lt;br /&gt;
 叫清晨的日光從高天臨到我們，&lt;br /&gt;
 要照亮坐在黑暗中死蔭裡的人，&lt;br /&gt;
 把我們的腳引到平安的路上。&amp;rdquo; &lt;em&gt;- 路加福音 1:78-79&lt;/em&gt;&lt;/p&gt;
