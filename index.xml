@@ -566,22 +566,68 @@ Chao Wang is an assistant professor in the &lt;a href=&#34;https://www.csie.ntnu
 
 &lt;p&gt;Chao Wang received the B.S. degree in electrical engineering in 2009 from &lt;a href=&#34;https://web.ncku.edu.tw/&#34; target=&#34;_blank&#34;&gt;National Cheng Kung University&lt;/a&gt;, Taiwan, the M.S. degree in computer and communication engineering in 2010 from National Cheng Kung University, Taiwan, under the direction of Professor &lt;a href=&#34;https://dcl.ee.ncku.edu.tw/wordpress/?p=71&#34; target=&#34;_blank&#34;&gt;Kuo-Feng Ssu&lt;/a&gt;, and the Ph.D. degree in computer science in 2019 from &lt;a href=&#34;https://wustl.edu/&#34; target=&#34;_blank&#34;&gt;Washington University in St. Louis&lt;/a&gt;, USA, under the direction of Professor &lt;a href=&#34;https://www.cse.wustl.edu/~cdgill/&#34; target=&#34;_blank&#34;&gt;Christopher Gill&lt;/a&gt; and Professor &lt;a href=&#34;https://www.cse.wustl.edu/~lu/&#34; target=&#34;_blank&#34;&gt;Chenyang Lu&lt;/a&gt;. He is a member of &lt;a href=&#34;https://www.ieee.org/&#34; target=&#34;_blank&#34;&gt;IEEE&lt;/a&gt;, &lt;a href=&#34;https://www.acm.org/&#34; target=&#34;_blank&#34;&gt;ACM&lt;/a&gt;, &lt;a href=&#34;http://iicm.org.tw/&#34; target=&#34;_blank&#34;&gt;IICM&lt;/a&gt;, and &lt;a href=&#34;https://chineseai.weebly.com/&#34; target=&#34;_blank&#34;&gt;AIoT Society&lt;/a&gt;.&lt;/p&gt;
 
+&lt;style type=&#34;text/css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;!--
+divMy {
+        height: 300px;
+        width: 230px;
+        margin: 5px;
+        float: left;
+}
+--&gt;
+&lt;/style&gt;
+
 &lt;h3 id=&#34;m-s-students&#34;&gt;M.S. Students:&lt;/h3&gt;
 
-&lt;p&gt;陳治瑋  David Cheng
-&lt;img src=&#34;../../img/members/david_fit.jpg&#34; alt=&#34;David&#39;s photo&#34;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;divMy&gt;
+陳治瑋&lt;br&gt;
+David Cheng
+&lt;img src=&#34;../../img/members/david_fit.jpg&#34; alt=&#34;David&#39;s photo&#34; /&gt;&lt;br /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
 
-&lt;p&gt;余承恩  Chengen Yu
-&lt;img src=&#34;../../img/members/en_fit.jpg&#34; alt=&#34;En&#39;s photo&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;divMy&gt;
+余承恩&lt;br&gt;
+Chengen Yu
+&lt;img src=&#34;../../img/members/en_fit.jpg&#34; alt=&#34;Chengen&#39;s photo&#34; /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
 
-&lt;p&gt;梅志碩  Eric Mei
-&lt;img src=&#34;../../img/members/mei_fit.jpg&#34; alt=&#34;Mei&#39;s photo&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;divMy&gt;
+梅志碩&lt;br&gt;
+Eric Mei
+&lt;img src=&#34;../../img/members/mei_fit.jpg&#34; alt=&#34;Eric&#39;s photo&#34; /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
 
-&lt;p&gt;鍾尚值  Shang-Chih Zhong
-&lt;img src=&#34;../../img/members/shang_fit.jpg&#34; alt=&#34;Shang&#39;s photo&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;divMy&gt;
+鍾尚值&lt;br&gt;
+Shang-Chih Zhong
+&lt;img src=&#34;../../img/members/shang_fit.jpg&#34; alt=&#34;Shang&#39;s photo&#34; /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
 
-&lt;p&gt;林政佑  Nick Lin
-&lt;img src=&#34;../../img/members/nick_fit.jpg&#34; alt=&#34;Nick&#39;s photo&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;divMy&gt;
+林政佑&lt;br&gt;
+Nick Lin
+&lt;img src=&#34;../../img/members/nick_fit.jpg&#34; alt=&#34;Nick&#39;s photo&#34; /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;divMy&gt;
+彭成聖&lt;br&gt;
+ChengSheng Peng
+&lt;img src=&#34;../../img/members/peng_fit.jpg&#34; alt=&#34;ChengSheng&#39;s photo&#34; /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;divMy&gt;
+李奕萱&lt;br&gt;
+Yih-Shiuan Lee
+&lt;img src=&#34;../../img/members/shiuan_fit.jpg&#34; alt=&#34;Yih-Shiuan&#39;s photo&#34; /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;divMy&gt;
+莊承勳&lt;br&gt;
+Cheng-Husn Chuang
+&lt;img src=&#34;../../img/members/lawrence_fit.jpg&#34; alt=&#34;Cheng-Husn&#39;s photo&#34; /&gt;
+&lt;/divMy&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br style=&#34;clear:both&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;b-s-students&#34;&gt;B.S. Students:&lt;/h3&gt;
 
