@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>K. Ssu | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
+    <link>https://wangc86.github.io/author/k.-ssu/</link>
+      <atom:link href="https://wangc86.github.io/author/k.-ssu/index.xml" rel="self" type="application/rss+xml" />
+    <description>K. Ssu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wangc86.github.io/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_300x300_fit_lanczos_2.png</url>
+      <title>K. Ssu</title>
+      <link>https://wangc86.github.io/author/k.-ssu/</link>
+    </image>
+    
+    <item>
+      <title>A Dead-End Free Topology Maintenance Protocol for Geographic Forwarding in Wireless Sensor Networks</title>
+      <link>https://wangc86.github.io/publication/tc11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://wangc86.github.io/publication/tc11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Distributed Collision-Free Low-Latency Link Scheduling Scheme in Wireless Sensor Networks</title>
+      <link>https://wangc86.github.io/publication/wcnc10/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>https://wangc86.github.io/publication/wcnc10/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

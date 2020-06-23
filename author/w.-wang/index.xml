@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>W. Wang | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
+    <link>https://wangc86.github.io/author/w.-wang/</link>
+      <atom:link href="https://wangc86.github.io/author/w.-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>W. Wang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wangc86.github.io/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_300x300_fit_lanczos_2.png</url>
+      <title>W. Wang</title>
+      <link>https://wangc86.github.io/author/w.-wang/</link>
+    </image>
+    
+    <item>
+      <title>A Dead-End Free Topology Maintenance Protocol for Geographic Forwarding in Wireless Sensor Networks</title>
+      <link>https://wangc86.github.io/publication/tc11/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://wangc86.github.io/publication/tc11/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

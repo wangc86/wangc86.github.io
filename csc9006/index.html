@@ -1,30 +1,33 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
+
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.40.1" />
-  <meta name="author" content="NCL">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
 
   
   
   
   
+  
     
-      
+    
     
   
-  <meta name="description" content="課程名稱: CSC9006 Real-Time Systems 即時系統
-授課教師: 王超
-課程網頁: https://wangc86.github.io/csc9006
-上課時間: 每週四 9:10-12:10 in room S403, 公館校區
-Office Hours: 每週二週三 9:10 - 11:10, in room 511, 公館校區應用科學大樓, or by appointment
-Contents  Course Syllabus  Course Schedule Textbooks and Other Resources Accessibility Academic Integrity Homework Assignment  Course Syllabus Description:
-本課程介紹即時系統領域的重要原理、系統架構、以及當前的相關研究成果和應用。本學期課程包含以下六項主題，並著重文獻研讀 (Critique)、實作演練 (Lab) 及團體專題 (Project):
- Real-Time Scheduling: Theory and Practice Real-Time Operating Systems Real-Time Systems Engineering Distributed Real-Time Middleware Real-Time Edge Computing Power and Energy Awareness in Real-Time Cyber-Physical Systems  Prerequisites:">
+  
+
+  <meta name="author" content="王超 Chao Wang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Assistant Professor">
 
   
   <link rel="alternate" hreflang="en-us" href="https://wangc86.github.io/csc9006/">
@@ -33,326 +36,550 @@ Contents  Course Syllabus  Course Schedule Textbooks and Other Resources Accessi
 
 
   
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
 
   
   
-  <meta name="theme-color" content="#0095eb">
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
   
   
   
   
     
-  
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
     
     
       
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+    
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
       
     
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
-  
-  
-  
-  
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
-  
-  <link rel="stylesheet" href="/styles.css">
-  
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
 
   
 
   
-  <link rel="alternate" href="https://wangc86.github.io/index.xml" type="application/rss+xml" title="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
-  <link rel="feed" href="https://wangc86.github.io/index.xml" type="application/rss+xml" title="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+  <link rel="alternate" href="/csc9006/index.xml" type="application/rss+xml" title="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://wangc86.github.io/csc9006/">
 
-  <meta property="twitter:card" content="summary_large_image">
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
   <meta property="og:url" content="https://wangc86.github.io/csc9006/">
   <meta property="og:title" content="CSC9006 Real-Time Systems 即時系統 (Spring 2020) | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
-  <meta property="og:description" content="課程名稱: CSC9006 Real-Time Systems 即時系統
-授課教師: 王超
-課程網頁: https://wangc86.github.io/csc9006
-上課時間: 每週四 9:10-12:10 in room S403, 公館校區
-Office Hours: 每週二週三 9:10 - 11:10, in room 511, 公館校區應用科學大樓, or by appointment
-Contents  Course Syllabus  Course Schedule Textbooks and Other Resources Accessibility Academic Integrity Homework Assignment  Course Syllabus Description:
-本課程介紹即時系統領域的重要原理、系統架構、以及當前的相關研究成果和應用。本學期課程包含以下六項主題，並著重文獻研讀 (Critique)、實作演練 (Lab) 及團體專題 (Project):
- Real-Time Scheduling: Theory and Practice Real-Time Operating Systems Real-Time Systems Engineering Distributed Real-Time Middleware Real-Time Edge Computing Power and Energy Awareness in Real-Time Cyber-Physical Systems  Prerequisites:">
-  <meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://wangc86.github.io/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_300x300_fit_lanczos_2.png">
+  <meta property="twitter:image" content="https://wangc86.github.io/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2020-01-06T00:00:00&#43;00:00">
-  
-  <meta property="article:modified_time" content="2020-01-06T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2020-01-06T00:00:00&#43;00:00">
   
 
   
+
+
+
+
+  
+
+
+  
+
+
+
+
 
   <title>CSC9006 Real-Time Systems 即時系統 (Spring 2020) | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
-<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
-    <div class="navbar-header">
-      
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-              data-target=".navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      
-      <a class="navbar-brand" href="/"><img src="/img/ncl_logo_with_txt.png" alt="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering"></a>
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_0x70_resize_lanczos_2.png" alt="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering"></a>
     </div>
+    
 
     
-    <div class="collapse navbar-collapse">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
 
-      
-      
-      <ul class="nav navbar-nav navbar-left">
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#about">
-            
-            <span>Home</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-
-        <li class="nav-item">
-          <a href="/bio/">
-            
-            <span>Team</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/courses/">
-            
-            <span>Teaching</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/project/">
-            
-            <span>Research</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/#contact">
-            
-            <span>Contact</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-        
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a href="/more/">
-            
-            <span>More</span>
-            
-          </a>
-        </li>
-
-        
-        
-      
-
-      
-      </ul>
-
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_0x70_resize_lanczos_2.png" alt="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering"></a>
     </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/project"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/more"><span>More</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
-<article class="article" itemscope itemtype="http://schema.org/Article">
-
   
 
 
-  <div class="article-container">
-    <h1 itemprop="name">CSC9006 Real-Time Systems 即時系統 (Spring 2020)</h1>
 
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
     
-
-<div class="article-metadata">
-
-  <span class="article-date">
-    
-    <time datetime="2020-01-06 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Jan 6, 2020
-    </time>
-  </span>
-  <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="NCL">
-  </span>
+  
+<div class="universal-wrapper pt-3">
+  <h1>CSC9006 Real-Time Systems 即時系統 (Spring 2020)</h1>
 
   
 
   
-  
-
-  
-
-  
-  
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=CSC9006%20Real-Time%20Systems%20%e5%8d%b3%e6%99%82%e7%b3%bb%e7%b5%b1%20%28Spring%202020%29&amp;url=https%3a%2f%2fwangc86.github.io%2fcsc9006%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwangc86.github.io%2fcsc9006%2f"
-         target="_blank" rel="noopener">
-        <i class="fa fa-facebook"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwangc86.github.io%2fcsc9006%2f&amp;title=CSC9006%20Real-Time%20Systems%20%e5%8d%b3%e6%99%82%e7%b3%bb%e7%b5%b1%20%28Spring%202020%29"
-         target="_blank" rel="noopener">
-        <i class="fa fa-linkedin"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwangc86.github.io%2fcsc9006%2f&amp;title=CSC9006%20Real-Time%20Systems%20%e5%8d%b3%e6%99%82%e7%b3%bb%e7%b5%b1%20%28Spring%202020%29"
-         target="_blank" rel="noopener">
-        <i class="fa fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=CSC9006%20Real-Time%20Systems%20%e5%8d%b3%e6%99%82%e7%b3%bb%e7%b5%b1%20%28Spring%202020%29&amp;body=https%3a%2f%2fwangc86.github.io%2fcsc9006%2f">
-        <i class="fa fa-envelope"></i>
-      </a>
-    </li>
-  </ul>
 </div>
 
 
+
+<div class="universal-wrapper">
   
-
-</div>
-
-
-    <div class="article-style" itemprop="articleBody">
-      
-
-<p><img src="../../img/ntnu_logo.png" alt="NTNU logo" />
-<strong>課程名稱:</strong> CSC9006 Real-Time Systems 即時系統<br />
-<strong>授課教師:</strong> <a href="https://wangc86.github.io/bio/" target="_blank">王超</a><br />
-<strong>課程網頁:</strong> <a href="https://wangc86.github.io/csc9006" target="_blank">https://wangc86.github.io/csc9006</a><br />
-<strong>上課時間:</strong> 每週四 9:10-12:10 in room S403, 公館校區<br />
-<strong>Office Hours:</strong> 每週二週三 9:10 - 11:10, in room 511, 公館校區應用科學大樓, or <a href="mailto:cw@ntnu.edu.tw" target="_blank">by appointment</a></p>
-
+  <div class="article-style"><p><img src="../../img/ntnu_logo.png" alt="NTNU logo"></p>
+<p><strong>課程名稱:</strong> CSC9006 Real-Time Systems 即時系統<br>
+<strong>授課教師:</strong> 
+<a href="../../#people">王超</a><br>
+<strong>課程網頁:</strong> <a href="https://wangc86.github.io/csc9006">https://wangc86.github.io/csc9006</a><br>
+<strong>上課時間:</strong> 每週四 9:10-12:10 in room S403, 公館校區<br>
+<strong>Office Hours:</strong> 每週二週三 9:10 - 11:10, in room 511, 公館校區應用科學大樓, or 
+<a href="mailto:cw@ntnu.edu.tw">by appointment</a></p>
 <h2 id="contents">Contents</h2>
-
 <ul>
-<li><a href="#syllabus">Course Syllabus</a> <a name="syllabus"></a></li>
-<li><a href="#schedule">Course Schedule</a></li>
-<li><a href="#resource">Textbooks and Other Resources</a></li>
-<li><a href="#accessibility">Accessibility</a></li>
-<li><a href="#accessibility">Academic Integrity</a></li>
-<li><a href="#hw">Homework Assignment</a></li>
+<li>
+<a href="#syllabus">Course Syllabus</a> <a name="syllabus"></a></li>
+<li>
+<a href="#schedule">Course Schedule</a></li>
+<li>
+<a href="#resource">Textbooks and Other Resources</a></li>
+<li>
+<a href="#accessibility">Accessibility</a></li>
+<li>
+<a href="#accessibility">Academic Integrity</a></li>
+<li>
+<a href="#hw">Homework Assignment</a></li>
 </ul>
-
 <h2 id="course-syllabus">Course Syllabus</h2>
-
-<p><strong>Description:</strong><br />
+<p><strong>Description:</strong><br>
 本課程介紹即時系統領域的重要原理、系統架構、以及當前的相關研究成果和應用。本學期課程包含以下六項主題，並著重文獻研讀 (<span style="color:red">Critique</span>)、實作演練 (<span style="color:blue">Lab</span>) 及團體專題 (<span style="color:brown">Project</span>):</p>
-
 <ol>
 <li>Real-Time Scheduling: Theory and Practice</li>
 <li>Real-Time Operating Systems</li>
@@ -361,18 +588,16 @@ Contents  Course Syllabus  Course Schedule Textbooks and Other Resources Accessi
 <li>Real-Time Edge Computing</li>
 <li>Power and Energy Awareness in Real-Time Cyber-Physical Systems</li>
 </ol>
-
-<p><strong>Prerequisites:</strong><br />
+<p><strong>Prerequisites:</strong><br>
 此課程為碩士班及大學部合班授課，預期修課學生已具備大三(含)以上之電腦科學與工程相關知識。課程將使用 C++ 及 Linux 作業系統。</p>
-
-<p><strong>Grading:</strong><br />
-* Homework 40%<br />
-* Project 50%<a name="schedule"></a><br />
-* Participation 5%<br />
-* Attendance 5%</p>
-
+<p><strong>Grading:</strong></p>
+<ul>
+<li>Homework 40%</li>
+<li>Project 50%<a name="schedule"></a></li>
+<li>Participation 5%</li>
+<li>Attendance 5%</li>
+</ul>
 <h2 id="course-schedule">Course Schedule</h2>
-
 <table>
 <thead>
 <tr>
@@ -382,127 +607,120 @@ Contents  Course Syllabus  Course Schedule Textbooks and Other Resources Accessi
 <th>Related Material</th>
 </tr>
 </thead>
-
 <tbody>
 <tr>
 <td>Mar 5</td>
-<td><a href="overview.pdf" target="_blank">Course Overview</a></td>
-<td><a href="lab0.pdf" target="_blank"><span style="color:blue">Lab 0</span></a></td>
+<td>
+<a href="overview.pdf">Course Overview</a></td>
+<td>
+<a href="lab0.pdf"><span style="color:blue">Lab 0</span></a></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Mar 12</td>
-<td><a href="scheduling1.pdf" target="_blank">Real-Time Scheduling (1)</a></td>
-<td><a href="https://github.com/wangc86/csc9006" target="_blank"><span style="color:blue">Lab 1</span></a></td>
+<td>
+<a href="scheduling1.pdf">Real-Time Scheduling (1)</a></td>
+<td>
+<a href="https://github.com/wangc86/csc9006" target="_blank" rel="noopener"><span style="color:blue">Lab 1</span></a></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Mar 19</td>
-<td><a href="scheduling2.pdf" target="_blank">Real-Time Scheduling (2)</a></td>
+<td>
+<a href="scheduling2.pdf">Real-Time Scheduling (2)</a></td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Mar 26</td>
 <td>Real-Time Operating Systems;<br><span style="color:brown">Project Proposal Presentation</span></td>
-<td><span style="color:red">Critique 1</span><br><a href="critique_guideline.pdf" target="_blank">(guideline)</a></td>
+<td><span style="color:red">Critique 1</span><br>
+<a href="critique_guideline.pdf">(guideline)</a></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Apr 2</td>
 <td>補假</td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Apr 9</td>
 <td>Real-Time Event Service</td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Apr 16</td>
 <td>Real-Time Systems Engineering</td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Apr 23</td>
-<td>Real-Time Multi-threaded Programming;<br><a href="https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html" target="_blank">(CPS-IoT Week)</a></td>
-<td><a href="https://github.com/wangc86/csc9006" target="_blank"><span style="color:blue">Lab 2</span></a></td>
-<td><a href="https://resources.oreilly.com/examples/9781565921153/" target="_blank">example code</a>;<br><a href="https://randu.org/tutorials/threads/" target="_blank">pthreads tutorial</a></td>
+<td>Real-Time Multi-threaded Programming;<br>
+<a href="https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html" target="_blank" rel="noopener">(CPS-IoT Week)</a></td>
+<td>
+<a href="https://github.com/wangc86/csc9006" target="_blank" rel="noopener"><span style="color:blue">Lab 2</span></a></td>
+<td>
+<a href="https://resources.oreilly.com/examples/9781565921153/" target="_blank" rel="noopener">example code</a>;<br>
+<a href="https://randu.org/tutorials/threads/" target="_blank" rel="noopener">pthreads tutorial</a></td>
 </tr>
-
 <tr>
 <td>Apr 30</td>
 <td><span style="color:brown">Project Demo 1</span>;</td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>May 7</td>
 <td>Serving Periodic/Aperiodic Real-Time Tasks</td>
 <td><span style="color:red">Critique 2 </span></td>
 <td>Textbook 3, Sections 5.1-5.4; 5.6</td>
 </tr>
-
 <tr>
 <td>May 14</td>
 <td>Patterns for Building RealTime Software</td>
 <td></td>
 <td>Textbook 2, Chapter 11</td>
 </tr>
-
 <tr>
 <td>May 21</td>
 <td><span style="color:brown">Project Demo 2</span></td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>May 28</td>
 <td>Fault-Tolerant Real-Time Messaging</td>
-<td><a href="https://github.com/wangc86/csc9006" target="_blank"><span style="color:blue">Lab 3</span></a><a name="resource"></a></td>
+<td>
+<a href="https://github.com/wangc86/csc9006" target="_blank" rel="noopener"><span style="color:blue">Lab 3</span></a><a name="resource"></a></td>
 <td>Reference 9</td>
 </tr>
-
 <tr>
 <td>Jun 4</td>
 <td>Real-Time CPS: Power and Energy Awareness</td>
 <td><span style="color:red">Critique 3</span></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Jun 11</td>
 <td>The Time-Triggered Architecture</td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Jun 18</td>
 <td><span style="color:brown">Project Final Demo</span></td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Jun 25</td>
 <td>端午節放假</td>
 <td></td>
 <td></td>
 </tr>
-
 <tr>
 <td>Jul 2</td>
 <td>In-Class Workshop</td>
@@ -511,104 +729,218 @@ Contents  Course Syllabus  Course Schedule Textbooks and Other Resources Accessi
 </tr>
 </tbody>
 </table>
-
 <h2 id="textbooks-and-references">Textbooks and References</h2>
-
 <p><strong>Textbooks:</strong></p>
-
 <ol>
 <li>Kopetz, Hermann. <em>Real-Time Systems: Design Principles for Distributed Embedded Applications</em>. Springer; 2nd ed. 2011 edition. ISBN 978-1441982360 (<em>A comprehensive treatment of the subject</em>)</li>
 <li>Gomaa, Hassan. <em>Real-Time Software Design for Embedded Systems</em>. Cambridge University Press, 2016. ISBN 978-1107041097 (<em>Focus on systems engineering aspects</em>)</li>
-<li>Buttazzo, Giorgio C. <em>Hard Real-Time Computing Systems: Predictable Scheduling Algorithms and Applications</em> Springer; 3rd ed. 2011 edition. (<a href="https://link.springer.com/book/10.1007/978-1-4614-0676-1" target="_blank">book webpage</a>)</li>
+<li>Buttazzo, Giorgio C. <em>Hard Real-Time Computing Systems: Predictable Scheduling Algorithms and Applications</em> Springer; 3rd ed. 2011 edition. (
+<a href="https://link.springer.com/book/10.1007/978-1-4614-0676-1" target="_blank" rel="noopener">book webpage</a>)</li>
 </ol>
-
 <p><a name="accessibility"></a>
 <strong>References:</strong></p>
-
 <ol>
-<li><a href="https://rt.wiki.kernel.org/index.php/Frequently_Asked_Questions" target="_blank">Real-Time Linux Wiki</a></li>
-<li><a href="https://www.grpc.io/" target="_blank">gRPC - A High Performance, Open-Source Universal RPC Framework</a></li>
-<li><a href="http://www.dre.vanderbilt.edu/~schmidt/TAO.html" target="_blank">The TAO Real-Time Middleware</a></li>
+<li>
+<a href="https://rt.wiki.kernel.org/index.php/Frequently_Asked_Questions" target="_blank" rel="noopener">Real-Time Linux Wiki</a></li>
+<li>
+<a href="https://www.grpc.io/" target="_blank" rel="noopener">gRPC - A High Performance, Open-Source Universal RPC Framework</a></li>
+<li>
+<a href="http://www.dre.vanderbilt.edu/~schmidt/TAO.html" target="_blank" rel="noopener">The TAO Real-Time Middleware</a></li>
 <li>McConnell, Steve. <em>Code Complete: A Practical Handbook of Software Construction</em>. Microsoft Press; 2nd edition (June 19, 2004). ISBN 978-0735619678</li>
 <li>T. Harrison, D. Levine, and D.C. Schmidt, <em>The Design and Performance of a Real-time CORBA Event Service</em>, ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications, October 1997. (<span style="color:red">Critique 1</span>)</li>
 <li>C. Wang, C. Gill and C. Lu, <em>Real-Time Middleware for Cyber-Physical Event Processing</em>, ACM Transactions on Cyber-Physical Systems, Special Issue on Real-Time Aspects in Cyber-Physical Systems, 3(3), Article 29, August 2019.</li>
-<li>Y. Zhang, C. Lu, C. Gill, P. Lardieri and G. Thaker, <em>Middleware Support for Aperiodic Tasks in Distributed Real-Time Systems</em>, IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS&rsquo;07), April 2007. (<span style="color:red">Critique 2</span>)</li>
+<li>Y. Zhang, C. Lu, C. Gill, P. Lardieri and G. Thaker, <em>Middleware Support for Aperiodic Tasks in Distributed Real-Time Systems</em>, IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'07), April 2007. (<span style="color:red">Critique 2</span>)</li>
 <li>C. Lu, A. Saifullah, B. Li, M. Sha, H. Gonzalez, D. Gunatilaka, C. Wu, L. Nie and Y. Chen, <em>Real-Time Wireless Sensor-Actuator Networks for Industrial Cyber-Physical Systems</em>, Special Issue on Industrial Cyber-Physical Systems, Proceedings of the IEEE, 104(5): 1013-1024, May 2016. (<span style="color:red">Critique 3</span>)</li>
 <li>C. Wang, C. Gill, and C. Lu, <em>FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing</em>, IEEE 39th International Conference on Distributed Computing Systems (ICDCS), 2019, pp. 976-985</li>
 </ol>
-
 <h2 id="accessibility">Accessibility</h2>
-
 <p><a name="integrity"></a>
-特殊需求的學生，請與授課教師聯繫。<br />
+特殊需求的學生，請與授課教師聯繫。<br>
 Students in need please bring your considerations to the instructor.</p>
-
 <h2 id="academic-integrity">Academic Integrity</h2>
-
 <p><a name="hw"></a>
-請謹記本校<a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank">校訓</a>: 誠、正、勤、樸。舞弊或協助他人舞弊者以零分計算。<br />
-Please reflect on the university&rsquo;s <a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank">motto</a>: Sincerity, Integrity, Diligence, Simplicity. Anyone found to be cheating or helping someone else cheat will receive zero score for that assignment.</p>
-
+請謹記本校
+<a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank" rel="noopener">校訓</a>: 誠、正、勤、樸。舞弊或協助他人舞弊者以零分計算。<br>
+Please reflect on the university&rsquo;s 
+<a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank" rel="noopener">motto</a>: Sincerity, Integrity, Diligence, Simplicity. Anyone found to be cheating or helping someone else cheat will receive zero score for that assignment.</p>
 <h2 id="homework-assignment">Homework Assignment</h2>
+<p>作業請一律至 
+<a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a> 繳交.<br>
+Students should submit all their homework assignments via 
+<a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a>.</p>
+</div>
+  
 
-<p>作業請一律至 <a href="https://moodle.ntnu.edu.tw/" target="_blank">Moodle</a> 繳交.<br />
-Students should submit all their homework assignments via <a href="https://moodle.ntnu.edu.tw/" target="_blank">Moodle</a>.</p>
+  
+  
 
-    </div>
+  
+
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = false;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
 
     
 
 
-    
-    
-
-    
-
-    
 
 
-  </div>
-</article>
 
-<footer class="site-footer">
+
+  
+  
   <div class="container">
-    <p class="powered-by">
+    <footer class="site-footer">
+  
 
-      &copy; 2019 &middot; 
+  <p class="powered-by">
+    
+  </p>
 
-      Powered by the
-      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+  
+  
 
-      <span class="pull-right" aria-hidden="true">
-        <a href="#" id="back_to_top">
-          <span class="button_icon">
-            <i class="fa fa-chevron-up fa-2x"></i>
-          </span>
-        </a>
-      </span>
 
-    </p>
-  </div>
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
 </footer>
 
+  </div>
+  
 
+  
 <div id="modal" class="modal fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Cite</h4>
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
-      <div>
-        <pre><code class="modal-body tex"></code></pre>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
       </div>
       <div class="modal-footer">
-        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
-          <i class="fa fa-copy"></i> Copy
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
         </a>
-        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
-          <i class="fa fa-download"></i> Download
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
         </a>
         <div id="modal-error"></div>
       </div>
@@ -616,48 +948,5 @@ Students should submit all their homework assignments via <a href="https://moodl
   </div>
 </div>
 
-    
-
-    
-    
-
-    
-
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
-    
-    
-    <script src="/js/hugo-academic.js"></script>
-    
-
-    
-    
-      
-      
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-      
-
-      
-
-      
-
-      <script>hljs.initHighlightingOnLoad();</script>
-    
-
-    
-    
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-    </script>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
-    
-    
-
-  </body>
+</body>
 </html>
-

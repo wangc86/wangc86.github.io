@@ -1,61 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
+    <title>Research Projects | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
     <link>https://wangc86.github.io/project/</link>
-    <description>Recent content in Projects on Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2019</copyright>
-    <lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://wangc86.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Fault-Tolerant Real-Time Messaging for Edge Computing (2017-2019)</title>
-      <link>https://wangc86.github.io/project/ftrt/</link>
-      <pubDate>Mon, 28 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/project/ftrt/</guid>
-      <description>Meeting applications&amp;rsquo; message-loss and latency requirements.</description>
-    </item>
-    
-    <item>
-      <title>Cyber-Physical Event Processing Middleware (CPEP) (2015-2018)</title>
-      <link>https://wangc86.github.io/project/cpep/</link>
-      <pubDate>Sun, 27 Jan 2019 00:00:00 +0800</pubDate>
-      
-      <guid>https://wangc86.github.io/project/cpep/</guid>
-      <description>Enforcing both application-specific latency requirement and event&amp;rsquo;s temporal validity.</description>
-    </item>
-    
-    <item>
-      <title>Safety Software Systems Design for Self-Driving Cars (2014-2015)</title>
-      <link>https://wangc86.github.io/project/safety/</link>
-      <pubDate>Sat, 02 Jun 2018 17:31:34 -0500</pubDate>
-      
-      <guid>https://wangc86.github.io/project/safety/</guid>
-      <description>A collaborative research effort with General Motors, Inc. and University of Pennsylvania, USA.</description>
-    </item>
-    
-    <item>
-      <title>Networked Virtual Worlds (2012-2013)</title>
-      <link>https://wangc86.github.io/project/nvm/</link>
-      <pubDate>Sat, 02 Jun 2018 17:30:43 -0500</pubDate>
-      
-      <guid>https://wangc86.github.io/project/nvm/</guid>
-      <description>A scalable networking architecture to allow effective virtual interactions.</description>
-    </item>
-    
-    <item>
-      <title>Scheduling Wireless Sensor Networks (2009-2010)</title>
-      <link>https://wangc86.github.io/project/dcls/</link>
-      <pubDate>Sat, 02 Jun 2018 17:30:13 -0500</pubDate>
-      
-      <guid>https://wangc86.github.io/project/dcls/</guid>
-      <description>Leveraging graph theory for low-latency and adaptive wireless transmissions.</description>
-    </item>
+      <atom:link href="https://wangc86.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Research Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wangc86.github.io/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_300x300_fit_lanczos_2.png</url>
+      <title>Research Projects</title>
+      <link>https://wangc86.github.io/project/</link>
+    </image>
     
   </channel>
 </rss>
