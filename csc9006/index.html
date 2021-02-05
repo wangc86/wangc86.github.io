@@ -231,11 +231,11 @@
   
   <meta property="og:site_name" content="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
   <meta property="og:url" content="https://wangc86.github.io/csc9006/">
-  <meta property="og:title" content="CSC9006 Real-Time Systems 即時系統 (Spring 2020) | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
+  <meta property="og:title" content="CSC9006 Real-Time Systems (Spring 2021) | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering">
   <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://wangc86.github.io/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_300x300_fit_lanczos_2.png">
   <meta property="twitter:image" content="https://wangc86.github.io/images/logo_hu722aea9853dce872eb1d5440190701c0_43985_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-01-06T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2021-02-02T00:00:00&#43;00:00">
   
 
   
@@ -252,7 +252,7 @@
 
 
 
-  <title>CSC9006 Real-Time Systems 即時系統 (Spring 2020) | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
+  <title>CSC9006 Real-Time Systems (Spring 2021) | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Computer Science and Information Engineering</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -543,7 +543,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1>CSC9006 Real-Time Systems 即時系統 (Spring 2020)</h1>
+  <h1>CSC9006 Real-Time Systems (Spring 2021)</h1>
 
   
 
@@ -555,13 +555,13 @@
 <div class="universal-wrapper">
   
   <div class="article-style"><p><img src="../../img/ntnu_logo.png" alt="NTNU logo"></p>
-<p><strong>課程名稱:</strong> CSC9006 Real-Time Systems 即時系統 <span style="color:red">(Spring 2020)</span><br>
-<strong>授課教師:</strong> 
-<a href="../../#people">王超</a><br>
-<strong>課程網頁:</strong> <a href="https://wangc86.github.io/csc9006">https://wangc86.github.io/csc9006</a><br>
-<strong>上課時間:</strong> 每週四 9:10-12:10 in room S403, 公館校區<br>
-<strong>Office Hours:</strong> 每週二週三 9:10 - 11:10, in room 511, 公館校區應用科學大樓, or 
+<p><strong>Course Name:</strong> CSC9006 Real-Time Systems 即時系統 <span style="color:red">(Spring 2021)</span><br>
+<strong>Instructor:</strong> Chao Wang 王超<br>
+<strong>Teaching Assistant:</strong> Cheng-You Lin 林政佑<br>
+<strong>Course Meetings:</strong> Thursdays 9:10-12:10 @ room S406, Gongguan Campus<br>
+<strong>Office Hours:</strong> Tuesdays and Fridays, 8-10am  @ room 511, Applied Science Building, Gongguan Campus; or 
 <a href="mailto:cw@ntnu.edu.tw">by appointment</a></p>
+<p>This course is offered in <em>English</em> (with Mandarin support). 此課程為英語授課 (配合中文輔助).</p>
 <h2 id="contents">Contents</h2>
 <ul>
 <li>
@@ -569,205 +569,212 @@
 <li>
 <a href="#schedule">Course Schedule</a></li>
 <li>
-<a href="#resource">Textbooks and Other Resources</a></li>
+<a href="#resource">Textbooks and Resources</a></li>
 <li>
 <a href="#accessibility">Accessibility</a></li>
 <li>
 <a href="#accessibility">Academic Integrity</a></li>
-<li>
-<a href="#hw">Homework Assignment</a></li>
 </ul>
 <h2 id="course-syllabus">Course Syllabus</h2>
-<p><strong>Description:</strong><br>
-本課程介紹即時系統領域的重要原理、系統架構、以及當前的相關研究成果和應用。本學期課程包含以下六項主題，並著重文獻研讀 (<span style="color:red">Critique</span>)、實作演練 (<span style="color:blue">Lab</span>) 及團體專題 (<span style="color:brown">Project</span>):</p>
-<ol>
-<li>Real-Time Scheduling: Theory and Practice</li>
-<li>Real-Time Operating Systems</li>
-<li>Real-Time Systems Engineering</li>
-<li>Distributed Real-Time Middleware</li>
-<li>Real-Time Edge Computing</li>
-<li>Power and Energy Awareness in Real-Time Cyber-Physical Systems</li>
-</ol>
+<p>Real-time systems are computing systems engineered for the real world.
+From self-driving cars to Internet-of-Things (IoT) systems,
+a hallmark of such systems is that they must respond to the world outside of the computer
+in a <em>timely</em>, <em>dependable</em>, and <em>efficient</em> way.
+In this course,
+we will study both the theory and practice of
+real-time systems.</p>
+<p>This semester we will take a new approach.
+We will stress on a comprehensive understanding
+of real-time systems, while having some in-depth study
+for selected topics.
+Overall, the course is structured into four modules:</p>
+<ul>
+<li>From operating systems to real-time systems <span style="color:brown">(Weeks 1&ndash;4)</span></li>
+<li>Real-time models <span style="color:green">(Weeks 5&ndash;8)</span></li>
+<li>Timeliness and dependability <span style="color:blue">(Weeks 9&ndash;12)</span></li>
+<li>System design and validation <span style="color:red">(Weeks 13&ndash;16)</span></li>
+</ul>
+<p>Following the school policy, in weeks 17 and 18
+we will look at some additional topics,
+in the hope to prepare students for further study
+in this fascinating field.</p>
 <p><strong>Prerequisites:</strong><br>
-此課程為碩士班及大學部合班授課，預期修課學生已具備大三(含)以上之電腦科學與工程相關知識。課程將使用 C++ 及 Linux 作業系統。</p>
+This is an advanced course for students
+who are familiar with operating systems concepts
+and are comfortable to C/C++ and Linux.</p>
 <p><strong>Grading:</strong></p>
 <ul>
-<li>Homework 40%</li>
-<li>Project 50%<a name="schedule"></a></li>
+<li>Hands-On Assignment 60%</li>
+<li>Literature Study and Critique 30%<a name="schedule"></a></li>
 <li>Participation 5%</li>
 <li>Attendance 5%</li>
 </ul>
 <h2 id="course-schedule">Course Schedule</h2>
+<p>The weekly reading assignment is designed for
+students to study both <em>before</em> and <em>after</em> each lecture.
+Each week we will discuss some topics from the reading assignment
+and will cover some additional materials.
+For homework assignments and critiques,
+students should submit all their work via 
+<a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a>.</p>
 <table>
 <thead>
 <tr>
 <th>Date</th>
 <th>Topic</th>
-<th>Homework Assignment</th>
-<th>Related Material</th>
+<th>Homework</th>
+<th>Reading</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Mar 5</td>
-<td>
-<a href="overview.pdf">Course Overview</a></td>
-<td>
-<a href="lab0.pdf"><span style="color:blue">Lab 0</span></a></td>
+<td>Feb 25</td>
+<td><span style="color:brown">The Real-Time Environment</span></td>
+<td>Homework 0</td>
+<td>[A] Chapter 1</td>
+</tr>
+<tr>
+<td>Mar 04</td>
+<td><span style="color:brown">Real-Time Operating Systems</span></td>
+<td>Homework 1</td>
+<td>[A] Chapter 9</td>
+</tr>
+<tr>
+<td>Mar 11</td>
+<td><span style="color:brown">Real-Time Scheduling (1)</span></td>
+<td></td>
+<td>[A] Chapter 10</td>
+</tr>
+<tr>
+<td>Mar 18</td>
+<td><span style="color:brown">Real-Time Scheduling (2)</span></td>
+<td>Homework 2</td>
+<td>[A] Chapter 10</td>
+</tr>
+<tr>
+<td>Mar 25</td>
+<td><span style="color:green">Simplicity and The Notion of Time</span></td>
+<td>Critique 1 Due</td>
+<td>[A] Chapters 2 and 3</td>
+</tr>
+<tr>
+<td>Apr 01</td>
+<td>(spring break)</td>
+<td>Homework 3</td>
 <td></td>
 </tr>
 <tr>
-<td>Mar 12</td>
-<td>
-<a href="scheduling1.pdf">Real-Time Scheduling (1)</a></td>
-<td>
-<a href="https://github.com/wangc86/csc9006" target="_blank" rel="noopener"><span style="color:blue">Lab 1</span></a></td>
+<td>Apr 08</td>
+<td><span style="color:green">Real-Time Model</span></td>
 <td></td>
+<td>[A] Chapter 4</td>
 </tr>
 <tr>
-<td>Mar 19</td>
-<td>
-<a href="scheduling2.pdf">Real-Time Scheduling (2)</a></td>
-<td></td>
-<td></td>
+<td>Apr 15</td>
+<td><span style="color:green">Temporal Relations</span></td>
+<td>Homework 4</td>
+<td>[A] Chapter 5</td>
 </tr>
 <tr>
-<td>Mar 26</td>
-<td>Real-Time Operating Systems;<br><span style="color:brown">Project Proposal Presentation</span></td>
-<td><span style="color:red">Critique 1</span><br>
-<a href="critique_guideline.pdf">(guideline)</a></td>
+<td>Apr 22</td>
+<td><span style="color:blue">Dependability</span></td>
 <td></td>
+<td>[A] Chapter 6</td>
 </tr>
 <tr>
-<td>Apr 2</td>
-<td>補假</td>
-<td></td>
-<td></td>
+<td>Apr 29</td>
+<td><span style="color:blue">Real-Time Communication</span></td>
+<td>Homework 5</td>
+<td>[A] Chapter 7</td>
 </tr>
 <tr>
-<td>Apr 9</td>
-<td>Real-Time Event Service</td>
-<td></td>
-<td></td>
+<td>May 06</td>
+<td><span style="color:blue">Patterns for Building Real-Time Software</span></td>
+<td>Critique 2 Due</td>
+<td>[12] [13]</td>
 </tr>
 <tr>
-<td>Apr 16</td>
-<td>Real-Time Systems Engineering</td>
-<td></td>
-<td></td>
+<td>May 13</td>
+<td><span style="color:blue">Fault-Tolerant Real-Time Edge Computing</span></td>
+<td>Homework 6</td>
+<td>[6] [9] [10]</td>
 </tr>
 <tr>
-<td>Apr 23</td>
-<td>Real-Time Multi-threaded Programming;<br>
-<a href="https://www.cse.unsw.edu.au/~cpsiot/cpsweek2020/index.html" target="_blank" rel="noopener">(CPS-IoT Week)</a></td>
-<td>
-<a href="https://github.com/wangc86/csc9006" target="_blank" rel="noopener"><span style="color:blue">Lab 2</span></a></td>
-<td>
-<a href="https://resources.oreilly.com/examples/9781565921153/" target="_blank" rel="noopener">example code</a>;<br>
-<a href="https://randu.org/tutorials/threads/" target="_blank" rel="noopener">pthreads tutorial</a></td>
+<td>May 20</td>
+<td><span style="color:red">System Design</span></td>
+<td></td>
+<td>[A] Chapter 11</td>
 </tr>
 <tr>
-<td>Apr 30</td>
-<td><span style="color:brown">Project Demo 1</span>;</td>
-<td></td>
-<td></td>
+<td>May 27</td>
+<td><span style="color:red">Validation</span></td>
+<td>Homework 7</td>
+<td>[A] Chapter 12; [11]</td>
 </tr>
 <tr>
-<td>May 7</td>
-<td>Serving Periodic/Aperiodic Real-Time Tasks</td>
-<td><span style="color:red">Critique 2 </span></td>
-<td>Textbook 3, Sections 5.1-5.4; 5.6</td>
+<td>Jun 03</td>
+<td><span style="color:red">Internet of Things</span></td>
+<td>Critique 3 Due</td>
+<td>[A] Chapter 13</td>
 </tr>
 <tr>
-<td>May 14</td>
-<td>Patterns for Building RealTime Software</td>
-<td></td>
-<td>Textbook 2, Chapter 11</td>
+<td>Jun 10</td>
+<td><span style="color:red">The Time-Triggered Archtecture</span></td>
+<td>Homework 8</td>
+<td>[A] Chapter 14 <a name="resource"></a></td>
 </tr>
 <tr>
-<td>May 21</td>
-<td><span style="color:brown">Project Demo 2</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>May 28</td>
-<td>Fault-Tolerant Real-Time Messaging</td>
-<td>
-<a href="https://github.com/wangc86/csc9006" target="_blank" rel="noopener"><span style="color:blue">Lab 3</span></a><a name="resource"></a></td>
-<td>Reference 9</td>
-</tr>
-<tr>
-<td>Jun 4</td>
-<td>Real-Time CPS: Power and Energy Awareness</td>
-<td><span style="color:red">Critique 3</span></td>
-<td></td>
-</tr>
-<tr>
-<td>Jun 11</td>
-<td>The Time-Triggered Architecture</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Jun 18</td>
-<td><span style="color:brown">Project Final Demo</span></td>
+<td>Jun 17</td>
+<td><span style="color:black">(Workshop)</span></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>Jun 25</td>
-<td>端午節放假</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Jul 2</td>
-<td>In-Class Workshop</td>
+<td>Jul 24</td>
+<td><span style="color:black">(Workshop)</span></td>
 <td></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 <h2 id="textbooks-and-references">Textbooks and References</h2>
-<p><strong>Textbooks:</strong></p>
-<ol>
-<li>Kopetz, Hermann. <em>Real-Time Systems: Design Principles for Distributed Embedded Applications</em>. Springer; 2nd ed. 2011 edition. ISBN 978-1441982360 (<em>A comprehensive treatment of the subject</em>)</li>
-<li>Gomaa, Hassan. <em>Real-Time Software Design for Embedded Systems</em>. Cambridge University Press, 2016. ISBN 978-1107041097 (<em>Focus on systems engineering aspects</em>)</li>
-<li>Buttazzo, Giorgio C. <em>Hard Real-Time Computing Systems: Predictable Scheduling Algorithms and Applications</em> Springer; 3rd ed. 2011 edition. (
-<a href="https://link.springer.com/book/10.1007/978-1-4614-0676-1" target="_blank" rel="noopener">book webpage</a>)</li>
-</ol>
-<p><a name="accessibility"></a>
-<strong>References:</strong></p>
-<ol>
-<li>
-<a href="https://rt.wiki.kernel.org/index.php/Frequently_Asked_Questions" target="_blank" rel="noopener">Real-Time Linux Wiki</a></li>
-<li>
-<a href="https://www.grpc.io/" target="_blank" rel="noopener">gRPC - A High Performance, Open-Source Universal RPC Framework</a></li>
-<li>
-<a href="http://www.dre.vanderbilt.edu/~schmidt/TAO.html" target="_blank" rel="noopener">The TAO Real-Time Middleware</a></li>
-<li>McConnell, Steve. <em>Code Complete: A Practical Handbook of Software Construction</em>. Microsoft Press; 2nd edition (June 19, 2004). ISBN 978-0735619678</li>
-<li>T. Harrison, D. Levine, and D.C. Schmidt, <em>The Design and Performance of a Real-time CORBA Event Service</em>, ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications, October 1997. (<span style="color:red">Critique 1</span>)</li>
-<li>C. Wang, C. Gill and C. Lu, <em>Real-Time Middleware for Cyber-Physical Event Processing</em>, ACM Transactions on Cyber-Physical Systems, Special Issue on Real-Time Aspects in Cyber-Physical Systems, 3(3), Article 29, August 2019.</li>
-<li>Y. Zhang, C. Lu, C. Gill, P. Lardieri and G. Thaker, <em>Middleware Support for Aperiodic Tasks in Distributed Real-Time Systems</em>, IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'07), April 2007. (<span style="color:red">Critique 2</span>)</li>
-<li>C. Lu, A. Saifullah, B. Li, M. Sha, H. Gonzalez, D. Gunatilaka, C. Wu, L. Nie and Y. Chen, <em>Real-Time Wireless Sensor-Actuator Networks for Industrial Cyber-Physical Systems</em>, Special Issue on Industrial Cyber-Physical Systems, Proceedings of the IEEE, 104(5): 1013-1024, May 2016. (<span style="color:red">Critique 3</span>)</li>
-<li>C. Wang, C. Gill, and C. Lu, <em>FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing</em>, IEEE 39th International Conference on Distributed Computing Systems (ICDCS), 2019, pp. 976-985</li>
-</ol>
+<p>[A] Kopetz, Hermann. <em>Real-Time Systems: Design Principles for Distributed Embedded Applications</em>. Springer; 2nd ed. 2011 edition. ISBN 978-1441982360. (
+<a href="https://books.google.com.tw/books?hl=zh-TW&amp;lr=&amp;id=oJZsvEawlAMC&amp;oi=fnd&amp;pg=PR3&amp;dq=Real-Time&#43;Systems:&#43;Design&#43;Principles&#43;for&#43;Distributed&#43;Embedded&#43;Applications&amp;ots=nMrNn5LB9z&amp;sig=kBRT4x6xnRBh8e-jTTGcC4VCI_k&amp;redir_esc=y#v=onepage&amp;q=Real-Time%20Systems%3A%20Design%20Principles%20for%20Distributed%20Embedded%20Applications&amp;f=false" target="_blank" rel="noopener">Google Books preview</a>; 
+<a href="https://www.springer.com/gp/book/9781441982360" target="_blank" rel="noopener">Publisher webpage</a>)</p>
+<p>[B] Buttazzo, Giorgio C. <em>Hard Real-Time Computing Systems: Predictable Scheduling Algorithms and Applications</em> Springer; 3rd ed. 2011 edition. (
+<a href="https://www.springer.com/gp/book/9781461406754" target="_blank" rel="noopener">Publisher webpage</a>)</p>
+<p>[1] 
+<a href="https://rt.wiki.kernel.org/index.php/Frequently_Asked_Questions" target="_blank" rel="noopener">Real-Time Linux Wiki</a></p>
+<p>[2] 
+<a href="http://www.dre.vanderbilt.edu/~schmidt/TAO.html" target="_blank" rel="noopener">The TAO Real-Time Middleware</a></p>
+<p>[3] 
+<a href="https://randu.org/tutorials/threads/" target="_blank" rel="noopener">Pthreads tutorial</a></p>
+<p>[4] 
+<a href="https://resources.oreilly.com/examples/9781565921153/" target="_blank" rel="noopener">Pthreads example code</a></p>
+<p>[5] T. Harrison, D. Levine, and D.C. Schmidt, <em>The Design and Performance of a Real-time CORBA Event Service</em>, ACM Conference on Object-Oriented Programming, Systems, Languages, and Applications, October 1997.</p>
+<p>[6] C. Wang, C. Gill and C. Lu, <em>Real-Time Middleware for Cyber-Physical Event Processing</em>, ACM Transactions on Cyber-Physical Systems, Special Issue on Real-Time Aspects in Cyber-Physical Systems, 3(3), Article 29, August 2019.</p>
+<p>[7] Y. Zhang, C. Lu, C. Gill, P. Lardieri and G. Thaker, <em>Middleware Support for Aperiodic Tasks in Distributed Real-Time Systems</em>, IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'07), April 2007.</p>
+<p>[8] C. Lu, A. Saifullah, B. Li, M. Sha, H. Gonzalez, D. Gunatilaka, C. Wu, L. Nie and Y. Chen, <em>Real-Time Wireless Sensor-Actuator Networks for Industrial Cyber-Physical Systems</em>, Special Issue on Industrial Cyber-Physical Systems, Proceedings of the IEEE, 104(5): 1013-1024, May 2016.</p>
+<p>[9] C. Wang, C. Gill, and C. Lu, <em>FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing</em>, IEEE 39th International Conference on Distributed Computing Systems (ICDCS), 2019, pp. 976-985
+<a name="accessibility"></a></p>
+<p>[10] C. Wang, C. Gill, C. Lu. <em>Adaptive Data Replication in Real-Time Reliable Edge Computing for Internet of Things.</em> 2020 IEEE/ACM International Conference on Internet-of-Things Design and Implementation (IoTDI), 2020. (
+<a href="https://wangc86.github.io/publication/iotdi20/iotdi20.pdf" target="_blank" rel="noopener">pdf</a>)</p>
+<p>[11] D. Seto, B. Krogh, L. Sha, and A. Chutinan. (1998, June). <em>The Simplex Architecture for Safe Online Control System Upgrades</em>. In Proceedings of the 1998 American Control Conference. ACC (IEEE Cat. No. 98CH36207) (Vol. 6, pp. 3504-3508). IEEE.</p>
+<p>[12] 
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/Callback_function" target="_blank" rel="noopener">A quick introduction to callback functions</a></p>
+<p>[13] 
+<a href="https://objectcomputing.com/resources/publications/mnb/an-introduction-to-taos-asynchronous-message-handling" target="_blank" rel="noopener">An introduction to TAO&rsquo;s asynchronous messagee handling</a></p>
+<p>[14] R. I. Davis .(2014). <em>A Review of Fixed Priority and EDF Scheduling for Hard Real-Time Uniprocessor Systems</em>. ACM SIGBED Review, 11(1), 8-19.</p>
+<p>[15] R. I. Davis and A. Burns. (2011). <em>A Survey of Hard Real-Time Scheduling for Multiprocessor Systems</em>. ACM Computing Surveys (CSUR), 43(4), 1-44.</p>
+<p>&hellip; more will be added in the semester.</p>
 <h2 id="accessibility">Accessibility</h2>
 <p><a name="integrity"></a>
-特殊需求的學生，請與授課教師聯繫。<br>
-Students in need please bring your considerations to the instructor.</p>
+Students in need please contact the instructor.</p>
 <h2 id="academic-integrity">Academic Integrity</h2>
-<p><a name="hw"></a>
-請謹記本校
-<a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank" rel="noopener">校訓</a>: 誠、正、勤、樸。舞弊或協助他人舞弊者以零分計算。<br>
+<p>Both homework assignments and
+literature critiques are designed to be done individually.
 Please reflect on the university&rsquo;s 
 <a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank" rel="noopener">motto</a>: Sincerity, Integrity, Diligence, Simplicity. Anyone found to be cheating or helping someone else cheat will receive zero score for that assignment.</p>
-<h2 id="homework-assignment">Homework Assignment</h2>
-<p>作業請一律至 
-<a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a> 繳交.<br>
-Students should submit all their homework assignments via 
-<a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a>.</p>
 </div>
   
 
