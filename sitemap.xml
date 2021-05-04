@@ -1,145 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://wangc86.github.io/author/%E7%8E%8B%E8%B6%85-chao-wang/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E9%99%B3%E6%B2%BB%E7%91%8B-david-cheng/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangc86.github.io/author/%E4%BD%99%E6%89%BF%E6%81%A9-chengen-yu/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangc86.github.io/author/%E6%A2%85%E5%BF%97%E7%A2%A9-eric-mei/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangc86.github.io/author/%E9%8D%BE%E5%B0%9A%E5%80%BC-shang-chih-zhong/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangc86.github.io/author/%E6%9E%97%E6%94%BF%E4%BD%91-nick-lin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangc86.github.io/author/%E5%BD%AD%E6%88%90%E8%81%96-chengsheng-peng/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://wangc86.github.io/author/%E4%BD%99%E6%89%BF%E6%81%A9-cheng-en-yu/</loc>
+  </url><url>
+    <loc>https://wangc86.github.io/author/%E6%A2%85%E5%BF%97%E7%A2%A9-chih-shuo-mei/</loc>
+  </url><url>
+    <loc>https://wangc86.github.io/author/%E9%8D%BE%E5%B0%9A%E5%80%BC-shang-chih-chung/</loc>
+  </url><url>
+    <loc>https://wangc86.github.io/author/%E6%9E%97%E6%94%BF%E4%BD%91-cheng-you-lin/</loc>
+  </url><url>
+    <loc>https://wangc86.github.io/author/%E5%BD%AD%E6%88%90%E8%81%96-cheng-sheng-peng/</loc>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E6%9D%8E%E5%A5%95%E8%90%B1-yih-shiuan-lee/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wangc86.github.io/author/%E8%8E%8A%E6%89%BF%E5%8B%B3-cheng-husn/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://wangc86.github.io/author/%E8%8E%8A%E6%89%BF%E5%8B%B3-cheng-hsun-chuang/</loc>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E9%8D%BE%E4%BD%B3%E6%AC%BD-chia-chin-chung/</loc>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://wangc86.github.io/author/%E5%8A%89%E7%80%9A%E6%96%87-han-wen-liu/</loc>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E5%91%82%E5%AD%B8%E6%98%8A-james-lu/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E6%9D%8E%E4%BF%8A%E5%BD%A5-jun-yan-lee/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E6%9B%BE%E6%95%AC%E8%B1%AA-ching-hao-tseng/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E5%BB%96%E8%BB%92%E9%B4%BB-hsuan-hong-liao/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E6%9E%97%E4%BD%B3%E7%82%BA-chia-wei-lin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csc9006/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/</loc>
     <lastmod>2021-02-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csc0065/</loc>
     <lastmod>2020-08-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csu0007/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csu0008/</loc>
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csc0056/</loc>
     <lastmod>2020-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/publications/</loc>
     <lastmod>2020-02-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/courses/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csu0007_spring2020/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csc9006_spring2020/</loc>
     <lastmod>2020-01-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/csc0056_fall2019/</loc>
     <lastmod>2019-08-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/more/</loc>
     <lastmod>2019-07-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://wangc86.github.io/author/%E7%B6%B2%E5%AE%87%E5%AF%A6%E9%AB%94%E7%B3%BB%E7%B5%B1%E7%A0%94%E7%A9%B6%E5%AE%A4/</loc>
   </url>
-  
 </urlset>
