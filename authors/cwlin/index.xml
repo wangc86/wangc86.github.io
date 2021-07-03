@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>林佳為 Chia Wei Lin | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
+    <link>https://wangc86.github.io/authors/cwlin/</link>
+      <atom:link href="https://wangc86.github.io/authors/cwlin/index.xml" rel="self" type="application/rss+xml" />
+    <description>林佳為 Chia Wei Lin</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://wangc86.github.io/authors/cwlin/avatar_hua885e9057ce87087cb66e60270d901e5_206093_270x270_fill_lanczos_center_2.png</url>
+      <title>林佳為 Chia Wei Lin</title>
+      <link>https://wangc86.github.io/authors/cwlin/</link>
+    </image>
+    
+  </channel>
+</rss>

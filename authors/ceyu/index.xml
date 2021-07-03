@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>余承恩 Cheng-En Yu | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
+    <link>https://wangc86.github.io/authors/ceyu/</link>
+      <atom:link href="https://wangc86.github.io/authors/ceyu/index.xml" rel="self" type="application/rss+xml" />
+    <description>余承恩 Cheng-En Yu</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://wangc86.github.io/authors/ceyu/avatar_hua6d6821d88ad4d088a34bfde9eb694ec_27724_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>余承恩 Cheng-En Yu</title>
+      <link>https://wangc86.github.io/authors/ceyu/</link>
+    </image>
+    
+  </channel>
+</rss>
