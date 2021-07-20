@@ -749,13 +749,13 @@
     <div class="w-100" ><img src="../../img/ntnu_logo.png" alt="NTNU logo" loading="lazy" data-zoomable /></div>
   </div></figure>
 </p>
-<p><strong>Course Name:</strong> CSC0056 Data Communication 資料通訊 <span style="color:red">(Fall 2020)</span><br>
+<p><strong>Course Name:</strong> CSC0056 Data Communication 資料通訊 <span style="color:red">(Fall 2021)</span><br>
 <strong>Instructor:</strong> Chao Wang 王超<br>
-<strong>Course Meetings:</strong> Mondays 9:10 - 12:10 in room B102, Gongguan Campus<br>
-<strong>Office Hours:</strong> Wednesdays and Fridays, 8-10am (room 511, Applied Science Building, Gongguan Campus), or <a href="mailto:cw@ntnu.edu.tw">by appointment</a><br>
-<strong>Midterm Exam:</strong> Nov 9, Monday 9:10 - 12:10, in class<br>
-<strong>Final Exam:</strong> Jan 11, Monday 9:10 - 12:10, in class</p>
-<p>This course is offered as an <em>all-English</em> course. 此門課程為全英語授課.</p>
+<strong>Course Meetings:</strong> Mondays 14:20 - 17:20 (mostly online, and on some selected dates in room 001 in the Gongguan-Campus Library; see the schedule below)<br>
+<strong>Office Hours:</strong> Wednesdays and Thursdays, 2-4pm (room 511, Applied Science Building, Gongguan Campus), or <a href="mailto:cw@ntnu.edu.tw">by appointment</a><br>
+<strong>Midterm Exam:</strong> Nov 9, Monday 9:10 - 12:10<br>
+<strong>Final Exam:</strong> Jan 11, Monday 9:10 - 12:10</p>
+<p>This course is offered <em>in English</em> (with Mandarin support). 此門課程為全英語授課 (配合中文輔助).</p>
 <h2 id="contents">Contents</h2>
 <ul>
 <li><a href="#syllabus">Course Syllabus</a> <a name="syllabus"></a></li>
@@ -766,183 +766,154 @@
 <li><a href="#hw">Homework Assignment</a></li>
 </ul>
 <h2 id="course-syllabus">Course Syllabus</h2>
-<p>In the 2020 edition of this course, the theme is <em>messaging in cloud/edge computing systems</em>.</p>
-<p>Data communication is essential for networked computing systems. The objectives of this course are for students to:</p>
-<ul>
-<li>gain insight into analyzing data communication systems;</li>
-<li>have hands-on experience in systems performance evaluation; and</li>
-<li>engage in recent advances in data communication systems.</li>
-</ul>
+<p>Data communication is essential for networked computing systems. The objectives of this course are for students to get some ideas into systems analysis, to have hands-on experience to systems development, and to engage in recent advances in data communication systems.</p>
 <p>In particular, we will</p>
 <ul>
-<li>learn the basics of the queueing model and analysis;</li>
-<li>learn <del>both Google&rsquo;s gRPC framework and</del> the widely-used MQTT communication protocol; and</li>
-<li>learn to study selected research papers.</li>
+<li>learn the basics of the standard queueing model;</li>
+<li>learn the widely used MQTT messaging protocol and its practice;</li>
+<li>learn to work with a cloud platform (Amazon AWS as an example); and</li>
+<li>learn to do critical study on scientific papers.</li>
 </ul>
+<p>Starting at the 2021 fall semester, this course is offered as a <a href="https://www.co.ntnu.edu.tw/" target="_blank" rel="noopener">hybrid course (數位課程)</a>: the lectures are divided into three categories: <span style="color:green">asynchronous online</span> (learn at your own pace), <span style="color:red">synchronous online</span> (real-time remote class), and <span style="color:blue">traditional face-to-face</span> (i.e., come). See the course schedule below for detail.</p>
+<p>Such a hybrid course is new, and to see how we may improve learning experience, we&rsquo;d like to collect course-related activity data as well as students' comments. Therefore, most of the course materials will be posted on <a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a>, since it is possible to trace online activities there (e.g., the number of clicks/watches for each subject).</p>
 <p><strong>Prerequisites:</strong><br>
-Basic working experience in C, C++, and Linux.</p>
+Working knowledge in C and Linux.</p>
 <p><strong>Grading:</strong></p>
 <ul>
-<li>Homework 45% (will count the highest six out of seven assignments)</li>
+<li>Homework Assignments 50% (every assignment counts)</li>
 <li>First Exam 20% <a name="schedule"></a></li>
 <li>Final Exam 25%</li>
 <li>Participation 5%</li>
-<li>Attendance 5%</li>
 </ul>
 <h2 id="course-schedule">Course Schedule</h2>
+<p>Color scheme: green for <span style="color:green">asynchronous online lectures</span>; red, <span style="color:red">synchronous online</span>; blue, <span style="color:blue">face-to-face</span>.</p>
 <table>
 <thead>
 <tr>
 <th>#</th>
 <th>Date</th>
 <th>Topic</th>
-<th><a href="#resource">Readings</a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>Sep 14</td>
-<td>Course Introduction (<a href="lecture01.pdf">slides</a>)</td>
-<td>Sec. 1.1-1.2</td>
+<td><span style="color:blue">Sep 27</span></td>
+<td>Course Introduction</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Sep 21</td>
-<td>Layered Network Architecture and The Physical Layer (<a href="lecture02.pdf">slides</a>) (<a href="note1.pdf">note</a> regarding convolution and the use of Fourier transform)</td>
-<td>Sec. 1.3; 2.1-2.2.2; 2.2.6</td>
+<td><span style="color:red">Oct 4</span></td>
+<td>Network Flow Algorithms</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Sep 28</td>
-<td>Error Detection and Correction (<a href="note2.pdf">note</a>)</td>
-<td>Sec. 2.3</td>
+<td><span style="color:green">Async.</span></td>
+<td>Broker-Based Data Communication</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Oct 5</td>
-<td>Hamming Code and Data Retransmissioin Strategies (<a href="lecture04.pdf">slides</a>)(<a href="lecture04-note.pdf">note</a>)</td>
-<td>Sec. 2.4-2.4.1 (the note has been updated and merged to the file on the left)</td>
+<td><span style="color:red">Oct 18</span></td>
+<td>Data Communication Programming Basics</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Oct 12</td>
-<td>Queueing Model and Little&rsquo;s Theorem (<a href="1012.pdf">note</a>)</td>
-<td>Sec. 3.1-3.2</td>
+<td><span style="color:blue">Oct 25</span></td>
+<td>The Queueing Model</td>
 </tr>
 <tr>
 <td>6</td>
-<td>Oct 19</td>
-<td>Markov Chains and The M/M/1 Queueing Systems (<a href="1019.pdf">note</a>)</td>
-<td>Sec. 3.3-3.3.1 and Appendix A</td>
+<td><span style="color:green">Async.</span></td>
+<td>Markov Chain and Queueing Systems</td>
 </tr>
 <tr>
 <td>7</td>
-<td>Oct 26</td>
-<td>(continuning the topic of Oct 19)</td>
-<td></td>
+<td><span style="color:green">Async.</span></td>
+<td>The Aloha System</td>
 </tr>
 <tr>
 <td>8</td>
-<td>Nov 2</td>
-<td>Applications and The M/M/m Queueing Systems (<a href="1102.pdf">note</a>)</td>
-<td>Sec. 3.4.1</td>
+<td><span style="color:blue">Nov 15</span></td>
+<td><strong>Midterm Exam</strong></td>
 </tr>
 <tr>
 <td>9</td>
-<td>Nov 9</td>
-<td><strong>Midterm Exam</strong> (<a href="midterm2020.pdf">solution</a>)</td>
-<td></td>
+<td><span style="color:green">Async.</span></td>
+<td>Time-Division Multi-Access</td>
 </tr>
 <tr>
 <td>10</td>
-<td>Nov 16</td>
-<td>Introducing Multiaccess Communication (<a href="CAN-note.pdf">note</a>)</td>
-<td>Sec. 4.1; <a href="http://esd.cs.ucr.edu/webres/can20.pdf" target="_blank" rel="noopener">CAN Specification, Version 2.0</a></td>
+<td><span style="color:green">Async.</span></td>
+<td>Data Routing</td>
 </tr>
 <tr>
 <td>11</td>
-<td>Nov 23</td>
-<td>The Aloha System and Its Analysis (<a href="1127.pdf">note</a>)</td>
-<td>Sec. 4.2</td>
+<td><span style="color:green">Async.</span></td>
+<td>Network Flow Control</td>
 </tr>
 <tr>
 <td>12</td>
-<td>Nov 30</td>
-<td>Scheduling Sensor Network Communication</td>
-<td>[5][6][7]</td>
+<td><span style="color:red">Dec 13</span></td>
+<td>Real-Time Data Communication</td>
 </tr>
 <tr>
 <td>13</td>
-<td>Dec 7</td>
-<td>TDMA Scheduling and Broker-Based Data Communication</td>
-<td>[5][6][7]; in particular, [5]</td>
+<td><span style="color:blue">Dec 20</span></td>
+<td>Error Handling</td>
 </tr>
 <tr>
 <td>14</td>
-<td>Dec 14</td>
-<td>Real-Time Data Communication (<a href="real-time-data-communication.pdf">slides</a>)</td>
-<td>[8]</td>
+<td><span style="color:red">Dec 27</span></td>
+<td>Real-Time Fault-Tolerant Communication</td>
 </tr>
 <tr>
 <td>15</td>
-<td>Dec 21</td>
-<td>Real-Time Fault-Tolerant Edge Computing</td>
-<td>[9]</td>
+<td><span style="color:green">Async.</span></td>
+<td>Time Synchronization</td>
 </tr>
 <tr>
 <td>16</td>
-<td>Dec 28</td>
-<td>Network Flow Control</td>
-<td>Sec. 6.1-6.2.1; 6.3</td>
+<td><span style="color:blue">Jan 10</span></td>
+<td><strong>Final Exam</strong></td>
 </tr>
 <tr>
 <td>17</td>
-<td>Jan 4</td>
-<td>Time Synchronization and Review (<a href="sync.pdf">slides</a>)</td>
-<td>Sec. 6.3</td>
+<td><span style="color:green">Asynch.</span></td>
+<td>Supplementary Topics</td>
 </tr>
 <tr>
 <td>18</td>
-<td>Jan 11</td>
-<td><strong>Final Exam</strong> (<a href="final_solution.pdf">solution</a>)</td>
-<td></td>
+<td><span style="color:green">Asynch.</span></td>
+<td>Supplementary Topics</td>
 </tr>
 </tbody>
 </table>
-<p><a name="resource"></a> The readings assignment each week is designed for you to gain some background of the topic <em>before</em> class. Read them and note where you found interesting and/or challenging. Bring your findings to class. We will cover additional materials when needed.</p>
+<p><a name="resource"></a></p>
 <h2 id="textbook-and-references">Textbook and References</h2>
+<p>We will pick materials from the following textbooks and references:</p>
 <p><strong>Textbook:</strong></p>
-<p>[1] Bertsekas, Dimitri and Gallager, Robert. <em>Data networks (2nd edition)</em>. Prentice Hall, 1992. ISBN 0132009161. (<a href="http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?newQuery=true&amp;searchtype=t&amp;search=Data&#43;Networks" target="_blank" rel="noopener">Read it at NTNU library</a>) (<a href="http://web.mit.edu/dimitrib/www/datanets.html" target="_blank" rel="noopener">author&rsquo;s page</a>)</p>
-<p><strong>References:</strong></p>
 <p>[1] Harchol-Balter, Mor. <em>Performance modeling and design of computer systems: queueing theory in action.</em> Cambridge University Press, 2013. ISBN 9781107027503. (<a href="http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?action=view&amp;param=%2Fsearch*cht%3F%2FtPerformance%2Bmodeling%2Band%2Bdesign%2Bof%2Bcomputing%2Bsystems%2Ftperformance%2Bmodeling%2Band%2Bdesign%2Bof%2Bcomputing%2Bsystems%2F-3%252C0%252C0%252CB%2Fframeset%26FF%3Dtperformance%2Bmodeling%2Band%2Bdesign%2Bof%2Bcomputer%2Bsystems%2Bqueueing%2Btheory%2Bin%2Baction%261%252C1%252C%2Findexsort%3D-" target="_blank" rel="noopener">Read it at NTNU library</a>)</p>
-<p>[2] Kurose, Jim and Ross, Keith. <em>Computer Networking: A Top-Down Approach (5th edition or newer)</em>. Pearson, 2010. ISBN 0136079679.</p>
-<p>[3] William Feller. <em>An Introduction to Probability Theory and Its Applications, Volume I (3rd edition)</em>. Wiley, 1968. ISBN 0471257087.</p>
-<p>[4] Chao Wang, Christopher Gill, Chenyang Lu. <em>Adaptive Data Replication in Real-Time Reliable Edge Computing for Internet of Things.</em> 2020 IEEE/ACM International Conference on Internet-of-Things Design and Implementation (IoTDI), 2020. (<a href="https://wangc86.github.io/publication/iotdi20/iotdi20.pdf" target="_blank" rel="noopener">pdf</a>)</p>
-<p>[5] Chao Wang, Kuo-Feng Ssu. <em>A Distributed Collision-Free Low-Latency Link Scheduling Scheme in Wireless Sensor Networks</em> 2010 IEEE Wireless Communication and Networking Conference, 2010. (<a href="https://wangc86.github.io/publication/wcnc10/wcnc10.pdf" target="_blank" rel="noopener">pdf</a>)</p>
-<p>[6] Luby, Michael. &ldquo;A simple parallel algorithm for the maximal independent set problem.&rdquo; SIAM journal on computing 15.4 (1986): 1036-1053. (<a href="https://scholar.google.com/scholar?hl=zh-TW&amp;as_sdt=0%2C5&amp;q=A&#43;simple&#43;parallel&#43;algorithm&#43;for&#43;the&#43;maximal&#43;independent&#43;set&#43;problem&amp;btnG=" target="_blank" rel="noopener">on Google Scholar</a>)</p>
-<p>[7] Ramanathan, Subramanian, and Errol L. Lloyd. &ldquo;Scheduling algorithms for multihop radio networks.&rdquo; IEEE/ACM Transactions on networking 1.2 (1993): 166-177. (<a href="https://ieeexplore.ieee.org/abstract/document/222924" target="_blank" rel="noopener">on IEEE Xplore</a>)</p>
-<p>[8] Chao Wang, Christopher Gill, and Chenyang Lu. 2019. <em>Real-Time Middleware for Cyber-Physical Event Processing.</em> ACM Trans. Cyber-Phys. Syst. 3, 3, Article 29 (October 2019), 25 pages. DOI:https://doi.org/10.1145/3218816 (<a href="https://dl.acm.org/doi/10.1145/3218816" target="_blank" rel="noopener">link</a>)</p>
-<p>[9] Chao Wang, Christopher Gill, and Chenyang Lu, <em>FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing,</em> 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS), Dallas, TX, USA, 2019, pp. 976-985, doi: 10.1109/ICDCS.2019.00101. (<a href="https://ieeexplore.ieee.org/abstract/document/8884849" target="_blank" rel="noopener">link</a>)</p>
+<p>[2] Bertsekas, Dimitri and Gallager, Robert. <em>Data networks (2nd edition)</em>. Prentice Hall, 1992. ISBN 0132009161. (<a href="http://www.lib.ntnu.edu.tw/holding/doQuickSearch.jsp?newQuery=true&amp;searchtype=t&amp;search=Data&#43;Networks" target="_blank" rel="noopener">Read it at NTNU library</a>) (<a href="http://web.mit.edu/dimitrib/www/datanets.html" target="_blank" rel="noopener">author&rsquo;s page</a>)</p>
+<p>[3] Tarjan, Robert Endre. Data Structures and Network Algorithms. Society for Industrial and Applied Mathematics, 1983. ISBN 0898711878.</p>
+<p><strong>References:</strong></p>
+<p>[1] Kurose, Jim and Ross, Keith. <em>Computer Networking: A Top-Down Approach (5th edition or newer)</em>. Pearson, 2010. ISBN 0136079679.</p>
+<p>[2] William Feller. <em>An Introduction to Probability Theory and Its Applications, Volume I (3rd edition)</em>. Wiley, 1968. ISBN 0471257087.</p>
+<p>[3] Chao Wang, Christopher Gill, Chenyang Lu. <em>Adaptive Data Replication in Real-Time Reliable Edge Computing for Internet of Things.</em> 2020 IEEE/ACM International Conference on Internet-of-Things Design and Implementation (IoTDI), 2020. (<a href="https://wangc86.github.io/publication/iotdi20/iotdi20.pdf" target="_blank" rel="noopener">pdf</a>)</p>
+<p>[4] Chao Wang, Kuo-Feng Ssu. <em>A Distributed Collision-Free Low-Latency Link Scheduling Scheme in Wireless Sensor Networks</em> 2010 IEEE Wireless Communication and Networking Conference, 2010. (<a href="https://wangc86.github.io/publication/wcnc10/wcnc10.pdf" target="_blank" rel="noopener">pdf</a>)</p>
+<p>[5] Luby, Michael. &ldquo;A simple parallel algorithm for the maximal independent set problem.&rdquo; SIAM journal on computing 15.4 (1986): 1036-1053. (<a href="https://scholar.google.com/scholar?hl=zh-TW&amp;as_sdt=0%2C5&amp;q=A&#43;simple&#43;parallel&#43;algorithm&#43;for&#43;the&#43;maximal&#43;independent&#43;set&#43;problem&amp;btnG=" target="_blank" rel="noopener">on Google Scholar</a>)</p>
+<p>[6] Ramanathan, Subramanian, and Errol L. Lloyd. &ldquo;Scheduling algorithms for multihop radio networks.&rdquo; IEEE/ACM Transactions on networking 1.2 (1993): 166-177. (<a href="https://ieeexplore.ieee.org/abstract/document/222924" target="_blank" rel="noopener">on IEEE Xplore</a>)</p>
+<p>[7] Chao Wang, Christopher Gill, and Chenyang Lu. 2019. <em>Real-Time Middleware for Cyber-Physical Event Processing.</em> ACM Trans. Cyber-Phys. Syst. 3, 3, Article 29 (October 2019), 25 pages. DOI:https://doi.org/10.1145/3218816 (<a href="https://dl.acm.org/doi/10.1145/3218816" target="_blank" rel="noopener">link</a>)</p>
+<p>[8] Chao Wang, Christopher Gill, and Chenyang Lu, <em>FRAME: Fault Tolerant and Real-Time Messaging for Edge Computing,</em> 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS), Dallas, TX, USA, 2019, pp. 976-985, doi: 10.1109/ICDCS.2019.00101. (<a href="https://ieeexplore.ieee.org/abstract/document/8884849" target="_blank" rel="noopener">link</a>)</p>
 <p><a name="accessibility"></a></p>
 <h2 id="accessibility">Accessibility</h2>
 <p><a name="integrity"></a></p>
-<p>Students in need are encouraged to bring considerations to the instructor.</p>
+<p>Students in need are encouraged to bring their considerations to the instructor.</p>
 <h2 id="academic-integrity">Academic Integrity</h2>
 <p>All homework assignments and exams must be completed individually and independently, except as specifically allowed by the instructor.</p>
 <p><a name="hw"></a>
 Academic integrity is a key component of your education, which is for your benefit. Anyone found to be cheating or helping someone else cheat will receive zero score for that homework/exam. Please reflect on the university&rsquo;s <a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank" rel="noopener">motto</a>: Sincerity 誠, Integrity 正, Diligence 勤, Simplicity 樸.</p>
 <h2 id="homework-assignment">Homework Assignment</h2>
-<p>Students should submit all their homework assignments via <a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a>.</p>
-<ul>
-<li><a href="https://github.com/wangc86/csc0056/blob/master/Homework1.md" target="_blank" rel="noopener">Homework1</a>, due on Oct 5th, 9AM.</li>
-<li><a href="https://github.com/wangc86/csc0056" target="_blank" rel="noopener">Homework2</a>, due on Oct 26th, 9AM. (<a href="hw2_solution.pdf">solution</a>)</li>
-<li><a href="https://github.com/wangc86/csc0056" target="_blank" rel="noopener">Homework3</a>; Part 1 is due on Nov 6th, 9PM (Friday) and Part 2 is due on Nov 12th, 9PM (Thursday). (<a href="hw3_solution_part1.pdf">solution for part 1</a>)</li>
-<li><a href="https://github.com/wangc86/csc0056" target="_blank" rel="noopener">Homework4</a>; due on Dec 12th, 9PM. (<a href="hw4_solution.pdf">solution</a>)</li>
-<li><a href="https://github.com/wangc86/csc0056" target="_blank" rel="noopener">Homework5</a>; due on Dec 28th, 9PM. (<a href="hw5_solution.pdf">solution</a>)</li>
-<li><a href="https://github.com/wangc86/csc0056" target="_blank" rel="noopener">Homework6</a>; due on Jan 8th, 9PM. (<a href="hw6_solution.pdf">solution</a>)</li>
-<li><a href="https://github.com/wangc86/csc0056" target="_blank" rel="noopener">Homework7 (bonus)</a>; due on Jan 15th, 9PM. (<a href="hw7_solution.pdf">solution</a>)</li>
-</ul>
+<p>All homework assignments will be announced on <a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a>.</p>
 </div>
   
 

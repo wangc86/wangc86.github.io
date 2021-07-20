@@ -1,0 +1,1091 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="王超 Chao Wang" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="The Networked Cyber-Physical Systems Lab (NCL) was founded in 2019 at National Taiwan Normal University." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://wangc86.github.io/csu0008_fall2020/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous" media="print" onload="this.media='all'">
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.f0cf03b20998d63e314819fa4a90c13f.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+    <link rel="alternate" href="/csu0008_fall2020/index.xml" type="application/rss+xml" title="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering" />
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu15823bcedcf4ff25b732c1fee07a0c4b_67076_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu15823bcedcf4ff25b732c1fee07a0c4b_67076_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://wangc86.github.io/csu0008_fall2020/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering" />
+  <meta property="og:url" content="https://wangc86.github.io/csu0008_fall2020/" />
+  <meta property="og:title" content=" | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering" />
+  <meta property="og:description" content="The Networked Cyber-Physical Systems Lab (NCL) was founded in 2019 at National Taiwan Normal University." /><meta property="og:image" content="https://wangc86.github.io/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png" />
+    <meta property="twitter:image" content="https://wangc86.github.io/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2020-08-15T00:00:00&#43;00:00" />
+    
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <title> | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="4c4937b5d3b8128a18bd07cf41293565" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.7f3e7639f4c7f2a2cf83b68ea7de7f08.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu1477f68880196591ff6065e050a602a3_48940_0x70_resize_lanczos_2.png" alt="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering"></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/"><img src="/media/logo_hu1477f68880196591ff6065e050a602a3_48940_0x70_resize_lanczos_2.png" alt="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering"></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/team"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/research"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://github.com/lawrence870521/NCL/wiki" target="_blank" rel="noopener"><span>Wiki</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/more"><span>More</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1></h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+    <div class="article-style"><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="../../img/ntnu_logo.png" alt="NTNU logo" loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p><strong>Course Name:</strong> CSU0008 Basic Electronics Laboratory 基礎電子學實驗 <span style="color:red">(Fall 2020)</span><br>
+<strong>Instructor:</strong> 王超<br>
+<strong>Course Meetings:</strong> 每週二 10:20&ndash;12:10 @ 公館校區 C208<br>
+<strong>Office Hours:</strong> 每週三週五, 8-10am @ 公館校區應用科學大樓 511, or <a href="mailto:cw@ntnu.edu.tw">by appointment</a><br>
+<strong>Midterm Exam:</strong> N/A<br>
+<strong>Final Exam:</strong> N/A</p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#syllabus">Course Syllabus</a> <a name="syllabus"></a></li>
+<li><a href="#schedule">Course Schedule</a></li>
+<li><a href="#resource">Textbook</a></li>
+<li><a href="#accessibility">Accessibility</a></li>
+<li><a href="#accessibility">Academic Integrity</a></li>
+<li><a href="#hw">Homework Assignment</a></li>
+</ul>
+<h2 id="course-syllabus">Course Syllabus</h2>
+<p><em>實驗</em>是資訊系統工程與科學研究發展的重要環節。好的實驗設計與實驗數據分析，能引導科學家與工程師具體地了解一個系統的行為及效能，並作為理論假設的驗證以及進一步設計的依據。此實驗課程搭配 <a href="../csu0007">&ldquo;CSU0007 基礎電子學&rdquo;</a>，目標為建立理論與實務基礎，預備資訊系統及物聯網相關領域的進階學習。課程將使用 Arduino 及相關電子零件設備。</p>
+<p>課程三大面向：</p>
+<p>(1) 從實務的角度，探索資訊系統硬體及韌體層面的行為模式；</p>
+<p>(2) 培養動手實作的經驗與求證的精神；</p>
+<p>(3) 瞭解基本的實驗數據資料視覺化及分析方式。</p>
+<p><strong>Grading:</strong></p>
+<ul>
+<li>出席 50%</li>
+<li>報告 50%<a name="schedule"></a></li>
+</ul>
+<h2 id="course-schedule">Course Schedule</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Date</th>
+<th>Topic</th>
+<th>實驗相關連結</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Sep 15</td>
+<td>課程介紹及分組</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sep 22</td>
+<td>工具介紹與基本電阻電壓電流量測</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/09-22" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sep 29</td>
+<td>Voltage Divider and Current Divider</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/09-29" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Oct 6</td>
+<td>加法電路 and Superposition</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/10-06" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Oct 13</td>
+<td>驗證及使用 Thevenin Theorem</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/10-13" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Oct 20</td>
+<td>非線性元件的操作及基本的資料視覺化</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/10-20" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Oct 27</td>
+<td>訊號產生器、示波器、半波整流電路</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/10-27" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Nov 3</td>
+<td>驗證操作點的概念</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/11-03" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Nov 10</td>
+<td>期中回顧</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/11-10" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Nov 17</td>
+<td>邏輯閘的使用及 Static Discipline</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/11-17" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Nov 24</td>
+<td>3-Bit Full Adder Implementation</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/11-24" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Dec 1</td>
+<td>Arduino 初探</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/12-01" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Dec 8</td>
+<td>軟硬體整合（一）</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/12-08" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Dec 15</td>
+<td>軟硬體整合（二）</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/12-15" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Dec 22</td>
+<td>cancelled</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Dec 29</td>
+<td>MOSFET 特性與電路</td>
+<td><a href="https://github.com/wangc86/csu0008/tree/master/12-29" target="_blank" rel="noopener">link</a></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Jan 5</td>
+<td>電流鏡</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Jan 12</td>
+<td>(skipped)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="textbook">Textbook</h2>
+<p>自編教材</p>
+<h2 id="accessibility">Accessibility</h2>
+<p><a name="integrity"></a>
+有特殊需求的同學請讓授課教師知道。</p>
+<h2 id="academic-integrity">Academic Integrity</h2>
+<p><a name="hw"></a>
+請謹記 <a href="http://archives.lib.ntnu.edu.tw/c2/c2_1.jsp" target="_blank" rel="noopener">校訓</a>: 誠, 正, 勤, 樸。 自己動手做實驗及分析，當有所得。</p>
+<h2 id="homework-assignment">Homework Assignment</h2>
+<p>預習報告及結果報告；成績於 <a href="https://moodle.ntnu.edu.tw/" target="_blank" rel="noopener">Moodle</a> 通知。</p>
+</div>
+  
+
+  
+  
+
+  
+
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    <script src="/js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js"></script>
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.8859d3cf6e5d748215fea2814e2e9c7f.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
