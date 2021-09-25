@@ -54,10 +54,17 @@
   </url><url>
     <loc>https://wangc86.github.io/authors/jlu/</loc>
   </url><url>
-    <loc>https://wangc86.github.io/csu0032/</loc>
-    <lastmod>2021-09-21T00:00:00+00:00</lastmod>
+    <loc>https://wangc86.github.io/meetings/</loc>
+    <lastmod>2021-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url><url>
     <loc>https://wangc86.github.io/</loc>
+    <lastmod>2021-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wangc86.github.io/meetings/papertoberead/</loc>
+    <lastmod>2021-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://wangc86.github.io/csu0032/</loc>
     <lastmod>2021-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://wangc86.github.io/team/</loc>
@@ -108,9 +115,6 @@
     <loc>https://wangc86.github.io/admin/</loc>
   </url><url>
     <loc>https://wangc86.github.io/authors/</loc>
-  </url><url>
-    <loc>https://wangc86.github.io/meetings/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://wangc86.github.io/categories/</loc>
   </url><url>
