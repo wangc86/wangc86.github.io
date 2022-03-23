@@ -5,12 +5,65 @@
     <link>https://wangc86.github.io/</link>
       <atom:link href="https://wangc86.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wangc86.github.io/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
       <title>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
       <link>https://wangc86.github.io/</link>
     </image>
+    
+    <item>
+      <title>For Prospective Students</title>
+      <link>https://wangc86.github.io/recruit/</link>
+      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://wangc86.github.io/recruit/</guid>
+      <description>&lt;p&gt;(Last updated on March 23rd, 2022)&lt;/p&gt;
+&lt;p&gt;This post is for those who would like to join our lab
+and work on &lt;a href=&#34;https://en.wikipedia.org/wiki/Cyber-physical_system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cyber-physical systems (CPS)&lt;/a&gt; at &lt;a href=&#34;https://www.ntnu.edu.tw/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Taiwan Normal University&lt;/a&gt;, in the &lt;a href=&#34;https://www.csie.ntnu.edu.tw/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;department of computer science and information engineering&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;undergraduate-research-opportunity&#34;&gt;Undergraduate research opportunity&lt;/h3&gt;
+&lt;p&gt;At NCL, the undergraduate research projects are designed to serve
+either of the following two purposes:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;To assist students in exploring topics in which they have strong interests.&lt;/li&gt;
+&lt;li&gt;To have students assist in some projects that we&amp;rsquo;re working on in the lab.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In either case, we call for self-motivated spirits.
+Those who would like to participate must enroll in either
+CSU0037 or CSU0040 in the same semester.&lt;/p&gt;
+&lt;h3 id=&#34;master-program&#34;&gt;Master program&lt;/h3&gt;
+&lt;p&gt;Due to my current capacity (both time and resource),
+this summer we can only admit at most three new master students.&lt;/p&gt;
+&lt;p&gt;A CS master program is a two-year training in completing
+a reasonable sized research project. Master students should
+work largely independently, though we will have weekly individual
+meeting and group meeting to exchange ideas. In our lab, we
+emphasize hands-on experience in systems research, meaning that
+students will have ample opportunities to design, analyze, build,
+test, and evaluate their prototype CPS systems.&lt;/p&gt;
+&lt;p&gt;Compared with the undergraduate eduation,
+where students spend most of their time learning the knowns,
+the graduate education is more about exploring the unknowns
+and learning to articulate new findings.
+In the graduate study in science and engineering,
+this means both the ability to compose and refine research work
+(as silver purified seven times) and the ability to present and defend the result
+(so that the silver is made into jewelry whose value is clearly seen).
+At NCL, we aim to help students develop both abilities.&lt;/p&gt;
+&lt;h3 id=&#34;phd-program&#34;&gt;PhD program&lt;/h3&gt;
+&lt;p&gt;Working for a PhD degree requires much more significant effort,
+but it can be very rewarding. It is typically a 5&amp;ndash;7 years of
+concentration on a real, open, and important research problem.&lt;/p&gt;
+&lt;p&gt;On this journey, the student will gradually build up a unique view
+to a certain intellectual question in his field of study,
+and such a view will be framed into a theory or a system that
+he must be able to thoroughly evaluate and articulate in a formal manner.
+That is why the full name of PhD is Doctor of Philosophy.&lt;/p&gt;
+&lt;p&gt;Like planting, the job of a research advisor for graduate students
+is to provide resource and guidance along the way,
+in the hope that those who decided to take on this journey may
+bear much fruits.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>A Chain Bible Verse Reference</title>
