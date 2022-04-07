@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>鍾尚值 Shang Chih Chung | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/scchung/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/scchung/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/scchung/</link>
+      <atom:link href="https://wangc86.github.io/authors/scchung/index.xml" rel="self" type="application/rss+xml" />
     <description>鍾尚值 Shang Chih Chung</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/scchung/avatar_hu30d76e218176d87ce84a0c2b6154d80c_39487_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/scchung/avatar_hu30d76e218176d87ce84a0c2b6154d80c_39487_270x270_fill_q75_lanczos_center.jpg</url>
       <title>鍾尚值 Shang Chih Chung</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/scchung/</link>
+      <link>https://wangc86.github.io/authors/scchung/</link>
     </image>
     
   </channel>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>林政佑 Cheng You Lin | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/cylin/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/cylin/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/cylin/</link>
+      <atom:link href="https://wangc86.github.io/authors/cylin/index.xml" rel="self" type="application/rss+xml" />
     <description>林政佑 Cheng You Lin</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/cylin/avatar_hu949563899aebcfb23b5bee2b782bda52_29210_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/cylin/avatar_hu949563899aebcfb23b5bee2b782bda52_29210_270x270_fill_q75_lanczos_center.jpg</url>
       <title>林政佑 Cheng You Lin</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/cylin/</link>
+      <link>https://wangc86.github.io/authors/cylin/</link>
     </image>
     
   </channel>

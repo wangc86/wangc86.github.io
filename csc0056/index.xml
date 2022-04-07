@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/csc0056/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/csc0056/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/csc0056/</link>
+      <atom:link href="https://wangc86.github.io/csc0056/index.xml" rel="self" type="application/rss+xml" />
     <description>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
+      <url>https://wangc86.github.io/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
       <title>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-      <link>https://web.ntnu.edu.tw/~cw/csc0056/</link>
+      <link>https://wangc86.github.io/csc0056/</link>
     </image>
     
   </channel>

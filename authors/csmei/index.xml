@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>梅志碩 Chih-Shuo Mei | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/csmei/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/csmei/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/csmei/</link>
+      <atom:link href="https://wangc86.github.io/authors/csmei/index.xml" rel="self" type="application/rss+xml" />
     <description>梅志碩 Chih-Shuo Mei</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/csmei/avatar_hu9c0660e4dbaeab1aa5e4305361b00517_41107_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/csmei/avatar_hu9c0660e4dbaeab1aa5e4305361b00517_41107_270x270_fill_q75_lanczos_center.jpg</url>
       <title>梅志碩 Chih-Shuo Mei</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/csmei/</link>
+      <link>https://wangc86.github.io/authors/csmei/</link>
     </image>
     
   </channel>

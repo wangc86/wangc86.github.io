@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>李俊彥 Jun-Yan Lee | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/jylee/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/jylee/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/jylee/</link>
+      <atom:link href="https://wangc86.github.io/authors/jylee/index.xml" rel="self" type="application/rss+xml" />
     <description>李俊彥 Jun-Yan Lee</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/jylee/avatar_hu3eccca743312c7428e25dbda44cc2679_40002_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/jylee/avatar_hu3eccca743312c7428e25dbda44cc2679_40002_270x270_fill_q75_lanczos_center.jpg</url>
       <title>李俊彥 Jun-Yan Lee</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/jylee/</link>
+      <link>https://wangc86.github.io/authors/jylee/</link>
     </image>
     
   </channel>

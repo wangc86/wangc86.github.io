@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>鍾佳欽 Chia-Chin Chung | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/ccchung/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/ccchung/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/ccchung/</link>
+      <atom:link href="https://wangc86.github.io/authors/ccchung/index.xml" rel="self" type="application/rss+xml" />
     <description>鍾佳欽 Chia-Chin Chung</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/ccchung/avatar_hu548d6ce2a4237fa7c084248674ef361d_1549613_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/ccchung/avatar_hu548d6ce2a4237fa7c084248674ef361d_1549613_270x270_fill_q75_lanczos_center.jpg</url>
       <title>鍾佳欽 Chia-Chin Chung</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/ccchung/</link>
+      <link>https://wangc86.github.io/authors/ccchung/</link>
     </image>
     
   </channel>

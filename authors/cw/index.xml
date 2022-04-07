@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>王超 Chao Wang | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/cw/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/cw/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/cw/</link>
+      <atom:link href="https://wangc86.github.io/authors/cw/index.xml" rel="self" type="application/rss+xml" />
     <description>王超 Chao Wang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 23 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/cw/avatar_hu436b270f6ba881d20a85299fe36b3d72_74906_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/cw/avatar_hu436b270f6ba881d20a85299fe36b3d72_74906_270x270_fill_q75_lanczos_center.jpg</url>
       <title>王超 Chao Wang</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/cw/</link>
+      <link>https://wangc86.github.io/authors/cw/</link>
     </image>
     
     <item>
       <title>For Prospective Students</title>
-      <link>https://web.ntnu.edu.tw/~cw/recruit/</link>
+      <link>https://wangc86.github.io/recruit/</link>
       <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://web.ntnu.edu.tw/~cw/recruit/</guid>
+      <guid>https://wangc86.github.io/recruit/</guid>
       <description>&lt;p&gt;(Last updated on March 23rd, 2022)&lt;/p&gt;
 &lt;p&gt;This post is for those who would like to join our lab
 and work on &lt;a href=&#34;https://en.wikipedia.org/wiki/Cyber-physical_system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cyber-physical systems (CPS)&lt;/a&gt; at &lt;a href=&#34;https://www.ntnu.edu.tw/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Taiwan Normal University&lt;/a&gt;, in the &lt;a href=&#34;https://www.csie.ntnu.edu.tw/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;department of computer science and information engineering&lt;/a&gt;.&lt;/p&gt;
@@ -67,9 +67,9 @@ bear much fruits.&lt;/p&gt;
     
     <item>
       <title>A Chain Bible Verse Reference</title>
-      <link>https://web.ntnu.edu.tw/~cw/cr/</link>
+      <link>https://wangc86.github.io/cr/</link>
       <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://web.ntnu.edu.tw/~cw/cr/</guid>
+      <guid>https://wangc86.github.io/cr/</guid>
       <description>&lt;p&gt;Some years ago, in a second-hand Bible I came across a series of hand-written verse references, asking the reader to turn to the pages here and there. By the end of the reference chain a remark put it this way: &amp;ldquo;Now that you have read God&amp;rsquo;s plan of salvation, it is my prayer that you will understand and accept Jesus as your Saviour.&amp;rdquo; Those verse references now I copied down here, in the hope that they would help the reader, too:&lt;/p&gt;
 &lt;p&gt;Romans 3:23&lt;br&gt;
 Romans 6:23&lt;br&gt;

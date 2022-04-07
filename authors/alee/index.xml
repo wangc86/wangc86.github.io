@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>李彥儒 Alex Lee | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/alee/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/alee/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/alee/</link>
+      <atom:link href="https://wangc86.github.io/authors/alee/index.xml" rel="self" type="application/rss+xml" />
     <description>李彥儒 Alex Lee</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/alee/avatar_hudf5b3c769f1267e224fbb37ffe6e57fc_443452_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/alee/avatar_hudf5b3c769f1267e224fbb37ffe6e57fc_443452_270x270_fill_q75_lanczos_center.jpg</url>
       <title>李彥儒 Alex Lee</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/alee/</link>
+      <link>https://wangc86.github.io/authors/alee/</link>
     </image>
     
   </channel>

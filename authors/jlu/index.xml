@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>呂學昊 James Lu | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/jlu/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/jlu/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/jlu/</link>
+      <atom:link href="https://wangc86.github.io/authors/jlu/index.xml" rel="self" type="application/rss+xml" />
     <description>呂學昊 James Lu</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/jlu/avatar_hu91e72d739c0d58d770ac76fe034a045f_42138_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/jlu/avatar_hu91e72d739c0d58d770ac76fe034a045f_42138_270x270_fill_q75_lanczos_center.jpg</url>
       <title>呂學昊 James Lu</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/jlu/</link>
+      <link>https://wangc86.github.io/authors/jlu/</link>
     </image>
     
   </channel>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>江庭葳 Ting-Wei Jiang | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/twjiang/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/twjiang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/twjiang/</link>
+      <atom:link href="https://wangc86.github.io/authors/twjiang/index.xml" rel="self" type="application/rss+xml" />
     <description>江庭葳 Ting-Wei Jiang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/twjiang/avatar_hu41d4f2d4d090ba92545d798865925801_1948504_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/twjiang/avatar_hu41d4f2d4d090ba92545d798865925801_1948504_270x270_fill_q75_lanczos_center.jpg</url>
       <title>江庭葳 Ting-Wei Jiang</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/twjiang/</link>
+      <link>https://wangc86.github.io/authors/twjiang/</link>
     </image>
     
   </channel>

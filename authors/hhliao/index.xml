@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>廖軒鴻 Hsuan-Hong Liao | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://web.ntnu.edu.tw/~cw/authors/hhliao/</link>
-      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/hhliao/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wangc86.github.io/authors/hhliao/</link>
+      <atom:link href="https://wangc86.github.io/authors/hhliao/index.xml" rel="self" type="application/rss+xml" />
     <description>廖軒鴻 Hsuan-Hong Liao</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://web.ntnu.edu.tw/~cw/authors/hhliao/avatar_hub28d5a6054ee0444d84a048b25f60820_149623_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://wangc86.github.io/authors/hhliao/avatar_hub28d5a6054ee0444d84a048b25f60820_149623_270x270_fill_q75_lanczos_center.jpg</url>
       <title>廖軒鴻 Hsuan-Hong Liao</title>
-      <link>https://web.ntnu.edu.tw/~cw/authors/hhliao/</link>
+      <link>https://wangc86.github.io/authors/hhliao/</link>
     </image>
     
   </channel>
