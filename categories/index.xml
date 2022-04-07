@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://wangc86.github.io/categories/</link>
-      <atom:link href="https://wangc86.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://web.ntnu.edu.tw/~cw/categories/</link>
+      <atom:link href="https://web.ntnu.edu.tw/~cw/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://wangc86.github.io/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
+      <url>https://web.ntnu.edu.tw/~cw/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
       <title>Categories</title>
-      <link>https://wangc86.github.io/categories/</link>
+      <link>https://web.ntnu.edu.tw/~cw/categories/</link>
     </image>
     
   </channel>

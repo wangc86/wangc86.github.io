@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>張劭群 Shao-Qun Zhang | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://wangc86.github.io/authors/sqzhang/</link>
-      <atom:link href="https://wangc86.github.io/authors/sqzhang/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://web.ntnu.edu.tw/~cw/authors/sqzhang/</link>
+      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/sqzhang/index.xml" rel="self" type="application/rss+xml" />
     <description>張劭群 Shao-Qun Zhang</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://wangc86.github.io/authors/sqzhang/avatar_hud712f03bb39393084e1914a8ac190aa4_280219_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://web.ntnu.edu.tw/~cw/authors/sqzhang/avatar_hud712f03bb39393084e1914a8ac190aa4_280219_270x270_fill_q75_lanczos_center.jpg</url>
       <title>張劭群 Shao-Qun Zhang</title>
-      <link>https://wangc86.github.io/authors/sqzhang/</link>
+      <link>https://web.ntnu.edu.tw/~cw/authors/sqzhang/</link>
     </image>
     
   </channel>

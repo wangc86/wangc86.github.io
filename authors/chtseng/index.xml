@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>曾敬豪 Ching-Hao Tseng | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://wangc86.github.io/authors/chtseng/</link>
-      <atom:link href="https://wangc86.github.io/authors/chtseng/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://web.ntnu.edu.tw/~cw/authors/chtseng/</link>
+      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/chtseng/index.xml" rel="self" type="application/rss+xml" />
     <description>曾敬豪 Ching-Hao Tseng</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://wangc86.github.io/authors/chtseng/avatar_hu44c73ee3bdfc1d1cdcd43be8ed13c68a_15814_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://web.ntnu.edu.tw/~cw/authors/chtseng/avatar_hu44c73ee3bdfc1d1cdcd43be8ed13c68a_15814_270x270_fill_q75_lanczos_center.jpg</url>
       <title>曾敬豪 Ching-Hao Tseng</title>
-      <link>https://wangc86.github.io/authors/chtseng/</link>
+      <link>https://web.ntnu.edu.tw/~cw/authors/chtseng/</link>
     </image>
     
   </channel>

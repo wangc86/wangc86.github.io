@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>and more importantly... | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://wangc86.github.io/more/</link>
-      <atom:link href="https://wangc86.github.io/more/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://web.ntnu.edu.tw/~cw/more/</link>
+      <atom:link href="https://web.ntnu.edu.tw/~cw/more/index.xml" rel="self" type="application/rss+xml" />
     <description>and more importantly...</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 18 Jul 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://wangc86.github.io/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
+      <url>https://web.ntnu.edu.tw/~cw/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
       <title>and more importantly...</title>
-      <link>https://wangc86.github.io/more/</link>
+      <link>https://web.ntnu.edu.tw/~cw/more/</link>
     </image>
     
   </channel>

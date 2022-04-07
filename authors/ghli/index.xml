@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>李國豪 Guo-Hao Li | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
-    <link>https://wangc86.github.io/authors/ghli/</link>
-      <atom:link href="https://wangc86.github.io/authors/ghli/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://web.ntnu.edu.tw/~cw/authors/ghli/</link>
+      <atom:link href="https://web.ntnu.edu.tw/~cw/authors/ghli/index.xml" rel="self" type="application/rss+xml" />
     <description>李國豪 Guo-Hao Li</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
-      <url>https://wangc86.github.io/authors/ghli/avatar_hu01be71093f737de68da3f28a67ad8d01_248897_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://web.ntnu.edu.tw/~cw/authors/ghli/avatar_hu01be71093f737de68da3f28a67ad8d01_248897_270x270_fill_q75_lanczos_center.jpg</url>
       <title>李國豪 Guo-Hao Li</title>
-      <link>https://wangc86.github.io/authors/ghli/</link>
+      <link>https://web.ntnu.edu.tw/~cw/authors/ghli/</link>
     </image>
     
   </channel>
