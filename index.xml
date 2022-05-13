@@ -1,124 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
+    <title>We have moved to https://web.ntnu.edu.tw/~cw/&#39;</title>
     <link>https://wangc86.github.io/</link>
       <atom:link href="https://wangc86.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</description>
+    <description>We have moved to https://web.ntnu.edu.tw/~cw/&#39;</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 07 Apr 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://wangc86.github.io/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png</url>
-      <title>Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
+      <title>We have moved to https://web.ntnu.edu.tw/~cw/&#39;</title>
       <link>https://wangc86.github.io/</link>
     </image>
-    
-    <item>
-      <title>For Prospective Students</title>
-      <link>https://wangc86.github.io/recruit/</link>
-      <pubDate>Wed, 23 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://wangc86.github.io/recruit/</guid>
-      <description>&lt;p&gt;(Last updated on March 23rd, 2022)&lt;/p&gt;
-&lt;p&gt;This post is for those who would like to join our lab
-and work on &lt;a href=&#34;https://en.wikipedia.org/wiki/Cyber-physical_system&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cyber-physical systems (CPS)&lt;/a&gt; at &lt;a href=&#34;https://www.ntnu.edu.tw/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;National Taiwan Normal University&lt;/a&gt;, in the &lt;a href=&#34;https://www.csie.ntnu.edu.tw/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;department of computer science and information engineering&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id=&#34;undergraduate-research-opportunity&#34;&gt;Undergraduate research opportunity&lt;/h3&gt;
-&lt;p&gt;At NCL, the undergraduate research projects are designed to serve
-either of the following two purposes:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;To assist students in exploring topics in which they have strong interests.&lt;/li&gt;
-&lt;li&gt;To have students assist in some projects that we&amp;rsquo;re working on in the lab.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;In either case, we call for self-motivated spirits.
-Those who would like to participate must enroll in either
-CSU0037 or CSU0040 in the same semester.&lt;/p&gt;
-&lt;h3 id=&#34;master-program&#34;&gt;Master program&lt;/h3&gt;
-&lt;p&gt;Due to my current capacity (both time and resource),
-this summer we can only admit at most three new master students.&lt;/p&gt;
-&lt;p&gt;A CS master program is a two-year training in completing
-a reasonable sized research project. Master students should
-work largely independently, though we will have weekly individual
-meeting and group meeting to exchange ideas. In our lab, we
-emphasize hands-on experience in systems research, meaning that
-students will have ample opportunities to design, analyze, build,
-test, and evaluate their prototype CPS systems.&lt;/p&gt;
-&lt;p&gt;Compared with the undergraduate eduation,
-where students spend most of their time learning the knowns,
-the graduate education is more about exploring the unknowns
-and learning to articulate new findings.
-In the graduate study in science and engineering,
-this means both the ability to compose and refine research work
-(as silver purified seven times) and the ability to present and defend the result
-(so that the silver is made into jewelry whose value is clearly seen).
-At NCL, we aim to help students develop both abilities.&lt;/p&gt;
-&lt;h3 id=&#34;phd-program&#34;&gt;PhD program&lt;/h3&gt;
-&lt;p&gt;Working for a PhD degree requires much more significant effort,
-but it can be very rewarding. It is typically a 5&amp;ndash;7 years of
-concentration on a real, open, and important research problem.&lt;/p&gt;
-&lt;p&gt;On this journey, the student will gradually build up a unique view
-to a certain intellectual question in his field of study,
-and such a view will be framed into a theory or a system that
-he must be able to thoroughly evaluate and articulate in a formal manner.
-That is why the full name of PhD is Doctor of Philosophy.&lt;/p&gt;
-&lt;p&gt;Like planting, the job of a research advisor for graduate students
-is to provide resource and guidance along the way,
-in the hope that those who decided to take on this journey may
-bear much fruits.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>A Chain Bible Verse Reference</title>
       <link>https://wangc86.github.io/cr/</link>
       <pubDate>Sat, 19 Feb 2022 00:00:00 +0000</pubDate>
       <guid>https://wangc86.github.io/cr/</guid>
-      <description>&lt;p&gt;Some years ago, in a second-hand Bible I came across a series of hand-written verse references, asking the reader to turn to the pages here and there. By the end of the reference chain a remark put it this way: &amp;ldquo;Now that you have read God&amp;rsquo;s plan of salvation, it is my prayer that you will understand and accept Jesus as your Saviour.&amp;rdquo; Those verse references now I copied down here, in the hope that they would help the reader, too:&lt;/p&gt;
-&lt;p&gt;Romans 3:23&lt;br&gt;
-Romans 6:23&lt;br&gt;
-Ephesians 2:8-9&lt;br&gt;
-Luke 18:13&lt;br&gt;
-John 3:16-17&lt;br&gt;
-1 Corinthians 10:13&lt;br&gt;
-Romans 10:9-10&lt;br&gt;
-2 Corinthians 6:2&lt;br&gt;
-Acts 8:35-39&lt;/p&gt;
-&lt;p&gt;The following are translations from the KJV Bible:&lt;/p&gt;
+      <description>&lt;p&gt;Some years ago, in a second-hand Bible I came across a series of hand-written verse references, asking the reader to turn to the pages here and there. By the end of the reference chain a remark put it this way: &amp;ldquo;Now that you have read God&amp;rsquo;s plan of salvation, it is my prayer that you will understand and accept Jesus as your Saviour.&amp;rdquo; The following are those references, and I hope they would help the reader, too:&lt;br&gt;
+好幾年前，偶然在一本二手聖經上看到一段段手寫的筆記，邀請讀者依序翻閱到特定的頁面及經節段落。在筆記的末尾有這麼一段話：&amp;ldquo;現在您已經閱讀了神救贖的計劃，我的禱告就是您也能接受耶穌作為您的救主。&amp;rdquo; 以下是這些經節，希望它們也能幫助讀者：&lt;/p&gt;
+&lt;p&gt;Romans 羅馬書 3:23&lt;br&gt;
+Romans 羅馬書 6:23&lt;br&gt;
+Ephesians 以弗所書 2:8&amp;ndash;9&lt;br&gt;
+Luke 路加福音 18:13&lt;br&gt;
+John 約翰福音 3:16&amp;ndash;17&lt;br&gt;
+1 Corinthians 哥林多前書 10:13&lt;br&gt;
+Romans 羅馬書 10:9&amp;ndash;10&lt;br&gt;
+2 Corinthians 哥林多後書 6:2&lt;br&gt;
+Acts 使徒行傳 8:35&amp;ndash;39&lt;/p&gt;
+&lt;p&gt;The following are translations from the KJV Bible:&lt;br&gt;
+以下是中文聖經和合本的翻譯：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;for all have sinned, and come short of the glory of God;&lt;/p&gt;
+&lt;p&gt;for all have sinned, and come short of the glory of God;&lt;br&gt;
+因為世人都犯了罪，虧缺了上帝的榮耀；&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;Romans 3:23&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Romans 羅馬書 3:23&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.&lt;/p&gt;
+&lt;p&gt;For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord.&lt;br&gt;
+因為罪的工價乃是死；惟有上帝的恩賜，在我們的主基督耶穌裏，乃是永生。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;Romans 6:23&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Romans 羅馬書 6:23&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: not of works, lest any man should boast.&lt;/p&gt;
+&lt;p&gt;For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: not of works, lest any man should boast.&lt;br&gt;
+你們得救是本乎恩，也因著信；這並不是出於自己，乃是上帝所賜的；也不是出於行為，免得有人自誇。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;Ephesians 2:8-9&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Ephesians 以弗所書 2:8&amp;ndash;9&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;And the publican, standing afar off, would not lift up so much as his eyes unto heaven, but smote upon his breast, saying, God be merciful to me a sinner.&lt;/p&gt;
+&lt;p&gt;And the publican, standing afar off, would not lift up so much as his eyes unto heaven, but smote upon his breast, saying, God be merciful to me a sinner.&lt;br&gt;
+那稅吏遠遠地站著，連舉目望天也不敢，只捶著胸說：『上帝啊，開恩可憐我這個罪人！』&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;Luke 18:13&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Luke 路加福音 18:13&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved.&lt;/p&gt;
+&lt;p&gt;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. For God sent not his Son into the world to condemn the world; but that the world through him might be saved.&lt;br&gt;
+「上帝愛世人，甚至將他的獨生子賜給他們，叫一切信他的，不致滅亡，反得永生。因為上帝差他的兒子降世，不是要定世人的罪，乃是要叫世人因他得救。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;John 3:16-17&lt;/p&gt;
+&lt;p&gt;&amp;ndash;John 約翰福音 3:16&amp;ndash;17&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.&lt;/p&gt;
+&lt;p&gt;There hath no temptation taken you but such as is common to man: but God is faithful, who will not suffer you to be tempted above that ye are able; but will with the temptation also make a way to escape, that ye may be able to bear it.&lt;br&gt;
+你們所遇見的試探，無非是人所能受的。上帝是信實的，必不叫你們受試探過於所能受的；在受試探的時候，總要給你們開一條出路，叫你們能忍受得住。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;1 Corinthians 10:13&lt;/p&gt;
+&lt;p&gt;&amp;ndash;1 Corinthians 哥林多前書 10:13&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;that if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation.&lt;/p&gt;
+&lt;p&gt;that if thou shalt confess with thy mouth the Lord Jesus, and shalt believe in thine heart that God hath raised him from the dead, thou shalt be saved. For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation.&lt;br&gt;
+你若口裏認耶穌為主，心裏信上帝叫他從死裏復活，就必得救。因為，人心裏相信就可以稱義，口裏承認就可以得救。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;Romans 10:9-10&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Romans 羅馬書 10:9&amp;ndash;10&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;(For he saith, I have heard thee in a time accepted, and in the day of salvation have I succoured thee: behold, now is the accepted time; behold, now is the day of salvation.)&lt;/p&gt;
+&lt;p&gt;(For he saith, I have heard thee in a time accepted, and in the day of salvation have I succoured thee: behold, now is the accepted time; behold, now is the day of salvation.)&lt;br&gt;
+因為他說：「在悅納的時候，我應允了你；在拯救的日子，我搭救了你。」看哪，現在正是悅納的時候！現在正是拯救的日子；&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;2 Corinthians 6:2&lt;/p&gt;
+&lt;p&gt;&amp;ndash;2 Corinthians 哥林多後書 6:2&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Then Philip opened his mouth, and began at the same scripture, and preached unto him Jesus. And as they went on their way, they came unto a certain water: and the eunuch said, See, here is water; what doth hinder me to be baptized? And Philip said, If thou believest with all thine heart, thou mayest. And he answered and said, I believe that Jesus Christ is the Son of God. And he commanded the chariot to stand still: and they went down both into the water, both Philip and the eunuch; and he baptized him. And when they were come up out of the water, the Spirit of the Lord caught away Philip, that the eunuch saw him no more: and he went on his way rejoicing.&lt;/p&gt;
+&lt;p&gt;Then Philip opened his mouth, and began at the same scripture, and preached unto him Jesus. And as they went on their way, they came unto a certain water: and the eunuch said, See, here is water; what doth hinder me to be baptized? And Philip said, If thou believest with all thine heart, thou mayest. And he answered and said, I believe that Jesus Christ is the Son of God. And he commanded the chariot to stand still: and they went down both into the water, both Philip and the eunuch; and he baptized him. And when they were come up out of the water, the Spirit of the Lord caught away Philip, that the eunuch saw him no more: and he went on his way rejoicing.&lt;br&gt;
+腓利就開口從這經上起，對他傳講耶穌。二人正往前走，到了有水的地方，太監說：「看哪，這裏有水，我受洗有甚麼妨礙呢？」( -有古卷加：腓利說：「你若是一心相信，就可以。」他回答說：「我信耶穌基督是上帝的兒子。」) 於是吩咐車站住，腓利和太監二人同下水裏去，腓利就給他施洗。從水裏上來，主的靈把腓利提了去，太監也不再見他了，就歡歡喜喜地走路。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&amp;ndash;Acts 8:35-39&lt;/p&gt;
+&lt;p&gt;&amp;ndash;Acts 使徒行傳 8:35&amp;ndash;39&lt;/p&gt;
 &lt;p&gt;And I would like to add three more verse references.
-First, of God the Father and His promise, from Isaiah 49:24-25:&lt;/p&gt;
+First, of God the Father and His promise, from Isaiah 49:24&amp;ndash;25:&lt;br&gt;
+關於天父上帝以及祂的保證（以賽亞書 49:24&amp;ndash;25）：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Shall the prey be taken from the mighty,&lt;br&gt;
 or the lawful captive delivered?&lt;br&gt;
@@ -126,31 +85,25 @@ But thus saith the Lord,&lt;br&gt;
 Even the captives of the mighty shall be taken away,&lt;br&gt;
 and the prey of the terrible shall be delivered:&lt;br&gt;
 for I will contend with him that contendeth with thee,&lt;br&gt;
-and I will save thy children.&lt;/p&gt;
+and I will save thy children.&lt;br&gt;
+勇士搶去的豈能奪回？&lt;br&gt;
+該擄掠的豈能解救嗎？&lt;br&gt;
+但耶和華如此說：&lt;br&gt;
+就是勇士所擄掠的，也可以奪回；&lt;br&gt;
+強暴人所搶的，也可以解救。&lt;br&gt;
+與你相爭的，我必與他相爭；&lt;br&gt;
+我要拯救你的兒女。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;And finally, of God the Son and His work, from Hebrews 2:14-15, and from Hebrews 7:24-25:&lt;/p&gt;
+&lt;p&gt;And of God the Son and His work, from Hebrews 2:14&amp;ndash;15, and from Hebrews 7:24&amp;ndash;25:&lt;br&gt;
+關於神的愛子耶穌、他所成就的、及他所持續進行的（希伯來書 2:14&amp;ndash;15; 7:24&amp;ndash;25）：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Forasmuch then as the children are partakers of flesh and blood, he also himself likewise took part of the same; that through death he might destroy him that had the power of death, that is, the devil; and deliver them who through fear of death were all their lifetime subject to bondage.&lt;/p&gt;
+&lt;p&gt;Forasmuch then as the children are partakers of flesh and blood, he also himself likewise took part of the same; that through death he might destroy him that had the power of death, that is, the devil; and deliver them who through fear of death were all their lifetime subject to bondage.&lt;br&gt;
+兒女既同有血肉之體，他也照樣親自成了血肉之體，特要藉著死敗壞那掌死權的，就是魔鬼，並要釋放那些一生因怕死而為奴僕的人。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;but this man, because he continueth ever, hath an unchangeable priesthood. Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.&lt;/p&gt;
+&lt;p&gt;but this man, because he continueth ever, hath an unchangeable priesthood. Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.&lt;br&gt;
+這位既是永遠常存的，他祭司的職任就長久不更換。凡靠著他進到上帝面前的人，他都能拯救到底；因為他是長遠活著，替他們祈求。&lt;/p&gt;
 &lt;/blockquote&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Papers for group meeting discussion</title>
-      <link>https://wangc86.github.io/paperstoberead/</link>
-      <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://wangc86.github.io/paperstoberead/</guid>
-      <description>&lt;p&gt;Some candidate papers to study:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Haoran Li, Chenyang Lu, and Christopher D. Gill. 2021. RT-ZooKeeper: Taming the Recovery Latency of a Coordination Service. In EMSOFT ’21: ACM Transactions on Embedded Computing Systems (TECS), October 10–15, 2021, Virtual. ACM, New York, NY, USA, Article 1, 22 pages. &lt;a href=&#34;https://doi.org/10.1145/3477034&#34;&gt;https://doi.org/10.1145/3477034&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Gunatilaka, Dolvara, and Chenyang Lu. &amp;ldquo;REACT: an Agile Control Plane for Industrial Wireless Sensor-Actuator Networks.&amp;rdquo; 2020 IEEE/ACM Fifth International Conference on Internet-of-Things Design and Implementation (IoTDI). IEEE, 2020.&lt;/li&gt;
-&lt;li&gt;G. Hackmann, W. Guo, G. Yan, Z. Sun, C. Lu and S. Dyke, Cyber-Physical Codesign of Distributed Structural Health Monitoring with Wireless Sensor Networks, IEEE Transactions on Parallel and Distributed Systems, 25(1): 63-72, January 2014. (Extended version of the ICCPS&#39;10 paper)&lt;/li&gt;
-&lt;li&gt;Vestal, Steve. &amp;ldquo;Preemptive scheduling of multi-criticality systems with varying degrees of execution time assurance.&amp;rdquo; 28th IEEE International Real-Time Systems Symposium (RTSS 2007). IEEE, 2007.&lt;/li&gt;
-&lt;li&gt;Seto, Danbing, et al. &amp;ldquo;The Simplex architecture for safe online control system upgrades.&amp;rdquo; Proceedings of the 1998 American Control Conference. ACC (IEEE Cat. No. 98CH36207). Vol. 6. IEEE, 1998.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
@@ -160,27 +113,6 @@ and I will save thy children.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wangc86.github.io/admin/config.yml</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>網宇實體系統研究室</title>
-      <link>https://wangc86.github.io/authors/org/bak/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wangc86.github.io/authors/org/bak/</guid>
-      <description>&lt;h1 id=&#34;news&#34;&gt;News&lt;/h1&gt;
-&lt;p&gt;We have moved to &lt;a href=&#34;https://web.ntnu.edu.tw/~cw/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://web.ntnu.edu.tw/~cw/&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We are recruiting. Prospective students please take a look at &lt;a href=&#34;https://wangc86.github.io/recruit/&#34;&gt;this page&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://rtcsa.org/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IEEE RTCSA 2022&lt;/a&gt;, August 23&amp;ndash;25, 2022.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://esweek.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2021 Embedded Systems Week (ESWEEK&#39;21)&lt;/a&gt;, October 8-15, 2021, virtual conference&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The Networked Cyber-Physical Systems Laboratory (NCL) was founded in 2019 at National Taiwan Normal University.&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;He is like a tree&lt;br&gt;
-planted by streams of water&lt;br&gt;
-that yields its fruit in its season,&lt;br&gt;
-and its leaf does not wither.&amp;rdquo;&lt;br&gt;
-&amp;ndash; Psalm 1:3a&lt;/p&gt;
-</description>
     </item>
     
   </channel>

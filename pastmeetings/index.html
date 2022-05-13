@@ -1,0 +1,1374 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="王超 Chao Wang" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="2022/05/11 Presenters: Yi-Hsuan and Po-Hsuan Yi-Hsuan: F. Xiong, A. Li, H. Wang and L. Tang, &ldquo;An SDN-MQTT Based Communication System for Battlefield UAV Swarms,&rdquo; in IEEE Communications Magazine, vol. 57," />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://web.ntnu.edu.tw/~cw/pastmeetings/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/~cw/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/~cw/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/~cw/css/wowchemy.426e7de31186c4ced1e2b198ab5aa3ff.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/~cw/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/~cw/media/icon_hu15823bcedcf4ff25b732c1fee07a0c4b_67076_32x32_fill_lanczos_center_2.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/~cw/media/icon_hu15823bcedcf4ff25b732c1fee07a0c4b_67076_180x180_fill_lanczos_center_2.png" />
+
+  <link rel="canonical" href="https://web.ntnu.edu.tw/~cw/pastmeetings/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering" />
+  <meta property="og:url" content="https://web.ntnu.edu.tw/~cw/pastmeetings/" />
+  <meta property="og:title" content="Group meeting archive | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering" />
+  <meta property="og:description" content="2022/05/11 Presenters: Yi-Hsuan and Po-Hsuan Yi-Hsuan: F. Xiong, A. Li, H. Wang and L. Tang, &ldquo;An SDN-MQTT Based Communication System for Battlefield UAV Swarms,&rdquo; in IEEE Communications Magazine, vol. 57," /><meta property="og:image" content="https://web.ntnu.edu.tw/~cw/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png" />
+    <meta property="twitter:image" content="https://web.ntnu.edu.tw/~cw/media/logo_hu1477f68880196591ff6065e050a602a3_48940_300x300_fit_lanczos_2.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-05-13T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-05-13T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Group meeting archive | Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="19f8d79fa34ed07e5acd92706711b2f2" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/~cw/js/wowchemy-init.min.da42964e270e05a6063fbca894d7ccff.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/~cw/"><img src="/~cw/media/logo_hu1477f68880196591ff6065e050a602a3_48940_0x70_resize_lanczos_2.png" alt="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering"
+          
+          ></a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/~cw/"><img src="/~cw/media/logo_hu1477f68880196591ff6065e050a602a3_48940_0x70_resize_lanczos_2.png" alt="Networked Cyber-Physical Systems Lab - National Taiwan Normal University - Deptartment of Computer Science and Information Engineering"
+        
+        ></a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~cw/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~cw/team"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~cw/research"><span>Research</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/~cw/meetings"><span>Meetings</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~cw/courses"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~cw/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/~cw/more"><span>More</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+        
+      
+
+      
+      
+
+      
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Group meeting archive</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="20220511">2022/05/11</h2>
+<blockquote>
+<p>Presenters: Yi-Hsuan and Po-Hsuan</p>
+</blockquote>
+<ul>
+<li>Yi-Hsuan: F. Xiong, A. Li, H. Wang and L. Tang, &ldquo;An SDN-MQTT Based Communication System for Battlefield UAV Swarms,&rdquo; in IEEE Communications Magazine, vol. 57, no. 8, pp. 41-47, August 2019, doi: 10.1109/MCOM.2019.1900291.</li>
+<li>Po-Hsuan: G. von der Brüggen, K. -H. Chen, W. -H. Huang and J. -J. Chen, &ldquo;Systems with Dynamic Real-Time Guarantees in Uncertain and Faulty Execution Environments,&rdquo; 2016 IEEE Real-Time Systems Symposium (RTSS), 2016, pp. 303-314.</li>
+</ul>
+<h2 id="20220504">2022/05/04</h2>
+<blockquote>
+<p>Presenters: Shao-Qun and Chia-Chin</p>
+</blockquote>
+<ul>
+<li>Shao-Qun: Xie, Binbin, and Jie Xiong. &ldquo;Combating interference for long range LoRa sensing.&rdquo; Proceedings of the 18th Conference on Embedded Networked Sensor Systems. 2020.</li>
+<li>Chia-Chin: Master thesis research progress</li>
+</ul>
+<h2 id="20220420">2022/04/20</h2>
+<blockquote>
+<p>Presenters: Cheng-Hsun and Han-Wen</p>
+</blockquote>
+<ul>
+<li>Cheng-Hsun: Master thesis research progress</li>
+<li>Han-Wen: 交通部車聯網技術應用於機車安全改善之研究與場域試驗計畫</li>
+</ul>
+<h2 id="20220413">2022/04/13</h2>
+<blockquote>
+<p>Presenters: Yih Shiuan and Cheng-Sheng</p>
+</blockquote>
+<ul>
+<li>Yih Shiuan: Master thesis research progress</li>
+<li>Cheng-Sheng: Master thesis research progress</li>
+</ul>
+<h2 id="20220406">2022/04/06</h2>
+<blockquote>
+<p>Presenters: Guo-Hao and Yi-Hsuan</p>
+</blockquote>
+<ul>
+<li>Guo-Hao: Kang, Woosung, et al. &ldquo;LaLaRAND: Flexible Layer-by-Layer CPU/GPU Scheduling for Real-Time DNN Tasks.&rdquo; 2021 IEEE Real-Time Systems Symposium (RTSS). IEEE, 2021.</li>
+<li>Yi-Hsuan: Banno, R., Sun, J., Fujita, M., Takeuchi, S., &amp; Shudo, K. (2017, September). Dissemination of edge-heavy data on heterogeneous MQTT brokers. In 2017 IEEE 6th International Conference on Cloud Networking (CloudNet) (pp. 1-7). IEEE.</li>
+</ul>
+<h2 id="20220330">2022/03/30</h2>
+<blockquote>
+<p>Presenters: Shao-Qun and Po-Hsuan</p>
+</blockquote>
+<ul>
+<li>Shao-Qun: Xie, Binbin, and Jie Xiong. &ldquo;Combating interference for long range LoRa sensing.&rdquo; Proceedings of the 18th Conference on Embedded Networked Sensor Systems. 2020.</li>
+<li>Po-Hsuan: L. R. Pinto, L. Almeida, H. Alizadeh and A. Rowe, &ldquo;Aerial Video Stream over Multi-hop Using Adaptive TDMA Slots,&rdquo; 2017 IEEE Real-Time Systems Symposium (RTSS), 2017, pp. 157-166, doi: 10.1109/RTSS.2017.00022.</li>
+</ul>
+<h2 id="20220323">2022/03/23</h2>
+<blockquote>
+<p>Presenters: Chia-Chin and Han-Wen</p>
+</blockquote>
+<ul>
+<li>Chia-Chin: Master thesis research progress</li>
+<li>Han-Wen: Master thesis proposal</li>
+</ul>
+<h2 id="20220316">2022/03/16</h2>
+<blockquote>
+<p>Presenters: Yih Shiuan and Cheng-Hsun</p>
+</blockquote>
+<ul>
+<li>Yih Shiuan: Master thesis research progress</li>
+<li>Cheng-Hsun: Master thesis research progress</li>
+</ul>
+<h2 id="20220309">2022/03/09</h2>
+<blockquote>
+<p>Presenters: Cheng-Sheng and Shao-Qun</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng: Master thesis research progress</li>
+<li>Shao-Qun: Introduction to SPI (Serial Peripheral Interface)</li>
+</ul>
+<h2 id="20220302">2022/03/02</h2>
+<blockquote>
+<p>Presenters: Yi-Hsuan and Guo-Hao</p>
+</blockquote>
+<ul>
+<li>Yi-Hsuan: Mosquitto broker architecture and implementation</li>
+<li>Guo-Hao: Li, H., Lu, C., &amp; Gill, C. D. (2021). RT-ZooKeeper: Taming the Recovery Latency of a Coordination Service. ACM Transactions on Embedded Computing Systems (TECS), 20(5s), 1-22.</li>
+</ul>
+<h2 id="20220216">2022/02/16</h2>
+<blockquote>
+<p>Presenter: Po-Hsuan</p>
+</blockquote>
+<ul>
+<li>Gunatilaka, Dolvara, and Chenyang Lu. “REACT: an Agile Control Plane for Industrial Wireless Sensor-Actuator Networks.” 2020 IEEE/ACM Fifth International Conference on Internet-of-Things Design and Implementation (IoTDI). IEEE, 2020.</li>
+</ul>
+<h2 id="20220124">2022/01/24</h2>
+<blockquote>
+<p>Presenter: Chia-Chin</p>
+</blockquote>
+<ul>
+<li>Topic: Master thesis research progress</li>
+</ul>
+<h2 id="20220117">2022/01/17</h2>
+<blockquote>
+<p>Presenters: Cheng-Hsun and Han-Wen</p>
+</blockquote>
+<ul>
+<li>Cheng-Hsun: Master thesis research progress</li>
+<li>Han-Wen: N. Mouawad, R. Naja and S. Tohme, &ldquo;Fast and Seamless Handover in Software Defined Vehicular Networks,&rdquo; 2019 Eleventh International Conference on Ubiquitous and Future Networks (ICUFN), 2019, pp. 484-489, doi: 10.1109/ICUFN.2019.8806144.</li>
+</ul>
+<h2 id="20211227">2021/12/27</h2>
+<blockquote>
+<p>Presenters: Cheng-Sheng and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng: F. Wu, J. Redouté and M. R. Yuce, &ldquo;WE-Safe: A Self-Powered Wearable IoT Sensor Network for Safety Applications Based on LoRa,&rdquo; in IEEE Access, vol. 6, pp. 40846-40853, 2018, doi: 10.1109/ACCESS.2018.2859383.</li>
+<li>Yih Shiuan: Master thesis research progress</li>
+</ul>
+<h2 id="20211220">2021/12/20</h2>
+<blockquote>
+<p>Presenters: Yi-Hsuan and Guo-Hao</p>
+</blockquote>
+<ul>
+<li>Yi-Hsuan: T. Rausch, S. Nastic and S. Dustdar, &ldquo;EMMA: Distributed QoS-Aware MQTT Middleware for Edge Computing Applications,&rdquo; 2018 IEEE International Conference on Cloud Engineering (IC2E), 2018, pp. 191-197, doi: 10.1109/IC2E.2018.00043.</li>
+<li>Guo-Hao: Guo, Z., Bhuiyan, A., Liu, D., Khan, A., Saifullah, A., &amp; Guan, N. (2019, April). Energy-efficient real-time scheduling of DAGs on clustered multi-core platforms. In 2019 IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS)(pp. 156-168). IEEE.</li>
+</ul>
+<h2 id="20211213">2021/12/13</h2>
+<blockquote>
+<p>Presenters: Shao-Qun and Po-Hsuan</p>
+</blockquote>
+<ul>
+<li>Shao-Qun: M. Aminul Hoque, M. Hossain and R. Hasan, &ldquo;IGaaS: An IoT Gateway-as-a-Service for On-demand Provisioning of IoT Gateways,&rdquo; 2020 IEEE 6th World Forum on Internet of Things (WF-IoT), 2020, pp. 1-6, doi: 10.1109/WF-IoT48130.2020.9221225.</li>
+<li>Po-Hsuan: G. Hackmann; W. Guo; G. Yan; Z. Sun; C. Lu; and S. Dyke, &ldquo;Cyber-Physical Codesign of Distributed Structural Health Monitoring with Wireless Sensor Networks.&rdquo; IEEE Transactions on Parallel and Distributed Systems ( Volume: 25, Issue: 1, Jan. 2014), pp. 63 - 72, DOI: 10.1109/TPDS.2013.30.</li>
+</ul>
+<h2 id="2021126">2021/12/6</h2>
+<blockquote>
+<p>Presenters: Chia-Chin and Ting-Wei</p>
+</blockquote>
+<ul>
+<li>Chia-Chin: D. Auten and T. Gamage, &ldquo;Impact of Resource-Constrained Networks on the Performance of NIST Round-3 PQC Candidates,&rdquo; 2021 IEEE 45th Annual Computers, Software, and Applications Conference (COMPSAC), 2021, pp. 768-773, doi: 10.1109/COMPSAC51774.2021.00109.</li>
+<li>Ting-Wei: Y. Li, J. Yang and J. Wang, &ldquo;DyLoRa: Towards Energy Efficient Dynamic LoRa Transmission Control,&rdquo; IEEE INFOCOM 2020 - IEEE Conference on Computer Communications, 2020, pp. 2312-2320, doi: 10.1109/INFOCOM41043.2020.9155407.</li>
+</ul>
+<h2 id="20211129">2021/11/29</h2>
+<blockquote>
+<p>Presenters: Cheng-Hsun and Han-Wen</p>
+</blockquote>
+<ul>
+<li>Cheng-Hsun: F. Cuomo, M. Campo, A. Caponi, G. Bianchi, G. Rossini and P. Pisani, &ldquo;EXPLoRa: Extending the performance of LoRa by suitable spreading factor allocations,&rdquo; 2017 IEEE 13th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob), 2017, pp. 1-8, doi: 10.1109/WiMOB.2017.8115779.</li>
+<li>Han-Wen: A. E. Eshratifar, A. Esmaili and M. Pedram, &ldquo;BottleNet: A Deep Learning Architecture for Intelligent Mobile Cloud Computing Services,&rdquo; 2019 IEEE/ACM International Symposium on Low Power Electronics and Design (ISLPED), 2019, pp. 1-6, doi: 10.1109/ISLPED.2019.8824955.</li>
+</ul>
+<h2 id="20211122">2021/11/22</h2>
+<blockquote>
+<p>Presenters: Cheng-Sheng and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng: Mohsen Karimi and Hyoseung Kim. 2020. Energy scheduling for task execution on intermittently-powered devices. SIGBED Rev. 17, 1 (February 2020), 36–41.</li>
+<li>Yih Shiuan: Master Thesis proposal</li>
+</ul>
+<h2 id="20211115">2021/11/15</h2>
+<blockquote>
+<p>Midterm exam week</p>
+</blockquote>
+<h2 id="2021118">2021/11/8</h2>
+<blockquote>
+<p>Presenters: Yi-Hsuan and Guo-Hao</p>
+</blockquote>
+<ul>
+<li>Yi-Hsuan: Liu, Chung Laung, and James W. Layland. &ldquo;Scheduling algorithms for multiprogramming in a hard-real-time environment.&rdquo; Journal of the ACM (JACM) 20.1 (1973): 46-61.</li>
+<li>Guo-Hao: Xiang, Yecheng, and Hyoseung Kim. &ldquo;Pipelined data-parallel CPU/GPU scheduling for multi-DNN real-time inference.&rdquo; 2019 IEEE Real-Time Systems Symposium (RTSS). IEEE, 2019.</li>
+</ul>
+<h2 id="2021111">2021/11/1</h2>
+<blockquote>
+<p>Presenters: Po-Hsuan and Shao-Qun</p>
+</blockquote>
+<ul>
+<li>Po-Hsuan: Project progress report</li>
+<li>Shao-Qun: Y. Zhang, C. Lu, C. Gill, P. Lardieri and G. Thaker, Middleware Support for Aperiodic Tasks in Distributed Real-Time Systems, IEEE Real-Time and Embedded Technology and Applications Symposium (RTAS'07), April 2007.</li>
+</ul>
+<h2 id="20211025">2021/10/25</h2>
+<blockquote>
+<p>Presenters: Chia-Chin and Ting-Wei</p>
+</blockquote>
+<ul>
+<li>Chia-Chin: Master thesis research progress</li>
+<li>Ting-Wei: LAM, Ka-Ho; CHEUNG, Chi-Chung; LEE, Wah-Ching. New RSSI-based LoRa localization algorithms for very noisy outdoor environment. In: 2018 IEEE 42nd Annual Computer Software and Applications Conference (COMPSAC). IEEE, 2018. p. 794-799.</li>
+</ul>
+<h2 id="20211018">2021/10/18</h2>
+<blockquote>
+<p>Presenters: Cheng-En and Cheng-Hsun</p>
+</blockquote>
+<ul>
+<li>Cheng-En: Dry run for the Master thesis defense</li>
+<li>Cheng-Hsun: Master thesis proposal</li>
+</ul>
+<h2 id="20211011">2021/10/11</h2>
+<blockquote>
+<p>Presenters: Han-Wen</p>
+</blockquote>
+<ul>
+<li>Han-Wen: Liu, Shengzhong, et al. “On removing algorithmic priority inversion from mission-critical machine inference pipelines.” 2020 IEEE Real-Time Systems Symposium (RTSS). IEEE, 2020.</li>
+</ul>
+<h2 id="20210927">2021/09/27</h2>
+<blockquote>
+<p>Presenters: Yih Shiuan and Cheng-En</p>
+</blockquote>
+<ul>
+<li>Yih Shiuan: Kanchev, Hristiyan, et al. &ldquo;Energy management and operational planning of a microgrid with a PV-based active generator for smart grid applications.&rdquo; IEEE transactions on industrial electronics 58.10 (2011): 4583-4592.</li>
+<li>Cheng-En: Master thesis progress presentation</li>
+</ul>
+<h2 id="20210917">2021/09/17</h2>
+<blockquote>
+<p>Presenters: Cheng-Sheng and Chia-Chin</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng: S. Chamanian, H. Uluşan, Özge Zorlu, S. Baghaee, E. Uysal-Biyikoglu, and H. Külah, ``Wearable battery-less wireless sensor network with electromagnetic energy harvesting system,'' Sensors and Actuators A: Physical, vol. 249, pp. 77–84, 2016.</li>
+<li>Chia-Chin: Kevin Bürstinghaus-Steinbach, Christoph Krauß, Ruben Niederhagen, and Michael Schneider. 2020. &ldquo;Post-Quantum TLS on Embedded Systems: Integrating and Evaluating Kyber and SPHINCS+ with mbed TLS&rdquo;. In Proceedings of the 15th ACM Asia Conference on Computer and Communications Security (ASIA CCS &lsquo;20). Association for Computing Machinery, New York, NY, USA, 841–852.</li>
+</ul>
+<h2 id="20210903">2021/09/03</h2>
+<blockquote>
+<p>Presenters: Cheng-Hsun and Han-Wan</p>
+</blockquote>
+<ul>
+<li>Cheng-Hsun: Sumukh Marathe, Akshay Nambi, Manohar Swaminathan, and Ronak Sutaria. 2021. CurrentSense: A novel approach for fault and drift detection in environmental IoT sensors. Proceedings of the International Conference on Internet-of-Things Design and Implementation. Association for Computing Machinery, New York, NY, USA, 93–105. DOI:https://doi.org/10.1145/3450268.3453535</li>
+<li>Han-Wan: Y. Ge, Y. Wu, L. Zeng, H. Zu, R. Yu and Q. Han, &ldquo;Vehicle Density Oriented V2V Field Test Architecture and Test Procedure Design&rdquo;, 2021 IEEE 93rd Vehicular Technology Conference (VTC2021-Spring), 2021, pp. 1-5, doi: 10.1109/VTC2021-Spring51267.2021.9448687.</li>
+</ul>
+<h2 id="20210813">2021/08/13</h2>
+<blockquote>
+<p>Presenters: Cheng-En and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Cheng-En : Introduction to LoRaWAN and testbed demo.</li>
+<li>Yih Shiuan : Xuan Hieu Nguyen, Minh Phuong Nguyen, &ldquo;Mathematical modeling of photovoltaic cell/module/arrays with tags in Matlab/Simulink&rdquo;, Environmental systems research, Nguyen and Nguyen ﻿Environ Syst Res (2015), DOI 10.1186/s40068-015-0047-9.</li>
+</ul>
+<h2 id="20210806">2021/08/06</h2>
+<blockquote>
+<p>Presenters: Chia-Chin and Cheng-Sheng</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng : &ldquo;Kwon, K.; Yang, J.; Yoo, Y. Adaptive Control of the Packet Transmission Period with Solar Energy Harvesting Prediction in Wireless Sensor Networks. Sensors 2015, 15, 9741-9755. <a href="https://doi.org/10.3390/s150509741%22">https://doi.org/10.3390/s150509741&quot;</a></li>
+<li>Chia-Chin : Master thesis progress - &ldquo;Implementation of MQTT over TLS using Post-Quantum Cryptography&rdquo;</li>
+</ul>
+<h2 id="20210730">2021/07/30</h2>
+<blockquote>
+<p>Presenters: Shang Chih and Cheng You</p>
+</blockquote>
+<ul>
+<li>Cheng You : Master thesis - &ldquo;Cyber-Physical Systems Integration for Data Reuse and Tasks Replacements&rdquo;</li>
+<li>Shang Chih : Master thesis progress - &ldquo;A Real-Time Energy-Efficient End-To-End Messaging Architecture for Industrial Internet-of-Things Applications&rdquo;</li>
+</ul>
+<h2 id="20210723">2021/07/23</h2>
+<blockquote>
+<p>Presenters: Han-Wan and Chih-Shuo</p>
+</blockquote>
+<ul>
+<li>Han-Wan : J. Singh, B. Altinel, C. Bornkessel, R. Stephan and M. A. Hein, &ldquo;V2V communication performance of conformal plastic-embedded side-mount antennas investigated with field-operational tests&rdquo;, 2021 IEEE 93rd Vehicular Technology Conference (VTC2021-Spring), 2021, pp. 1-5, doi: 10.1109/VTC2021-Spring51267.2021.9448811.</li>
+<li>Chih-Shuo : Master thesis progress - &ldquo;Energy Efficiency and Timeliness in Model Training for AIoT Applications&rdquo;</li>
+</ul>
+<h2 id="20210716">2021/07/16</h2>
+<blockquote>
+<p>Presenters: Shang Chih and Cheng-Hsun</p>
+</blockquote>
+<ul>
+<li>Cheng-Hsun : Vasisht, Deepak, et al. &ldquo;Farmbeats: An iot platform for data-driven agriculture.&rdquo; 14th {USENIX} Symposium on Networked Systems Design and Implementation ({NSDI} 17). 2017.</li>
+<li>Shang Chih : Master thesis progress - &ldquo;Design of an Energy-Efficient End-to-End Messaging Protocol for Industrial Internet-of-Things Applications&rdquo;</li>
+</ul>
+<h2 id="20210709">2021/07/09</h2>
+<blockquote>
+<p>Presenters: Cheng-En and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Yih Shiuan :</li>
+</ul>
+<ol>
+<li>Xavier Guillaud, M.Omar Faruque, Alexandre Teninge, Ali Hasan Hariri, Luigi Vanfretti, Mario Paolone, Venkata Dinavahi, Pinaka Mitra, Georg Lauss, Christian Dufour, Paul Forsyth, Anurag K.Srivastava, Kai Strunz, Thomas Strasser, Ali Davoudi, &ldquo;Applications of Real-Time Simulation Technologies in Power and Energy Systems&rdquo;, IEEE Power and Energy Technology Systems Journal, VOLUME 2, NO. 3, SEPTEMBER 2015;</li>
+<li>Christoph Molitor, Andrea Benigni, Alexander Helmedag, Kan Chen, Davide Calì, Pooyan Jahangiri, Dirk Müller, Antonello Monti, &ldquo;Multiphysics Test Bed for Renewable Energy Systems in Smart Homes&rdquo;, IEEE TRANSACTIONS ON INDUSTRIAL ELECTRONICS, VOL. 60, NO. 3, MARCH 2013</li>
+</ol>
+<ul>
+<li>Cheng-En : Master thesis progress - &ldquo;Enabling a Flexible and Sustainable Smart Campus Networking Backbone Using LoRaWAN&rdquo;</li>
+</ul>
+<h2 id="20210702">2021/07/02</h2>
+<blockquote>
+<p>Presenters: Cheng-Sheng</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng: Master Thesis Proposal</li>
+</ul>
+<h2 id="20210625">2021/06/25</h2>
+<blockquote>
+<p>Presenters: Chih-Shuo and Han-Wan</p>
+</blockquote>
+<ul>
+<li>Han-Wan : Z. Tian, X. Gao, S. Su and J. Qiu, &ldquo;Vcash: A Novel Reputation Framework for Identifying Denial of Traffic Service in Internet of Connected Vehicles&rdquo;, in IEEE Internet of Things Journal, vol. 7, no. 5, pp. 3901-3909, May 2020, doi: 10.1109/JIOT.2019.2951620.</li>
+<li>Chih-Shuo : Master thesis progress - &ldquo;Energy Efficiency and Timeliness in Model Training for Internet-of-Things Applications&rdquo;</li>
+</ul>
+<h2 id="20210618">2021/06/18</h2>
+<blockquote>
+<p>Presenters: Shang Chih and Cheng-Hsun</p>
+</blockquote>
+<ul>
+<li>Shang Chih : Master thesis progress - &ldquo;Design of an Energy-Efficient End-to-End Messaging Protocol for Smart Cities&rdquo;</li>
+<li>Cheng-Hsun : Islam, Md Tamzeed, Bashima Islam, and Shahriar Nirjon. &ldquo;Duty-cycle-aware real-time scheduling of wireless links in low power wans.&rdquo; 2018 14th International Conference on Distributed Computing in Sensor Systems (DCOSS). IEEE, 2018.</li>
+</ul>
+<h2 id="20210611">2021/06/11</h2>
+<blockquote>
+<p>Presenters: Cheng You and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Yih Shiuan : Kevin Tomsovic, David E. Bakken, Vaithianathan Venkatasubramanian, Anjan Bose, &ldquo;<a href="https://drive.google.com/file/d/1yBV3Mbi2WWhgqRvQwl9tY9jJ-B16HyKD/view?usp=sharing" target="_blank" rel="noopener">Designing the Next Generation of Real-Time Control, Communication, and Computations for Large Power Systems</a>&rdquo;, PROCEEDINGS OF THE IEEE, VOL. 93, NO. 5, MAY 2005</li>
+<li>Cheng You : Master thesis - &ldquo;Cyber-Physical Systems Integration for Data Reuse and Tasks Replacements&rdquo;</li>
+</ul>
+<h2 id="20210604">2021/06/04</h2>
+<blockquote>
+<p>Presenters: Cheng-En and Cheng-Sheng</p>
+</blockquote>
+<ul>
+<li>Cheng-En : Master thesis progress - &ldquo;Enabling a Flexible and Sustainable Smart Campus Networking Backbone Using LoRaWAN&rdquo;</li>
+<li>Cheng-Sheng : <a href="https://drive.google.com/file/d/1FIv9dEnBLwNzgyH1zJ5NEC86HxTaWqMo/view?usp=sharing" target="_blank" rel="noopener">On the Feasibility of Battery-Less LoRaWAN Communications Using Energy Harvesting</a>
+C. Delgado, J. M. Sanz and J. Famaey, &ldquo;On the Feasibility of Battery-Less LoRaWAN Communications Using Energy Harvesting,&rdquo; 2019 IEEE Global Communications Conference (GLOBECOM), 2019, pp. 1-6, doi: 10.1109/GLOBECOM38437.2019.9013638.</li>
+</ul>
+<h2 id="20210528">2021/05/28</h2>
+<blockquote>
+<p>Presenters: Chih-Shuo and Han-wan</p>
+</blockquote>
+<ul>
+<li>Chih-Shuo : <a href="https://drive.google.com/file/d/1VV0_Dj_sUcXFSA33onl0GrEniIMxe9dE/view?usp=sharing" target="_blank" rel="noopener">Master thesis progress</a> - &ldquo;Energy Efficiency and Timeliness in Model Training for Internet-of-Things Applications​&rdquo;</li>
+<li>Han-Wan: <a href="https://drive.google.com/file/d/1EbaWHbyXjpyp6R6pPybNg3l0p74_2r4e/view?usp=sharing" target="_blank" rel="noopener">LiFi Technology Feasibility Study for Car-2-Car Communication</a> - &ldquo;C. S. Spahiu, L. Stanescu, M. Brezovan and F. Petcusin, &ldquo;LiFi Technology Feasibility Study for Car-2-Car Communication,&rdquo; 2020 21th International Carpathian Control Conference (ICCC), 2020, pp. 1-5, doi: 10.1109/ICCC49264.2020.9257263.&rdquo;</li>
+</ul>
+<h2 id="20210521">2021/05/21</h2>
+<blockquote>
+<p>Presenters: Shang-Chih and Cheng-Hsun</p>
+</blockquote>
+<ul>
+<li>Cheng-Hsun : T. Chen, D. Eager and D. Makaroff, &ldquo;Efficient Image Transmission Using LoRa Technology In Agricultural Monitoring IoT Systems,&rdquo; 2019 International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData), 2019, pp. 937-944, doi: 10.1109/iThings/GreenCom/CPSCom/SmartData.2019.00166.</li>
+</ul>
+<h2 id="20210514">2021/05/14</h2>
+<blockquote>
+<p>Presenters: Cheng-Sheng and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng : Sabovic, A.; Delgado, C.; Subotic, D.; Jooris, B.; De Poorter, E.; Famaey, J. Energy-Aware Sensing on Battery-Less LoRaWAN Devices with Energy Harvesting. Electronics 2020, 9, 904. <a href="https://doi.org/10.3390/electronics9060904">https://doi.org/10.3390/electronics9060904</a></li>
+<li>Yih Shiuan : Admir Jahić, John Hastings, D John Morrow, David Laverty, &ldquo;Hardware‐in‐the‐loop demonstration of automated demand response for distribution networks using PMU and MQTT&rdquo;, The institution of Engineering and Technology, 2020</li>
+</ul>
+<h2 id="20210507">2021/05/07</h2>
+<blockquote>
+<p>Presenters: Cheng You</p>
+</blockquote>
+<ul>
+<li>Cheng You : Master thesis progress</li>
+</ul>
+<h2 id="20210430">2021/04/30</h2>
+<blockquote>
+<p>Presenters: Chih-Shuo and Cheng-En</p>
+</blockquote>
+<ul>
+<li>Chih-Shuo : Master thesis progress - &ldquo;Energy Efficiency and Timeliness in Model Training for Internet-of-Things Applications&rdquo;</li>
+<li>Cheng-En : Master thesis progress</li>
+</ul>
+<h2 id="20210423">2021/04/23</h2>
+<blockquote>
+<p>Break</p>
+</blockquote>
+<h2 id="20210416-at-csie-department-2f">2021/04/16 (at CSIE Department 2F)</h2>
+<blockquote>
+<p>Presenters: Shang Chih and Cheng-Hsun</p>
+</blockquote>
+<ul>
+<li>Shang Chih : Master thesis progress - &ldquo;Design of an Energy-Efficient End-to-End Messaging Protocol for Smart Cities&rdquo;</li>
+<li>Cheng-Hsun : Synopsys ARC CPU with TensorFlow Lite</li>
+</ul>
+<h2 id="20210326">2021/03/26</h2>
+<blockquote>
+<p>Presenters: Cheng You and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Yih Shiuan : Matsu Thornton, Mahdi Motalleb, Holm Smidt, John Branigan, Pierluigi Siano, and Reza Ghorbani ,&ldquo;Internet-of-Things Hardware-in-the-Loop Simulation Architecture for Providing Frequency Regulation With Demand Response&rdquo;, IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS, NOVEMBER, 2018</li>
+<li>Cheng You : Master thesis progress - &ldquo;CPS Platform Integration and CPU-GPU Tasks Replacements&rdquo;</li>
+</ul>
+<h2 id="20210319">2021/03/19</h2>
+<blockquote>
+<p>Presenters: Cheng-En and Cheng-Sheng</p>
+</blockquote>
+<ul>
+<li>Cheng-Sheng : M. Magno, F. A. Aoudia, M. Gautier, O. Berder and L. Benini, &ldquo;WULoRa: An energy efficient IoT end-node for energy harvesting and heterogeneous communication,&rdquo; Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), 2017, Lausanne, Switzerland, 2017, pp. 1528-1533, doi: 10.23919/DATE.2017.7927233.</li>
+<li>Cheng-En : Master thesis progress</li>
+</ul>
+<h2 id="20210312">2021/03/12</h2>
+<blockquote>
+<p>Presenters: Chih-Shuo and Chia-Chin</p>
+</blockquote>
+<ul>
+<li>Chia-Chin : Master thesis progress</li>
+<li>Chih-Shuo : Master thesis progress - &ldquo;Energy Efficiency and Timeliness in Model Training for Internet-of-Things Applications&rdquo;</li>
+</ul>
+<h2 id="20210305">2021/03/05</h2>
+<blockquote>
+<p>Presenters: Shang Chih and Cheng-Hsun</p>
+</blockquote>
+<ul>
+<li>Cheng-Hsun : S. Wang et al., &ldquo;Performance of LoRa-Based IoT Applications on Campus,&rdquo; 2017 IEEE 86th Vehicular Technology Conference (VTC-Fall), Toronto, ON, Canada, 2017, pp. 1-6, doi: 10.1109/VTCFall.2017.8288154.</li>
+<li>Shang Chih : Master thesis progress - &ldquo;Design of an Energy-Efficient End-to-End Messaging Protocol for Smart Cities&rdquo;</li>
+</ul>
+<h2 id="20210226">2021/02/26</h2>
+<blockquote>
+<p>Presenters: Cheng You and Yih Shiuan</p>
+</blockquote>
+<ul>
+<li>Yih Shiuan : Nikolay Brayanov, Anna Stoynova, &ldquo;Review of hardware-in-the-loop -a hundred years progress in the pseudo-real testing&rdquo; ,The Union of Electronics, Electrical Engineering and Telecommunications /CEEC/, BULGARIA, Vol.54.No 3-4/2019</li>
+<li>Cheng You : Master thesis progress - &ldquo;CPS reuse platform for light GPU device and task allocation analysis&rdquo;</li>
+</ul>
+<h2 id="20210219">2021/02/19</h2>
+<blockquote>
+<p>Presenters: Cheng-En and Cheng-Sheng</p>
+</blockquote>
+<ul>
+<li>Cheng-En : Master thesis progress</li>
+<li>Cheng-Sheng : &ldquo;Tianyu Xiang, Zicheng Chi, Feng Li, Jun Luo, Lihua Tang, Liya Zhao, and Yaowen Yang. 2013. Powering indoor sensing with airflows: a trinity of energy harvesting, synchronous duty-cycling, and sensing. In Proceedings of the 11th ACM Conference on Embedded Networked Sensor Systems (SenSys &lsquo;13).&rdquo;</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/~cw/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/~cw/en/js/wowchemy.min.473115473f7ffd4e6d49ee9039af86f1.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
